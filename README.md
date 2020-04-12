@@ -14,9 +14,9 @@ This python script generates one thumbnail for each image instance (`W` record) 
 
 The thumbnails are generated in the following way for image instances:
 - 400px for the biggest dimension
-- if ratio < 1:3 or 3:1
+- if ratio < 1:2 or 2:1
    * then keep the entire image
-   * else crop the image so that it has a 3:1 / 1:3 ratio, keeping the left / top part
+   * else crop the image so that it has a 2:1 / 1:2 ratio, keeping the left / top part
 - png for bitonal, else jpg
 - no metadata, no thumbnail, sRGB color profile, color profile not included
 - jpg at 70% quality, progressive, optimized, lowest quality subsampling
@@ -25,10 +25,19 @@ The thumbnails are generated in the following way for image instances:
 
 The script supposes that it can access AWS credentials with the name `thumbgen`, and that they allow:
 - read the `archive.tbrc.org` bucket
-- read/write the `thumbnail.bdrc.io` bucket
+- read/write the `thumbnails.bdrc.io` bucket
 
 The script supposes that it can access the following git repos:
 - image instances in `repos/iinstances/`
 - bvm in `repos/bvm/`
 
 note that these can be symlinks.
+
+It also supposes that a `thumbnailgen` AWS user is configured on the machine and has credentials accessible to the script.
+
+## TODO
+
+generate thumbnail links for image instances with external manifest
+
+## Probable API
+

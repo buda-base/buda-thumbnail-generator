@@ -6,6 +6,9 @@ import PIL.ImageCms
 import io
 import os
 import glob
+from rdflib import URIRef, Literal, BNode, Graph, ConjunctiveGraph
+from rdflib.namespace import RDF, RDFS, SKOS, OWL, Namespace, NamespaceManager, XSD
+import requests
 
 IIGITDIR="../xmltoldmigration/tbrc-ttl/iinstances/"
 BASE_MAX_DIM=370
@@ -13,8 +16,19 @@ BASE_CROP_DIM=185
 MAX_RATIO=2
 
 BDR = Namespace("http://purl.bdrc.io/resource/")
+BDO = Namespace("http://purl.bdrc.io/ontology/core/")
+TMP = Namespace("http://purl.bdrc.io/ontology/tmp/")
+BDA = Namespace("http://purl.bdrc.io/admindata/")
+ADM = Namespace("http://purl.bdrc.io/ontology/admin/")
+
 NSM = NamespaceManager(Graph())
 NSM.bind("bdr", BDR)
+NSM.bind("bdo", BDO)
+NSM.bind("tmp", TMP)
+NSM.bind("bda", BDA)
+NSM.bind("adm", ADM)
+NSM.bind("skos", SKOS)
+NSM.bind("rdfs", RDFS)
 
 def get_s3_folder_prefix(iiLocalName, igLocalName):
     """
@@ -118,15 +132,60 @@ def listFiles(iiGitPath):
     return glob.glob(iiGitPath+'/**/W*.trig')
 
 def getThumbnailForIIIFManifest(manifestUrl):
-    pass
+    # examples: 
+    #  - https://eap.bl.uk/archive-file/EAP676-12-2/manifest
+    #  - https://iiif.archivelab.org/iiif/rashodgson13/manifest.json
+    #  - https://cudl.lib.cam.ac.uk/iiif/MS-OR-00159
+    res = {"canvas": None, "service": None}
+    try:
+        resp = requests.get(url=manifestUrl)
+        manifest = resp.json()
+        firstseq = manifest["sequences"][0]
+        startcanvas = firstseq["canvases"][0]
+        if "startCanvas" in firstseq:
+            startcanvasid = firstseq["startCanvas"]
+            for canvas in firstseq["canvases"]:
+                if canvas["@id"] == startcanvasid:
+                    startcanvas = canvas
+        res["canvas"] = startcanvas["@id"]
+        res["service"] = startcanvas["images"][0]["resource"]["@id"]
+        return res
+    finally:
+        return res
+
+def localname(res):
+    # a quick hack
+    s = str(res)
+    idx = s.rindex("/")
 
 def thumbnailForIiFile(iiFilePath, infodb, force=False):
-    g = Graph()
-    g.parse(iiFilePath, format="ttl")
     # read file
+    model = ConjunctiveGraph()
+    model.parse(str(iiFilePath), format="trig")
     # if status != released, pass
-    # if not force and 
-    # get first igQname
+    if (None,  ADM.status, BDA.StatusReleased) not in model:
+        return
+    # get first volume resource
+    firstvolRes = None
+    for s, p, o in model.triples( (None, BDO.volumeNumber, Literal(1)) ):
+        firstvolRes = s
+    if firstvolRes is None:
+        return
+    # handle iiif case:
+    for s, p, o in model.triples( (firstvolRes, BDO.hasIIIFManifest, None) ):
+        manifestUrl = str(o)
+        return getThumbnailForIIIFManifest(manifestUrl)
+    # get first volume local name:
+    _, _, firstVolLname = NSM.compute_qname_strict(firstvolRes)
+    # get instance local name
+    iinstanceRes = None
+    for s, p, o in model.triples( (s, BDO.instanceHasVolume, firstvolRes) ):
+        iinstanceRes = s
+    if iinstanceRes is None:
+        return
+    instanceRes = None
+    for s, p, o in model.triples( (s, BDO.instanceHasVolume, firstvolRes) ):
+        iinstanceRes = s
     # findBestThumbnail
     # getImage
     # get/createinfo
@@ -138,9 +197,9 @@ def testThgen():
     for imgfilename in ["test/femc.jpeg", "test/modern.jpeg", "test/08860003.tif"]:
         im = PIL.Image.open(imgfilename)
         if im is None:
-            print("can't open "+imgfilename)
+            print("error: PIL can't open "+imgfilename)
             continue
-        print(imgfilename+" is mode "+im.mode)
+        #print(imgfilename+" is mode "+im.mode)
         data = {}
         th = thumbnailizeAndWriteInfo(im, data)
         thblob = getThumbnailBlob(th)
@@ -149,7 +208,12 @@ def testThgen():
             out.write(thblob)
     print(data)
 
+def testGetIIIFTh():
+    print(getThumbnailForIIIFManifest("https://eap.bl.uk/archive-file/EAP676-12-2/manifest"))
+    print(getThumbnailForIIIFManifest("https://iiif.archivelab.org/iiif/rashodgson13/manifest.json"))
+    print(getThumbnailForIIIFManifest("https://cudl.lib.cam.ac.uk/iiif/MS-OR-00159"))
+
 def test():
     print(listFiles("/home/eroux/BUDA/softs/xmltoldmigration/tbrc-ttl/iinstances"))
 
-test()
+testGetIIIFTh()

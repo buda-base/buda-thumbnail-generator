@@ -37,7 +37,10 @@ It also supposes that a `thumbnailgen` AWS user is configured on the machine and
 
 ## TODO
 
-generate thumbnail links for image instances with external manifest
+- generate thumbnail links for image instances with external manifest
+- iiif manifests: record canvas + service
+- triples on instance or image instance?
+- yaml instead of json?
 
 ## Probable API
 

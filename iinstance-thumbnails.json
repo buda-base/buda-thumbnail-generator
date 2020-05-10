@@ -1,5 +1,5 @@
 {
-	"bdr:W4CZ354418": {
+	"bdr:MW4CZ354418": {
 		"400c": {
 			"imagegroup": "bdr:I4CZ354491",
 			"origfilename": "I4CZ3544910003.jpg",
@@ -9,6 +9,10 @@
 			"width": 270,
 			"height": 400,
 			"creation-date": "2020-03-29T11:36:47+02:00"
+		},
+		"400": {
+
 		}
-	}
+	},
+	"bdr:MWEAP676-12-2"
 }

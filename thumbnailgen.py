@@ -5,10 +5,15 @@ import PIL.ImageOps
 import PIL.ImageCms
 import io
 import os
+import yaml
+from pathlib import Path
 import glob
 from rdflib import URIRef, Literal, BNode, Graph, ConjunctiveGraph
 from rdflib.namespace import RDF, RDFS, SKOS, OWL, Namespace, NamespaceManager, XSD
 import requests
+from tqdm import tqdm
+import boto3
+import botocore
 
 IIGITDIR="../xmltoldmigration/tbrc-ttl/iinstances/"
 BASE_MAX_DIM=370
@@ -71,25 +76,45 @@ def gets3blob(bucket, s3Key):
         else:
             raise
 
+# This has a cache mechanism
 def getImageList(iiLocalName, igLocalName):
+    cachepath = Path("cache/il/"+igLocalName+".json.gz")
+    if cachepath.is_file():
+        with gzip.open(cachepath, 'r') as gzipfile:
+            return json.load(gzipfile)
     s3key = get_s3_folder_prefix(iiLocalName, igLocalName)+"dimensions.json"
+    s3 = boto3.resource('s3')
+    bucket = s3.Bucket('archive.tbrc.org')
     blob = gets3blob(s3key)
     if blob is None:
+        print("missing list for "+iiLocalName+'-'+igLocalName)
         return None
-    return gzip.decompress(blob)
+    data = gzip.decompress(blob)
+    with gzip.open(cachepath, 'w') as gzipfile:
+        json.dump(data, gzipfile)
+    return data
 
-def findBestThumbnailIdx(igQname, imageList, tbrcintroimages):
-    idx = tbrcintroimages+1
-    if igQname.startswith("bdr:W1FEMC"):
-        idx = 1
+def findBestThumbnailIdxImage(igLname, imageList, tbrcintroimages):
+    if igLname.startswith("W1FEMC"):
+        return 1
     # if there's a very big image, use it as thumbnail
     for i in range(min(len(imageList), 10)):
         if imageList[i].size > 3000000:
-            idx = i
-            break
-    return idx
+            return i
+    return tbrcintroimages
+
+def findBestThumbnailIdxService(igLname, imageList, tbrcintroimages):
+    if igLname.startswith("W1FEMC"):
+        return 1
+    # if there's a very big image, use it as thumbnail
+    for i in range(tbrcintroimages, min(len(imageList), 20)):
+        if imageList[i].size < 1000000:
+            return i
+    # this branch is pretty unlikely...
+    return tbrcintroimages
 
 def getImage(igQname, iiLocalName, imageFileName):
+    # TODO
     pass
 
 def uploadThumbnail(blob, bucketname, filename, iiLocalName, igQname):
@@ -153,12 +178,7 @@ def getThumbnailForIIIFManifest(manifestUrl):
     finally:
         return res
 
-def localname(res):
-    # a quick hack
-    s = str(res)
-    idx = s.rindex("/")
-
-def thumbnailForIiFile(iiFilePath, infodb, force=False):
+def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, force=False):
     # read file
     model = ConjunctiveGraph()
     model.parse(str(iiFilePath), format="trig")
@@ -171,27 +191,55 @@ def thumbnailForIiFile(iiFilePath, infodb, force=False):
         firstvolRes = s
     if firstvolRes is None:
         return
-    # handle iiif case:
-    for s, p, o in model.triples( (firstvolRes, BDO.hasIIIFManifest, None) ):
-        manifestUrl = str(o)
-        return getThumbnailForIIIFManifest(manifestUrl)
     # get first volume local name:
     _, _, firstVolLname = NSM.compute_qname_strict(firstvolRes)
-    # get instance local name
+    # get image instance local name
     iinstanceRes = None
-    for s, p, o in model.triples( (s, BDO.instanceHasVolume, firstvolRes) ):
+    for s, p, o in model.triples( (None, BDO.instanceHasVolume, firstvolRes) ):
         iinstanceRes = s
     if iinstanceRes is None:
         return
+    # get instance
     instanceRes = None
-    for s, p, o in model.triples( (s, BDO.instanceHasVolume, firstvolRes) ):
-        iinstanceRes = s
-    # findBestThumbnail
+    for s, p, o in model.triples( (iinstanceRes, BDO.instanceReproductionOf, None) ):
+        instanceRes = o
+    _, _, instanceLname = NSM.compute_qname_strict(instanceRes)
+    _, _, iinstanceLname = NSM.compute_qname_strict(iinstanceRes)
+    # TODO: in a first time, we just add stuff, we don't modify anything if it's there
+    # but in the future we should check the commit of the trig file. We could also assume
+    # that external manifests never change
+    if (not force) and str(instanceRes) in iiifdb:
+        return
+    # handle external iiif case:
+    for s, p, o in model.triples( (firstvolRes, BDO.hasIIIFManifest, None) ):
+        manifestUrl = str(o)
+        iiifthumbnail = getThumbnailForIIIFManifest(manifestUrl)
+        iiifthumbnail.infotimestamp = datetime.now().isoformat()
+        iiifthumbnail.imagegroup = str(firstvolRes)
+        iiifdb[str(instanceRes)] = iiifthumbnail
+        return
+    # get image list
+    imglist = getImageList(iinstanceLname, firstVolLname)
+    if imglist is None:
+        return
+    # get intro images value
+    tbrcintroimages = 0
+    for s, p, o in model.triples( (firstvolRes, BDO.volumePagesTbrcIntro, None) ):
+        tbrcintroimages = int(o)
+    # get thumbnail index in list
+    thumbnailserviceidx = findBestThumbnailIdxService(firstVolLname, imglist, tbrcintroimages)
+    thumbnailserviceiinfo = imglist[thumbnailserviceidx]
+    canvasurl = "https://iiifpres.bdrc.io/v:bdr:"+firstVolLname+"/canvas/"+thumbnailserviceiinfo.filename
+    serviceurl = "https://iiif.bdrc.io/bdr:"+firstVolLname+"::"+thumbnailserviceiinfo.filename
+    iiifinfo = {"canvas": canvasurl, "service": serviceurl}
+    iiifinfo.infotimestamp = datetime.now().isoformat()
+    iiifinfo.imagegroup = str(firstvolRes)
+    iiifdb[str(instanceRes)] = iiifinfo
+    # get image
     # getImage
     # get/createinfo
     # thumbnailizeandwriteinfo
     # uploadthumbnail
-    pass
 
 def testThgen():
     for imgfilename in ["test/femc.jpeg", "test/modern.jpeg", "test/08860003.tif"]:
@@ -213,7 +261,28 @@ def testGetIIIFTh():
     print(getThumbnailForIIIFManifest("https://iiif.archivelab.org/iiif/rashodgson13/manifest.json"))
     print(getThumbnailForIIIFManifest("https://cudl.lib.cam.ac.uk/iiif/MS-OR-00159"))
 
-def test():
-    print(listFiles("/home/eroux/BUDA/softs/xmltoldmigration/tbrc-ttl/iinstances"))
 
-testGetIIIFTh()
+def mainIiif():
+    # create image list cache dir
+    cachedir = Path("cache/il/")
+    if not cachedir.is_dir():
+        os.makedirs(cachedir)
+    # read iiifdb
+    iiifdb = {}
+    if Path("iiifdb.yml").is_file():
+        with open("iiifdb.yml", 'r') as stream:
+            iiifdb = yaml.safe_load(stream)
+    # TODO: get iinstances path from cli
+    iinstancespath = "/home/eroux/BUDA/softs/xmltoldmigration/tbrc-ttl/iinstances"
+    i = 0
+    for fname in tqdm(glob.glob(iinstancespath+'/**/W*.trig')):
+        thumbnailForIiFile(fname, None, iiifdb)
+        i += 1
+        if i>= 100:
+            with open("iiifdb.yml", 'w') as stream:
+                yaml.dump(iiifdb, stream)
+            i = 0
+
+mainIiif()
+
+#testGetIIIFTh()

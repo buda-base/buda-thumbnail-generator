@@ -91,9 +91,9 @@ def gets3blob(s3Key):
 # This has a cache mechanism
 def getImageList(iiLocalName, igLocalName):
     cachepath = Path("cache/il/"+igLocalName+".json.gz")
-    #if cachepath.is_file():
-    #    with gzip.open(cachepath, 'r') as gzipfile:
-    #        return json.load(gzipfile)
+    if cachepath.is_file():
+        with gzip.open(str(cachepath), 'r') as gzipfile:
+            return json.load(gzipfile)
     s3key = get_s3_folder_prefix(iiLocalName, igLocalName)+"dimensions.json"
     blob = gets3blob(s3key)
     if blob is None:
@@ -103,7 +103,7 @@ def getImageList(iiLocalName, igLocalName):
     ub = gzip.decompress(b)
     s = ub.decode('utf8')
     data = json.loads(s)
-    with gzip.open(cachepath, 'w') as gzipfile:
+    with gzip.open(str(cachepath), 'w') as gzipfile:
         gzipfile.write(json.dumps(data).encode('utf-8'))
     return data
 

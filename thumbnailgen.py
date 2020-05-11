@@ -93,7 +93,12 @@ def getImageList(iiLocalName, igLocalName):
     cachepath = Path("cache/il/"+igLocalName+".json.gz")
     if cachepath.is_file():
         with gzip.open(str(cachepath), 'r') as gzipfile:
-            return json.loads(gzipfile.read())
+            try:
+                res = json.loads(gzipfile.read())
+                return res
+            except:
+                tqdm.write("can't read "+str(cachepath))
+                pass
     s3key = get_s3_folder_prefix(iiLocalName, igLocalName)+"dimensions.json"
     blob = gets3blob(s3key)
     if blob is None:

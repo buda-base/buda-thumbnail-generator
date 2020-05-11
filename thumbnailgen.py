@@ -117,7 +117,11 @@ def findBestThumbnailIdxImage(igLname, imageList, tbrcintroimages):
     return tbrcintroimages
 
 def findBestThumbnailIdxService(igLname, imageList, tbrcintroimages):
+    if len(imageList) == 0:
+        return -1
     if igLname.startswith("W1FEMC"):
+        if len(imageList) < 2:
+            return -1
         return 1
     # if there's a very big image, use it as thumbnail
     for i in range(tbrcintroimages, min(len(imageList), 20)):

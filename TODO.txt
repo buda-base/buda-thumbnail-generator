@@ -99,5 +99,8 @@ cannot find reasonable iiif thumbnail for:
 
 
 invalid files in the list:
-- MW1KG5256
-- MW1KG5258
+- W1KG5256
+- W1KG5258
+- W1KG5259
+- W20202
+- W20575

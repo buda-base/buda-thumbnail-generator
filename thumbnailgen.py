@@ -260,6 +260,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, force=False):
     thumbnailserviceidx = findBestThumbnailIdxService(firstVolLname, imglist, tbrcintroimages)
     if thumbnailserviceidx == -1 or thumbnailserviceidx >= len(imglist):
         tqdm.write("cannot find reasonable iiif thumbnail for "+iinstanceLname+'-'+firstVolLname)
+        return
     thumbnailserviceiinfo = imglist[thumbnailserviceidx]
     canvasurl = "https://iiifpres.bdrc.io/v:bdr:"+firstVolLname+"/canvas/"+thumbnailserviceiinfo["filename"]
     serviceurl = "https://iiif.bdrc.io/bdr:"+firstVolLname+"::"+thumbnailserviceiinfo["filename"]

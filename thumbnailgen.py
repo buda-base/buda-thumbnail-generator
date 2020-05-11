@@ -93,7 +93,7 @@ def getImageList(iiLocalName, igLocalName):
     cachepath = Path("cache/il/"+igLocalName+".json.gz")
     if cachepath.is_file():
         with gzip.open(str(cachepath), 'r') as gzipfile:
-            return json.load(gzipfile)
+            return json.loads(gzipfile.read())
     s3key = get_s3_folder_prefix(iiLocalName, igLocalName)+"dimensions.json"
     blob = gets3blob(s3key)
     if blob is None:
@@ -323,5 +323,13 @@ def testGetIIIFTh():
     print(getThumbnailForIIIFManifest("https://eap.bl.uk/archive-file/EAP676-12-2/manifest"))
     print(getThumbnailForIIIFManifest("https://iiif.archivelab.org/iiif/rashodgson13/manifest.json"))
     print(getThumbnailForIIIFManifest("https://cudl.lib.cam.ac.uk/iiif/MS-OR-00159"))
+
+def testcache():
+    cachepath = Path("cache/il/I00EGS1017179.json.gz")
+    if cachepath.is_file():
+        with gzip.open(str(cachepath), 'r') as gzipfile:
+            print(json.loads(gzipfile.read()))
+
+#testcache()
 
 #testGetIIIFTh()

@@ -129,7 +129,7 @@ def findBestThumbnailIdxService(igLname, imageList, tbrcintroimages):
             return -1
         return 1
     # if there's a very big image, use it as thumbnail
-    for i in range(tbrcintroimages, min(len(imageList), 20)):
+    for i in range(tbrcintroimages, min(len(imageList)-1, 20)):
         if "size" not in imageList[i]:
             return i
     # this branch is pretty unlikely...
@@ -258,7 +258,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, force=False):
         tbrcintroimages = int(o)
     # get thumbnail index in list
     thumbnailserviceidx = findBestThumbnailIdxService(firstVolLname, imglist, tbrcintroimages)
-    if thumbnailserviceidx == -1:
+    if thumbnailserviceidx == -1 or thumbnailserviceidx >= len(imglist):
         tqdm.write("cannot find reasonable iiif thumbnail for "+iinstanceLname+'-'+firstVolLname)
     thumbnailserviceiinfo = imglist[thumbnailserviceidx]
     canvasurl = "https://iiifpres.bdrc.io/v:bdr:"+firstVolLname+"/canvas/"+thumbnailserviceiinfo["filename"]

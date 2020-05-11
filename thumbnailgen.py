@@ -295,7 +295,7 @@ def mainIiif():
     for fname in tqdm(sorted(glob.glob(GITPATH+'/**/W*.trig'))):
         thumbnailForIiFile(fname, None, iiifdb, missinglists)
         i += 1
-        if i>= 100:
+        if i>= 800:
             try:
                 with open("iiifdb.yml", 'w') as stream:
                     yaml.dump(iiifdb, stream)

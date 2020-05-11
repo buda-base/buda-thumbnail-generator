@@ -26,6 +26,12 @@ def main():
 
 	for instanceUri, infos in iiifdb.items():
 		instanceRes = URIRef(instanceUri)
+		if "service" not in infos or infos["service"] is None:
+			print("no service for "+instanceUri)
+			continue
+		if " " in infos["service"]:
+			print("space in URI: "+infos["service"]+" for "+instanceUri)
+			continue
 		thservice = URIRef(infos["service"])
 		res.add( (instanceRes, TMP.thumbnailIIIFService, thservice) )
 	

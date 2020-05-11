@@ -6,6 +6,11 @@
 $ pip install -r requirements.txt
 ```
 
+```
+python3 derivemodel.py
+curl -X PUT -H Content-Type:text/turtle -T thumbnails.ttl -G http://buda1.bdrc.io:13180/fuseki/corerw/data --data-urlencode 'graph=http://purl.bdrc.io/graph/thumbnails'
+```
+
 ## Function
 
 This python script generates one thumbnail for each image instance (`W` record) in BDRC's archive. The general workflow is:

@@ -1,0 +1,3 @@
+cannot find reasonable iiif thumbnail for:
+- W8LS66751-I8LS67798
+- W17789-I2DB57316

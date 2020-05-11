@@ -1,6 +1,9 @@
 http://purl.bdrc.io/resource/MW00EGS1016255: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I00JW501136/canvas/I00JW5011360003.tif',
   imagegroup: 'http://purl.bdrc.io/resource/I00JW501136', infotimestamp: '2020-05-11T11:00:54.288111',
   service: 'https://iiif.bdrc.io/bdr:I00JW501136::I00JW5011360003.tif'}
+http://purl.bdrc.io/resource/MW00EGS1017177: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I00EGS1017179/canvas/I00EGS10171790005.tif',
+  imagegroup: 'http://purl.bdrc.io/resource/I00EGS1017179', infotimestamp: '2020-05-11T11:52:42.824122',
+  service: 'https://iiif.bdrc.io/bdr:I00EGS1017179::I00EGS10171790005.tif'}
 http://purl.bdrc.io/resource/MW00EGS1017462: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1PD440/canvas/I1PD4400003.tif',
   imagegroup: 'http://purl.bdrc.io/resource/I1PD440', infotimestamp: '2020-05-11T11:30:54.896461',
   service: 'https://iiif.bdrc.io/bdr:I1PD440::I1PD4400003.tif'}
@@ -19,9 +22,18 @@ http://purl.bdrc.io/resource/MW00KG03595: {canvas: 'https://iiifpres.bdrc.io/v:b
 http://purl.bdrc.io/resource/MW00KG03690: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I00KG03772/canvas/I00KG037720004.tif',
   imagegroup: 'http://purl.bdrc.io/resource/I00KG03772', infotimestamp: '2020-05-11T11:00:55.426318',
   service: 'https://iiif.bdrc.io/bdr:I00KG03772::I00KG037720004.tif'}
+http://purl.bdrc.io/resource/MW00KG03705: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I00KG03788/canvas/I00KG037880003.jpg',
+  imagegroup: 'http://purl.bdrc.io/resource/I00KG03788', infotimestamp: '2020-05-11T11:52:43.101989',
+  service: 'https://iiif.bdrc.io/bdr:I00KG03788::I00KG037880003.jpg'}
+http://purl.bdrc.io/resource/MW00KG03840: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I00KG03864/canvas/I00KG038640003.tif',
+  imagegroup: 'http://purl.bdrc.io/resource/I00KG03864', infotimestamp: '2020-05-11T11:52:43.412466',
+  service: 'https://iiif.bdrc.io/bdr:I00KG03864::I00KG038640003.tif'}
 http://purl.bdrc.io/resource/MW00KG03885: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I00KG03955/canvas/I00KG039550003.tif',
   imagegroup: 'http://purl.bdrc.io/resource/I00KG03955', infotimestamp: '2020-05-11T11:30:55.311916',
   service: 'https://iiif.bdrc.io/bdr:I00KG03955::I00KG039550003.tif'}
+http://purl.bdrc.io/resource/MW00KG03992: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I00KG04031/canvas/I00KG040310003.tif',
+  imagegroup: 'http://purl.bdrc.io/resource/I00KG04031', infotimestamp: '2020-05-11T11:52:43.698567',
+  service: 'https://iiif.bdrc.io/bdr:I00KG04031::I00KG040310003.tif'}
 http://purl.bdrc.io/resource/MW00KG03993: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I00KG04039/canvas/I00KG040390003.tif',
   imagegroup: 'http://purl.bdrc.io/resource/I00KG04039', infotimestamp: '2020-05-11T11:30:17.695492',
   service: 'https://iiif.bdrc.io/bdr:I00KG04039::I00KG040390003.tif'}
@@ -31,12 +43,21 @@ http://purl.bdrc.io/resource/MW00KG04060: {canvas: 'https://iiifpres.bdrc.io/v:b
 http://purl.bdrc.io/resource/MW00KG07: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1KG13536/canvas/I1KG135360003.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1KG13536', infotimestamp: '2020-05-11T11:30:55.673862',
   service: 'https://iiif.bdrc.io/bdr:I1KG13536::I1KG135360003.jpg'}
+http://purl.bdrc.io/resource/MW00KG09683: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I00KG09722/canvas/I00KG097220004.tif',
+  imagegroup: 'http://purl.bdrc.io/resource/I00KG09722', infotimestamp: '2020-05-11T11:52:43.998363',
+  service: 'https://iiif.bdrc.io/bdr:I00KG09722::I00KG097220004.tif'}
 http://purl.bdrc.io/resource/MW00KG09763: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I00KG09845/canvas/I00KG098450003.tif',
   imagegroup: 'http://purl.bdrc.io/resource/I00KG09845', infotimestamp: '2020-05-11T11:18:55.229329',
   service: 'https://iiif.bdrc.io/bdr:I00KG09845::I00KG098450003.tif'}
+http://purl.bdrc.io/resource/MW0CDL0MS-ADD-01641: {canvas: 'https://cudl.lib.cam.ac.uk/iiif/MS-ADD-01641/canvas/1',
+  imagegroup: 'http://purl.bdrc.io/resource/I0CDL0MS-ADD-01641', infotimestamp: '2020-05-11T11:52:45.195490',
+  service: 'https://images.lib.cam.ac.uk/iiif/MS-ADD-01641-000-00001.jp2'}
 http://purl.bdrc.io/resource/MW0CDL0MS-OR-00142-00001: {canvas: 'https://cudl.lib.cam.ac.uk/iiif/MS-OR-00142-00001/canvas/1',
   imagegroup: 'http://purl.bdrc.io/resource/I0CDL0MS-OR-00142-00001', infotimestamp: '2020-05-11T11:18:55.688316',
   service: 'https://images.lib.cam.ac.uk/iiif/MS-OR-00142-00001-000-00001.jp2'}
+http://purl.bdrc.io/resource/MW11051: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I4CZ342739/canvas/I4CZ3427390003.jpg',
+  imagegroup: 'http://purl.bdrc.io/resource/I4CZ342739', infotimestamp: '2020-05-11T11:52:45.485852',
+  service: 'https://iiif.bdrc.io/bdr:I4CZ342739::I4CZ3427390003.jpg'}
 http://purl.bdrc.io/resource/MW15960: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I6459/canvas/64590001.tif',
   imagegroup: 'http://purl.bdrc.io/resource/I6459', infotimestamp: '2020-05-11T11:30:55.979616',
   service: 'https://iiif.bdrc.io/bdr:I6459::64590001.tif'}
@@ -67,6 +88,12 @@ http://purl.bdrc.io/resource/MW1AC443: {canvas: 'https://iiifpres.bdrc.io/v:bdr:
 http://purl.bdrc.io/resource/MW1AC5: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I4PD4467/canvas/I4PD44670003.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I4PD4467', infotimestamp: '2020-05-11T11:30:57.257654',
   service: 'https://iiif.bdrc.io/bdr:I4PD4467::I4PD44670003.jpg'}
+http://purl.bdrc.io/resource/MW1CZ1067: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1CZ1425/canvas/I1CZ14250003.tif',
+  imagegroup: 'http://purl.bdrc.io/resource/I1CZ1425', infotimestamp: '2020-05-11T11:52:45.786713',
+  service: 'https://iiif.bdrc.io/bdr:I1CZ1425::I1CZ14250003.tif'}
+http://purl.bdrc.io/resource/MW1CZ1084: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1CZ1459/canvas/I1CZ14590003.tif',
+  imagegroup: 'http://purl.bdrc.io/resource/I1CZ1459', infotimestamp: '2020-05-11T11:52:46.110007',
+  service: 'https://iiif.bdrc.io/bdr:I1CZ1459::I1CZ14590003.tif'}
 http://purl.bdrc.io/resource/MW1CZ1102: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1CZ1512/canvas/I1CZ15120003.tif',
   imagegroup: 'http://purl.bdrc.io/resource/I1CZ1512', infotimestamp: '2020-05-11T11:00:55.747249',
   service: 'https://iiif.bdrc.io/bdr:I1CZ1512::I1CZ15120003.tif'}
@@ -76,6 +103,9 @@ http://purl.bdrc.io/resource/MW1CZ1154: {canvas: 'https://iiifpres.bdrc.io/v:bdr
 http://purl.bdrc.io/resource/MW1CZ1177: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1CZ1626/canvas/I1CZ16260003.tif',
   imagegroup: 'http://purl.bdrc.io/resource/I1CZ1626', infotimestamp: '2020-05-11T11:30:57.574795',
   service: 'https://iiif.bdrc.io/bdr:I1CZ1626::I1CZ16260003.tif'}
+http://purl.bdrc.io/resource/MW1CZ1242: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1CZ1723/canvas/I1CZ17230003.tif',
+  imagegroup: 'http://purl.bdrc.io/resource/I1CZ1723', infotimestamp: '2020-05-11T11:52:46.489953',
+  service: 'https://iiif.bdrc.io/bdr:I1CZ1723::I1CZ17230003.tif'}
 http://purl.bdrc.io/resource/MW1CZ1311: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1CZ1843/canvas/I1CZ18430003.tif',
   imagegroup: 'http://purl.bdrc.io/resource/I1CZ1843', infotimestamp: '2020-05-11T11:31:34.796570',
   service: 'https://iiif.bdrc.io/bdr:I1CZ1843::I1CZ18430003.tif'}
@@ -91,6 +121,9 @@ http://purl.bdrc.io/resource/MW1CZ2542: {canvas: 'https://iiifpres.bdrc.io/v:bdr
 http://purl.bdrc.io/resource/MW1EAP3009: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1EAP3009/canvas/I1EAP30090001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1EAP3009', infotimestamp: '2020-05-11T11:18:57.110113',
   service: 'https://iiif.bdrc.io/bdr:I1EAP3009::I1EAP30090001.jpg'}
+http://purl.bdrc.io/resource/MW1EAP3142: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1EAP3142/canvas/I1EAP31420001.jpg',
+  imagegroup: 'http://purl.bdrc.io/resource/I1EAP3142', infotimestamp: '2020-05-11T11:52:46.838205',
+  service: 'https://iiif.bdrc.io/bdr:I1EAP3142::I1EAP31420001.jpg'}
 http://purl.bdrc.io/resource/MW1EAP8290: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1EAP8290/canvas/I1EAP82900001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1EAP8290', infotimestamp: '2020-05-11T11:18:57.428747',
   service: 'https://iiif.bdrc.io/bdr:I1EAP8290::I1EAP82900001.jpg'}
@@ -109,6 +142,12 @@ http://purl.bdrc.io/resource/MW1EE52: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I
 http://purl.bdrc.io/resource/MW1EE71: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1KG17006/canvas/I1KG170060003.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1KG17006', infotimestamp: '2020-05-11T11:31:35.124199',
   service: 'https://iiif.bdrc.io/bdr:I1KG17006::I1KG170060003.jpg'}
+http://purl.bdrc.io/resource/MW1FPL1045: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL1045/canvas/I1FPL10450001.jpg',
+  imagegroup: 'http://purl.bdrc.io/resource/I1FPL1045', infotimestamp: '2020-05-11T11:52:51.052244',
+  service: 'https://iiif.bdrc.io/bdr:I1FPL1045::I1FPL10450001.jpg'}
+http://purl.bdrc.io/resource/MW1FPL1101: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL1101/canvas/I1FPL11010001.jpg',
+  imagegroup: 'http://purl.bdrc.io/resource/I1FPL1101', infotimestamp: '2020-05-11T11:52:51.503541',
+  service: 'https://iiif.bdrc.io/bdr:I1FPL1101::I1FPL11010001.jpg'}
 http://purl.bdrc.io/resource/MW1FPL1115: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL1115/canvas/I1FPL11150001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1FPL1115', infotimestamp: '2020-05-11T11:31:41.580886',
   service: 'https://iiif.bdrc.io/bdr:I1FPL1115::I1FPL11150001.jpg'}
@@ -139,9 +178,15 @@ http://purl.bdrc.io/resource/MW1FPL1426: {canvas: 'https://iiifpres.bdrc.io/v:bd
 http://purl.bdrc.io/resource/MW1FPL1463: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL1463/canvas/I1FPL14630001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1FPL1463', infotimestamp: '2020-05-11T11:31:02.987064',
   service: 'https://iiif.bdrc.io/bdr:I1FPL1463::I1FPL14630001.jpg'}
+http://purl.bdrc.io/resource/MW1FPL1526: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL1526/canvas/I1FPL15260001.jpg',
+  imagegroup: 'http://purl.bdrc.io/resource/I1FPL1526', infotimestamp: '2020-05-11T11:52:51.818352',
+  service: 'https://iiif.bdrc.io/bdr:I1FPL1526::I1FPL15260001.jpg'}
 http://purl.bdrc.io/resource/MW1FPL1536: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL1536/canvas/I1FPL15360001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1FPL1536', infotimestamp: '2020-05-11T11:18:23.108700',
   service: 'https://iiif.bdrc.io/bdr:I1FPL1536::I1FPL15360001.jpg'}
+http://purl.bdrc.io/resource/MW1FPL1553: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL1553/canvas/I1FPL15530001.jpg',
+  imagegroup: 'http://purl.bdrc.io/resource/I1FPL1553', infotimestamp: '2020-05-11T11:52:52.121756',
+  service: 'https://iiif.bdrc.io/bdr:I1FPL1553::I1FPL15530001.jpg'}
 http://purl.bdrc.io/resource/MW1FPL1554: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL1554/canvas/I1FPL15540001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1FPL1554', infotimestamp: '2020-05-11T11:18:23.443496',
   service: 'https://iiif.bdrc.io/bdr:I1FPL1554::I1FPL15540001.jpg'}
@@ -160,6 +205,9 @@ http://purl.bdrc.io/resource/MW1FPL168: {canvas: 'https://iiifpres.bdrc.io/v:bdr
 http://purl.bdrc.io/resource/MW1FPL1689: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL1689/canvas/I1FPL16890001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1FPL1689', infotimestamp: '2020-05-11T11:19:01.467216',
   service: 'https://iiif.bdrc.io/bdr:I1FPL1689::I1FPL16890001.jpg'}
+http://purl.bdrc.io/resource/MW1FPL169: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL169/canvas/I1FPL1690001.jpg',
+  imagegroup: 'http://purl.bdrc.io/resource/I1FPL169', infotimestamp: '2020-05-11T11:52:52.432870',
+  service: 'https://iiif.bdrc.io/bdr:I1FPL169::I1FPL1690001.jpg'}
 http://purl.bdrc.io/resource/MW1FPL1726: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL1726/canvas/I1FPL17260001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1FPL1726', infotimestamp: '2020-05-11T11:18:24.069046',
   service: 'https://iiif.bdrc.io/bdr:I1FPL1726::I1FPL17260001.jpg'}
@@ -193,12 +241,18 @@ http://purl.bdrc.io/resource/MW1FPL2120: {canvas: 'https://iiifpres.bdrc.io/v:bd
 http://purl.bdrc.io/resource/MW1FPL2142: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL2142/canvas/I1FPL21420001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1FPL2142', infotimestamp: '2020-05-11T11:31:03.882576',
   service: 'https://iiif.bdrc.io/bdr:I1FPL2142::I1FPL21420001.jpg'}
+http://purl.bdrc.io/resource/MW1FPL2145: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL2145/canvas/I1FPL21450001.jpg',
+  imagegroup: 'http://purl.bdrc.io/resource/I1FPL2145', infotimestamp: '2020-05-11T11:52:52.750756',
+  service: 'https://iiif.bdrc.io/bdr:I1FPL2145::I1FPL21450001.jpg'}
 http://purl.bdrc.io/resource/MW1FPL220: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL220/canvas/I1FPL2200001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1FPL220', infotimestamp: '2020-05-11T11:31:42.650824',
   service: 'https://iiif.bdrc.io/bdr:I1FPL220::I1FPL2200001.jpg'}
 http://purl.bdrc.io/resource/MW1FPL2490: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL2490/canvas/I1FPL24900001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1FPL2490', infotimestamp: '2020-05-11T11:31:04.895996',
   service: 'https://iiif.bdrc.io/bdr:I1FPL2490::I1FPL24900001.jpg'}
+http://purl.bdrc.io/resource/MW1FPL2531: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL2531/canvas/I1FPL25310001.jpg',
+  imagegroup: 'http://purl.bdrc.io/resource/I1FPL2531', infotimestamp: '2020-05-11T11:52:53.222741',
+  service: 'https://iiif.bdrc.io/bdr:I1FPL2531::I1FPL25310001.jpg'}
 http://purl.bdrc.io/resource/MW1FPL259: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL259/canvas/I1FPL2590001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1FPL259', infotimestamp: '2020-05-11T11:19:02.256276',
   service: 'https://iiif.bdrc.io/bdr:I1FPL259::I1FPL2590001.jpg'}
@@ -229,6 +283,9 @@ http://purl.bdrc.io/resource/MW1FPL3201: {canvas: 'https://iiifpres.bdrc.io/v:bd
 http://purl.bdrc.io/resource/MW1FPL3225: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL3225/canvas/I1FPL32250001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1FPL3225', infotimestamp: '2020-05-11T11:30:25.764994',
   service: 'https://iiif.bdrc.io/bdr:I1FPL3225::I1FPL32250001.jpg'}
+http://purl.bdrc.io/resource/MW1FPL3235: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL3235/canvas/I1FPL32350001.jpg',
+  imagegroup: 'http://purl.bdrc.io/resource/I1FPL3235', infotimestamp: '2020-05-11T11:52:53.530396',
+  service: 'https://iiif.bdrc.io/bdr:I1FPL3235::I1FPL32350001.jpg'}
 http://purl.bdrc.io/resource/MW1FPL3288: {canvas: 'https://iiifpres.bdrc.io/v:bdr:I1FPL3288/canvas/I1FPL32880001.jpg',
   imagegroup: 'http://purl.bdrc.io/resource/I1FPL3288', infotimestamp: '2020-05-11T11:19:03.180271',
   service: 'https://iiif.bdrc.io/bdr:I1FPL3288::I1FPL32880001.jpg'}

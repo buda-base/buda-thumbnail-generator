@@ -1,6 +1,5 @@
 tqdm
 rdflib
 Pillow
-yaml
 requests
 boto3

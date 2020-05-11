@@ -1,5 +1,13 @@
 # Thumbnail generator for BUDA
 
+## Dependencies
+
+```
+$ pip install -r requirements.txt
+```
+
+## Function
+
 This python script generates one thumbnail for each image instance (`W` record) in BDRC's archive. The general workflow is:
 
 - have a database of generated thumbnails ([iinstance-thumbnails.json](iinstance-thumbnails.json))

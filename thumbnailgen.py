@@ -16,12 +16,18 @@ from tqdm import tqdm
 import boto3
 import botocore
 import gzip
+import sys
 from datetime import datetime
+import time
 
 IIGITDIR="../xmltoldmigration/tbrc-ttl/iinstances/"
 BASE_MAX_DIM=370
 BASE_CROP_DIM=185
 MAX_RATIO=2
+
+GITPATH = "/home/eroux/BUDA/softs/xmltoldmigration/tbrc-ttl/iinstances"
+if len(sys.argv) > 1:
+    GITPATH = sys.argv[1]
 
 BDR = Namespace("http://purl.bdrc.io/resource/")
 BDO = Namespace("http://purl.bdrc.io/ontology/core/")
@@ -264,7 +270,7 @@ def mainIiif():
     # create image list cache dir
     cachedir = Path("cache/il/")
     if not cachedir.is_dir():
-        os.makedirs(cachedir)
+        os.makedirs(str(cachedir))
     # read iiifdb
     iiifdb = {}
     if Path("iiifdb.yml").is_file():
@@ -275,17 +281,21 @@ def mainIiif():
         with open("missinglists.yml", 'r') as stream:
             missinglists = yaml.safe_load(stream)
     # TODO: get iinstances path from cli
-    iinstancespath = "/home/eroux/BUDA/softs/xmltoldmigration/tbrc-ttl/iinstances"
     i = 0
-    for fname in tqdm(sorted(glob.glob(iinstancespath+'/**/W*.trig'))):
+    for fname in tqdm(sorted(glob.glob(GITPATH+'/**/W*.trig'))):
         thumbnailForIiFile(fname, None, iiifdb, missinglists)
         i += 1
-        if i>= 10:
-            with open("iiifdb.yml", 'w') as stream:
-                yaml.dump(iiifdb, stream)
-            with open("missinglists.yml", 'w') as stream:
-                yaml.dump(missinglists, stream)
-            i = 0
+        if i>= 100:
+            try:
+                with open("iiifdb.yml", 'w') as stream:
+                    yaml.dump(iiifdb, stream)
+                with open("missinglists.yml", 'w') as stream:
+                    yaml.dump(missinglists, stream)
+                i = 0
+            except KeyboardInterrupt:
+                # poor man's atomicity
+                time.sleep(2)
+                raise
 
 
 mainIiif()

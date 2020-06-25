@@ -267,7 +267,6 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     tbrcintroimagesoriginal = False
     for s, p, o in model.triples( (firstvolRes, BDO.volumePagesTbrcIntro, None) ):
         tbrcintroimages = int(o)
-        print(tbrcintroimages)
         tbrcintroimagesoriginal = True
     if tbrcintroimages == 0 and likelyHasIntroImages(imglist, iinstanceLname):
         tbrcintroimages = 2
@@ -333,7 +332,8 @@ def mainIiif(wrid=None):
                 raise
 
 
-mainIiif("W3CN22341")
+#mainIiif("W3CN22341")
+mainIiif()
 
 def testThgen():
     for imgfilename in ["test/femc.jpeg", "test/modern.jpeg", "test/08860003.tif"]:

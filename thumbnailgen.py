@@ -20,12 +20,12 @@ import sys
 from datetime import datetime
 import time
 
-IIGITDIR="../xmltoldmigration/tbrc-ttl/iinstances/"
 BASE_MAX_DIM=370
 BASE_CROP_DIM=185
 MAX_RATIO=2
 
-GITPATH = "/home/eroux/BUDA/softs/xmltoldmigration/tbrc-ttl/iinstances"
+#GITPATH = "/home/eroux/BUDA/softs/xmltoldmigration/tbrc-ttl/iinstances"
+GITPATH = "../xmltoldmigration/tbrc-ttl/iinstances/"
 if len(sys.argv) > 1:
     GITPATH = sys.argv[1]
 
@@ -89,9 +89,9 @@ def gets3blob(s3Key):
             raise
 
 # This has a cache mechanism
-def getImageList(iiLocalName, igLocalName):
+def getImageList(iiLocalName, igLocalName, force=False):
     cachepath = Path("cache/il/"+igLocalName+".json.gz")
-    if cachepath.is_file():
+    if not force and cachepath.is_file():
         with gzip.open(str(cachepath), 'r') as gzipfile:
             try:
                 res = json.loads(gzipfile.read())
@@ -134,6 +134,13 @@ def findBestThumbnailIdxService(igLname, imageList, tbrcintroimages):
             return i
     # this branch is pretty unlikely...
     return -1
+
+def likelyHasIntroImages(imageList):
+    if len(imageList) < 2:
+        return False
+    if igLname.startswith("W1FEMC"):
+        return False
+    return (imageList[0]['width'] == 2550 and imageList[0]['height'] == 3300 and imageList[1]['width'] == 2550 and imageList[1]['height'] == 3300)
 
 def getImage(igQname, iiLocalName, imageFileName):
     # TODO
@@ -200,7 +207,7 @@ def getThumbnailForIIIFManifest(manifestUrl):
     finally:
         return res
 
-def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, force=False):
+def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent=False, forceRefreshDimensions=False):
     # read file
     model = ConjunctiveGraph()
     model.parse(str(iiFilePath), format="trig")
@@ -212,6 +219,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, force=False):
     for s, p, o in model.triples( (None, BDO.volumeNumber, Literal(1)) ):
         firstvolRes = s
     if firstvolRes is None:
+        tqdm.write("can't find first volume in "+iinstanceLname)
         return
     # get first volume local name:
     _, _, firstVolLname = NSM.compute_qname_strict(firstvolRes)
@@ -220,6 +228,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, force=False):
     for s, p, o in model.triples( (None, BDO.instanceHasVolume, firstvolRes) ):
         iinstanceRes = s
     if iinstanceRes is None:
+        tqdm.write("can't find iinstance in "+iinstanceLname)
         return
     _, _, iinstanceLname = NSM.compute_qname_strict(iinstanceRes)
     # get instance
@@ -232,12 +241,12 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, force=False):
     _, _, instanceLname = NSM.compute_qname_strict(instanceRes)
     
     # ignore if we know the list is missing
-    if (iinstanceLname+'-'+firstVolLname) in missinglists:
+    if (not forceIfPresent) and (iinstanceLname+'-'+firstVolLname) in missinglists:
         return
     # TODO: in a first time, we just add stuff, we don't modify anything if it's there
     # but in the future we should check the commit of the trig file. We could also assume
     # that external manifests never change
-    if (not force) and str(instanceRes) in iiifdb:
+    if (not forceIfPresent) and str(instanceRes) in iiifdb:
         return
     # handle external iiif case:
     for s, p, o in model.triples( (firstvolRes, BDO.hasIIIFManifest, None) ):
@@ -246,16 +255,21 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, force=False):
         iiifthumbnail["infotimestamp"] = datetime.now().isoformat()
         iiifthumbnail["imagegroup"] = str(firstvolRes)
         iiifdb[str(instanceRes)] = iiifthumbnail
-        return
+        return iiifthumbnail
     # get image list
-    imglist = getImageList(iinstanceLname, firstVolLname)
+    imglist = getImageList(iinstanceLname, firstVolLname, forceRefreshDimensions)
     if imglist is None:
         missinglists.append(iinstanceLname+"-"+firstVolLname)
         return
     # get intro images value
     tbrcintroimages = 0
+    tbrcintroimagesoriginal = False
     for s, p, o in model.triples( (firstvolRes, BDO.volumePagesTbrcIntro, None) ):
         tbrcintroimages = int(o)
+        tbrcintroimagesoriginal = True
+    if tbrcintroimages == 0 and likelyHasIntroImages(imglist):
+        tbrcintroimages = 2
+        tbrcintroimagesoriginal = False
     # get thumbnail index in list
     thumbnailserviceidx = findBestThumbnailIdxService(firstVolLname, imglist, tbrcintroimages)
     if thumbnailserviceidx == -1 or thumbnailserviceidx >= len(imglist):
@@ -267,7 +281,9 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, force=False):
     iiifinfo = {"canvas": canvasurl, "service": serviceurl}
     iiifinfo["infotimestamp"] = datetime.now().isoformat()
     iiifinfo["imagegroup"] = str(firstvolRes)
+    iiifinfo["guessedtbrcintroimages"] = tbrcintroimages
     iiifdb[str(instanceRes)] = iiifinfo
+    return iiifinfo
     # get image
     # getImage
     # get/createinfo
@@ -275,7 +291,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, force=False):
     # uploadthumbnail
 
 
-def mainIiif():
+def mainIiif(wrid=None):
     # this currently only generates iiifdb.yml
     # create image list cache dir
     cachedir = Path("cache/il/")
@@ -291,6 +307,12 @@ def mainIiif():
         with open("missinglists.yml", 'r') as stream:
             missinglists = yaml.safe_load(stream)
     # TODO: get iinstances path from cli
+    if wrid is not None:
+        md5 = hashlib.md5(str.encode(wrid))
+        two = md5.hexdigest()[:2]
+        iiifinfo = thumbnailForIiFile(GITPATH+'/'+two+'/'+wrid+'.trig', None, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=False)
+        print(yaml.dump(iiifinfo))
+        return
     i = 0
     for fname in tqdm(sorted(glob.glob(GITPATH+'/**/W*.trig'))):
         thumbnailForIiFile(fname, None, iiifdb, missinglists)

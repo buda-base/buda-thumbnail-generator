@@ -217,7 +217,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     for s, p, o in model.triples( (None, BDO.volumeNumber, Literal(1)) ):
         firstvolRes = s
     if firstvolRes is None:
-        tqdm.write("can't find first volume in "+iinstanceLname)
+        tqdm.write("can't find first volume in "+iiFilePath)
         return
     # get first volume local name:
     _, _, firstVolLname = NSM.compute_qname_strict(firstvolRes)

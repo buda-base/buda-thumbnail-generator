@@ -267,6 +267,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     tbrcintroimagesoriginal = False
     for s, p, o in model.triples( (firstvolRes, BDO.volumePagesTbrcIntro, None) ):
         tbrcintroimages = int(o)
+        print(tbrcintroimages)
         tbrcintroimagesoriginal = True
     if tbrcintroimages == 0 and likelyHasIntroImages(imglist, iinstanceLname):
         tbrcintroimages = 2
@@ -282,7 +283,8 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     iiifinfo = {"canvas": canvasurl, "service": serviceurl}
     iiifinfo["infotimestamp"] = datetime.now().isoformat()
     iiifinfo["imagegroup"] = str(firstvolRes)
-    iiifinfo["guessedtbrcintroimages"] = tbrcintroimages
+    if not tbrcintroimagesoriginal:
+        iiifinfo["guessedtbrcintroimages"] = tbrcintroimages
     iiifdb[str(instanceRes)] = iiifinfo
     return iiifinfo
     # get image
@@ -331,7 +333,7 @@ def mainIiif(wrid=None):
                 raise
 
 
-mainIiif()
+mainIiif("W3CN22341")
 
 def testThgen():
     for imgfilename in ["test/femc.jpeg", "test/modern.jpeg", "test/08860003.tif"]:

@@ -135,8 +135,11 @@ def findBestThumbnailIdxService(igLname, imageList, tbrcintroimages):
     # this branch is pretty unlikely...
     return -1
 
-def likelyHasIntroImages(imageList):
+def likelyHasIntroImages(imageList, iiLocalName):
     if len(imageList) < 2:
+        return False
+    if 'width' not in imageList[0] or 'width' not in imageList[1] or 'height' not in imageList[0] or 'height' not in imageList[0]:
+        tqdm.write("ill formed image list for "+iiLocalName)
         return False
     return (imageList[0]['width'] == 2550 and imageList[0]['height'] == 3300 and imageList[1]['width'] == 2550 and imageList[1]['height'] == 3300)
 
@@ -205,7 +208,7 @@ def getThumbnailForIIIFManifest(manifestUrl):
     finally:
         return res
 
-def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent=False, forceRefreshDimensions=False):
+def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=False):
     # read file
     model = ConjunctiveGraph()
     model.parse(str(iiFilePath), format="trig")
@@ -265,7 +268,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     for s, p, o in model.triples( (firstvolRes, BDO.volumePagesTbrcIntro, None) ):
         tbrcintroimages = int(o)
         tbrcintroimagesoriginal = True
-    if tbrcintroimages == 0 and likelyHasIntroImages(imglist):
+    if tbrcintroimages == 0 and likelyHasIntroImages(imglist, iinstanceLname):
         tbrcintroimages = 2
         tbrcintroimagesoriginal = False
     # get thumbnail index in list

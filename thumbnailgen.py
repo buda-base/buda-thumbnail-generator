@@ -138,8 +138,6 @@ def findBestThumbnailIdxService(igLname, imageList, tbrcintroimages):
 def likelyHasIntroImages(imageList):
     if len(imageList) < 2:
         return False
-    if igLname.startswith("W1FEMC"):
-        return False
     return (imageList[0]['width'] == 2550 and imageList[0]['height'] == 3300 and imageList[1]['width'] == 2550 and imageList[1]['height'] == 3300)
 
 def getImage(igQname, iiLocalName, imageFileName):

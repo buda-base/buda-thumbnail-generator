@@ -89,7 +89,7 @@ def gets3blob(s3Key):
             raise
 
 # This has a cache mechanism
-def getImageList(iiLocalName, igLocalName, force=False):
+def getImageList(iiLocalName, igLocalName, force=False, getmissing=False):
     cachepath = Path("cache/il/"+igLocalName+".json.gz")
     if not force and cachepath.is_file():
         with gzip.open(str(cachepath), 'r') as gzipfile:
@@ -99,6 +99,8 @@ def getImageList(iiLocalName, igLocalName, force=False):
             except:
                 tqdm.write("can't read "+str(cachepath))
                 pass
+    if not getmissing:
+        return None
     s3key = get_s3_folder_prefix(iiLocalName, igLocalName)+"dimensions.json"
     blob = gets3blob(s3key)
     if blob is None:
@@ -221,7 +223,7 @@ def getThumbnailForIIIFManifest(manifestUrl):
     finally:
         return res
 
-def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=False):
+def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=False, getMissingDimensions=False):
     # read file
     model = ConjunctiveGraph()
     model.parse(str(iiFilePath), format="trig")
@@ -271,7 +273,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
         iiifdb[str(instanceRes)] = iiifthumbnail
         return iiifthumbnail
     # get image list
-    imglist = getImageList(iinstanceLname, firstVolLname, forceRefreshDimensions)
+    imglist = getImageList(iinstanceLname, firstVolLname, forceRefreshDimensions, getMissingDimensions)
     if imglist is None:
         missinglists.append(iinstanceLname+"-"+firstVolLname)
         return
@@ -345,8 +347,8 @@ def mainIiif(wrid=None):
                 raise
 
 
-mainIiif("W20325")
-#mainIiif()
+#mainIiif("W20325")
+mainIiif()
 
 def testThgen():
     for imgfilename in ["test/femc.jpeg", "test/modern.jpeg", "test/08860003.tif"]:

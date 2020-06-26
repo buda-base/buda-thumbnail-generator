@@ -223,7 +223,7 @@ def getThumbnailForIIIFManifest(manifestUrl):
     finally:
         return res
 
-def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=False, getMissingDimensions=False):
+def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=False, getMissingDimensions=False, refreshIIIF=False):
     # read file
     model = ConjunctiveGraph()
     model.parse(str(iiFilePath), format="trig")
@@ -266,6 +266,8 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
         return
     # handle external iiif case:
     for s, p, o in model.triples( (firstvolRes, BDO.hasIIIFManifest, None) ):
+        if str(instanceRes) in iiifdb and not refreshIIIF:
+            return
         manifestUrl = str(o)
         iiifthumbnail = getThumbnailForIIIFManifest(manifestUrl)
         iiifthumbnail["infotimestamp"] = datetime.now().isoformat()
@@ -345,6 +347,11 @@ def mainIiif(wrid=None):
                 # poor man's atomicity
                 time.sleep(2)
                 raise
+    if i > 0:
+        with open("iiifdb.yml", 'w') as stream:
+            yaml.dump(iiifdb, stream)
+        with open("missinglists.yml", 'w') as stream:
+            yaml.dump(missinglists, stream)
 
 
 #mainIiif("W20325")

@@ -141,7 +141,20 @@ def likelyHasIntroImages(imageList, iiLocalName):
     if 'width' not in imageList[0] or 'width' not in imageList[1] or 'height' not in imageList[0] or 'height' not in imageList[0]:
         tqdm.write("ill formed image list for "+iiLocalName)
         return False
-    return (imageList[0]['width'] == 2550 and imageList[0]['height'] == 3300 and imageList[1]['width'] == 2550 and imageList[1]['height'] == 3300)
+    if (imageList[0]['width'] == 2550 and imageList[0]['height'] == 3300 and imageList[1]['width'] == 2550 and imageList[1]['height'] == 3300):
+        return True
+    # if the first two are not tif, abandon
+    if (not imageList[0]['filename'].lower().endswith(".tif")) or (not imageList[1]['filename'].lower().endswith(".tif")):
+        return False
+    # if the first one has not width < height, abandon
+    if imageList[0]['width'] > imageList[0]['height']:
+        return False
+    # if the third one is not tif, return True (may have some false positives)
+    if len(imageList) >= 3:
+        if (not imageList[2]['filename'].lower().endswith(".tif")) and (not imageList[2]['filename'].lower().endswith(".tiff")):
+            return True
+    return False
+
 
 def getImage(igQname, iiLocalName, imageFileName):
     # TODO
@@ -332,8 +345,8 @@ def mainIiif(wrid=None):
                 raise
 
 
-#mainIiif("W3CN22341")
-mainIiif()
+mainIiif("W20325")
+#mainIiif()
 
 def testThgen():
     for imgfilename in ["test/femc.jpeg", "test/modern.jpeg", "test/08860003.tif"]:

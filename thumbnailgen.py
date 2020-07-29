@@ -206,6 +206,7 @@ def getThumbnailForIIIFManifest(manifestUrl):
     #  - https://eap.bl.uk/archive-file/EAP676-12-2/manifest
     #  - https://iiif.archivelab.org/iiif/rashodgson13/manifest.json
     #  - https://cudl.lib.cam.ac.uk/iiif/MS-OR-00159
+    # TODO: the service shouldn't end with /full/full/0/default.jpg
     res = {"canvas": None, "service": None}
     try:
         resp = requests.get(url=manifestUrl)

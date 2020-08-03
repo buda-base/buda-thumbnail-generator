@@ -25,7 +25,10 @@ def main():
 	    iiifdb = yaml.safe_load(stream)
 
 	for instanceUri, infos in iiifdb.items():
+		# hack, see https://github.com/buda-base/buda-thumbnail-generator/issues/4
+		iinstanceUri = instanceUri.replace("/MW", "/W")
 		instanceRes = URIRef(instanceUri)
+		iinstanceRes = URIRef(iinstanceUri)
 		if "service" not in infos or infos["service"] is None:
 			print("no service for "+instanceUri)
 			continue
@@ -34,6 +37,7 @@ def main():
 			continue
 		thservice = URIRef(infos["service"])
 		res.add( (instanceRes, TMP.thumbnailIIIFService, thservice) )
+		res.add( (iinstanceRes, TMP.thumbnailIIIFService, thservice) )
 	
 	res.serialize("thumbnails.ttl", format="turtle")
 

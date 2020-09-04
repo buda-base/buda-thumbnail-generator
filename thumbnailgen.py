@@ -227,12 +227,12 @@ def getThumbnailForIIIFManifest(manifestUrl):
         print("can't find proper canvas for "+manifestUrl)
         return None
 
-def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=False, getMissingDimensions=False, refreshIIIF=False):
+def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent=False, forceRefreshDimensions=True, getMissingDimensions=True, refreshIIIF=False):
     # if file name is the same as an image instance already present in the database, don't read file:
     likelyiiQname = "bdr:"+Path(iiFilePath).stem
     if (not forceIfPresent) and likelyiiQname in iiifdb:
+        #tqdm.write("skip "+likelyiiQname)
         return
-    tqdm.write("read "+iiFilePath)
     # read file
     model = ConjunctiveGraph()
     model.parse(str(iiFilePath), format="trig")
@@ -247,7 +247,8 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
         tqdm.write("can't find first volume in "+iiFilePath)
         return
     # get first volume local name:
-    firstVolQname, _, firstVolLname = NSM.compute_qname_strict(firstvolRes)
+    firstVolPref, _, firstVolLname = NSM.compute_qname_strict(firstvolRes)
+    firstVolQname = firstVolPref+":"+firstVolLname
     # get image instance local name
     iinstanceRes = None
     for s, p, o in model.triples( (None, BDO.instanceHasVolume, firstvolRes) ):
@@ -255,7 +256,8 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     if iinstanceRes is None:
         tqdm.write("can't find iinstance in "+iinstanceLname)
         return
-    iinstanceQname, _, iinstanceLname = NSM.compute_qname_strict(iinstanceRes)
+    iinstancePref, _, iinstanceLname = NSM.compute_qname_strict(iinstanceRes)
+    iinstanceQname = iinstancePref+":"+iinstanceLname
     # get instance
     instanceRes = None
     for s, p, o in model.triples( (iinstanceRes, BDO.instanceReproductionOf, None) ):
@@ -263,10 +265,11 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     if instanceRes is None:
         tqdm.write("can't find instance in "+iinstanceLname)
         return
-    instanceQname, _, instanceLname = NSM.compute_qname_strict(instanceRes)
+    instancePref, _, instanceLname = NSM.compute_qname_strict(instanceRes)
+    instanceQname = instancePref+":"+instanceLname
 
     if not modelLikelySynced(model, iinstanceLname):
-        tqdm.write("likelynotsynced: "+iinstanceLname)
+        #tqdm.write("likelynotsynced: "+iinstanceLname)
         return
     
     # ignore if we know the list is missing
@@ -319,17 +322,22 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
 
     if not tbrcintroimagesoriginal:
         iiifinfo["guessedtbrcintroimages"] = tbrcintroimages
-    iiifdb[str(instanceRes)] = iiifinfo
+    iiifdb[iinstanceQname] = iiifinfo
     return iiifinfo
 
 OLDP = re.compile(r"^W\d+$")
 
 def modelLikelySynced(model, iinstanceLname):
-    if OLDP.match(iinstanceLname):
-        return True
+    #if OLDP.match(iinstanceLname):
+    #    return True
     if (None,  BDO.hasIIIFManifest, None) in model:
         return True
-    return (None,  RDF.type, ADM.Synced) in model
+    if (None,  RDF.type, ADM.Synced) in model:
+        return True
+    # hardcoding that is a bit ugly...
+    if (BDA.LGIGS001, None, None) in model:
+        return True
+    return False
 
 def mainIiif(wrid=None):
     # this currently only generates iiifdb.yml
@@ -350,24 +358,26 @@ def mainIiif(wrid=None):
     if wrid is not None:
         md5 = hashlib.md5(str.encode(wrid))
         two = md5.hexdigest()[:2]
-        iiifinfo = thumbnailForIiFile(GITPATH+'/'+two+'/'+wrid+'.trig', None, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=False)
+        iiifinfo = thumbnailForIiFile(GITPATH+'/'+two+'/'+wrid+'.trig', None, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=True)
         print(yaml.dump(iiifinfo))
         return
     i = 0
     for fname in tqdm(sorted(glob.glob(GITPATH+'/**/W*.trig'))):
         thumbnailForIiFile(fname, None, iiifdb, missinglists)
         i += 1
-        if i>= 800:
-            try:
-                with open("iiifdb.yml", 'w') as stream:
-                    yaml.dump(iiifdb, stream)
-                with open("missinglists.yml", 'w') as stream:
-                    yaml.dump(missinglists, stream)
-                i = 0
-            except KeyboardInterrupt:
-                # poor man's atomicity
-                time.sleep(2)
-                raise
+        #if i>= 1000:
+        #    try:
+        #        with open("iiifdb.yml", 'w') as stream:
+        #            yaml.dump(iiifdb, stream)
+        #        with open("missinglists.yml", 'w') as stream:
+        #            yaml.dump(missinglists, stream)
+        #        i = 0
+        #    except KeyboardInterrupt:
+        #        # poor man's atomicity
+        #        time.sleep(2)
+        #
+        #        raise
+    print("writing iiifdb.yml")
     if i > 0:
         with open("iiifdb.yml", 'w') as stream:
             yaml.dump(iiifdb, stream)

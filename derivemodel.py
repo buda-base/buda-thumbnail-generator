@@ -24,18 +24,20 @@ def main():
 	with open("iiifdb.yml", 'r') as stream:
 	    iiifdb = yaml.safe_load(stream)
 
-	for instanceUri, infos in iiifdb.items():
-		# hack, see https://github.com/buda-base/buda-thumbnail-generator/issues/4
-		iinstanceUri = instanceUri.replace("/MW", "/W")
-		instanceRes = URIRef(instanceUri)
-		iinstanceRes = URIRef(iinstanceUri)
-		if "service" not in infos or infos["service"] is None:
-			print("no service for "+instanceUri)
+	for iinstanceQname, infos in iiifdb.items():
+		instanceRes = URIRef("http://purl.bdrc.io/resource/"+infos["instanceQname"][4:])
+		iinstanceRes = URIRef("http://purl.bdrc.io/resource/"+iinstanceQname[4:])
+		# case of external iiif volumes
+		if "service" in infos and infos["service"] is not None:
+			thservice = URIRef(infos["service"])
+			res.add( (instanceRes, TMP.thumbnailIIIFService, thservice) )
+			res.add( (iinstanceRes, TMP.thumbnailIIIFService, thservice) )
 			continue
-		if " " in infos["service"]:
-			print("space in URI: "+infos["service"]+" for "+instanceUri)
+		if " " in infos["imgfname"]:
+			print("space in filename: "+infos["imgfname"])
 			continue
-		thservice = URIRef(infos["service"])
+		# case of BDRC good old volumes
+		thservice = URIRef("https://iiif.bdrc.io/"+infos["igQname"]+"::"+infos["imgfname"])
 		res.add( (instanceRes, TMP.thumbnailIIIFService, thservice) )
 		res.add( (iinstanceRes, TMP.thumbnailIIIFService, thservice) )
 	

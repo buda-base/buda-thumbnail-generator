@@ -19,6 +19,7 @@ import gzip
 import sys
 from datetime import datetime
 import time
+import re
 
 BASE_MAX_DIM=370
 BASE_CROP_DIM=185
@@ -212,7 +213,8 @@ def getThumbnailForIIIFManifest(manifestUrl):
         resp = requests.get(url=manifestUrl)
         manifest = resp.json()
         firstseq = manifest["sequences"][0]
-        startcanvas = firstseq["canvases"][0]
+        firstidx = manifestUrl.startswith("https://iiif.archivelab.org") and 1 or 0
+        startcanvas = firstseq["canvases"][firstidx]
         if "startCanvas" in firstseq:
             startcanvasid = firstseq["startCanvas"]
             for canvas in firstseq["canvases"]:
@@ -222,9 +224,15 @@ def getThumbnailForIIIFManifest(manifestUrl):
         res["service"] = startcanvas["images"][0]["resource"]["@id"]
         return res
     finally:
-        return res
+        print("can't find proper canvas for "+manifestUrl)
+        return None
 
 def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=False, getMissingDimensions=False, refreshIIIF=False):
+    # if file name is the same as an image instance already present in the database, don't read file:
+    likelyiiQname = "bdr:"+Path(iiFilePath).stem
+    if (not forceIfPresent) and likelyiiQname in iiifdb:
+        return
+    tqdm.write("read "+iiFilePath)
     # read file
     model = ConjunctiveGraph()
     model.parse(str(iiFilePath), format="trig")
@@ -239,7 +247,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
         tqdm.write("can't find first volume in "+iiFilePath)
         return
     # get first volume local name:
-    _, _, firstVolLname = NSM.compute_qname_strict(firstvolRes)
+    firstVolQname, _, firstVolLname = NSM.compute_qname_strict(firstvolRes)
     # get image instance local name
     iinstanceRes = None
     for s, p, o in model.triples( (None, BDO.instanceHasVolume, firstvolRes) ):
@@ -247,7 +255,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     if iinstanceRes is None:
         tqdm.write("can't find iinstance in "+iinstanceLname)
         return
-    _, _, iinstanceLname = NSM.compute_qname_strict(iinstanceRes)
+    iinstanceQname, _, iinstanceLname = NSM.compute_qname_strict(iinstanceRes)
     # get instance
     instanceRes = None
     for s, p, o in model.triples( (iinstanceRes, BDO.instanceReproductionOf, None) ):
@@ -255,25 +263,32 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     if instanceRes is None:
         tqdm.write("can't find instance in "+iinstanceLname)
         return
-    _, _, instanceLname = NSM.compute_qname_strict(instanceRes)
+    instanceQname, _, instanceLname = NSM.compute_qname_strict(instanceRes)
+
+    if not modelLikelySynced(model, iinstanceLname):
+        tqdm.write("likelynotsynced: "+iinstanceLname)
+        return
     
     # ignore if we know the list is missing
-    if (not forceIfPresent) and (iinstanceLname+'-'+firstVolLname) in missinglists:
-        return
+    #if (not forceIfPresent) and (iinstanceLname+'-'+firstVolLname) in missinglists:
+    #    return
     # TODO: in a first time, we just add stuff, we don't modify anything if it's there
     # but in the future we should check the commit of the trig file. We could also assume
     # that external manifests never change
-    if (not forceIfPresent) and str(instanceRes) in iiifdb:
+    if (not forceIfPresent) and iinstanceQname in iiifdb:
         return
     # handle external iiif case:
     for s, p, o in model.triples( (firstvolRes, BDO.hasIIIFManifest, None) ):
-        if str(instanceRes) in iiifdb and not refreshIIIF:
+        if iinstanceQname in iiifdb and not refreshIIIF:
             return
         manifestUrl = str(o)
         iiifthumbnail = getThumbnailForIIIFManifest(manifestUrl)
-        iiifthumbnail["infotimestamp"] = datetime.now().isoformat()
-        iiifthumbnail["imagegroup"] = str(firstvolRes)
-        iiifdb[str(instanceRes)] = iiifthumbnail
+        if iiifthumbnail is None:
+            return
+        #iiifthumbnail["infotimestamp"] = datetime.now().isoformat()
+        iiifthumbnail["igQname"] = firstVolQname
+        iiifthumbnail["instanceQname"] = instanceQname
+        iiifdb[iinstanceQname] = iiifthumbnail
         return iiifthumbnail
     # get image list
     imglist = getImageList(iinstanceLname, firstVolLname, forceRefreshDimensions, getMissingDimensions)
@@ -297,19 +312,24 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     thumbnailserviceiinfo = imglist[thumbnailserviceidx]
     canvasurl = "https://iiifpres.bdrc.io/v:bdr:"+firstVolLname+"/canvas/"+thumbnailserviceiinfo["filename"]
     serviceurl = "https://iiif.bdrc.io/bdr:"+firstVolLname+"::"+thumbnailserviceiinfo["filename"]
-    iiifinfo = {"canvas": canvasurl, "service": serviceurl}
-    iiifinfo["infotimestamp"] = datetime.now().isoformat()
-    iiifinfo["imagegroup"] = str(firstvolRes)
+    iiifinfo = {"imgfname": thumbnailserviceiinfo["filename"]}
+    #iiifinfo["infotimestamp"] = datetime.now().isoformat()
+    iiifinfo["igQname"] = firstVolQname
+    iiifinfo["instanceQname"] = instanceQname
+
     if not tbrcintroimagesoriginal:
         iiifinfo["guessedtbrcintroimages"] = tbrcintroimages
     iiifdb[str(instanceRes)] = iiifinfo
     return iiifinfo
-    # get image
-    # getImage
-    # get/createinfo
-    # thumbnailizeandwriteinfo
-    # uploadthumbnail
 
+OLDP = re.compile(r"^W\d+$")
+
+def modelLikelySynced(model, iinstanceLname):
+    if OLDP.match(iinstanceLname):
+        return True
+    if (None,  BDO.hasIIIFManifest, None) in model:
+        return True
+    return (None,  RDF.type, ADM.Synced) in model
 
 def mainIiif(wrid=None):
     # this currently only generates iiifdb.yml
@@ -385,5 +405,4 @@ def testcache():
             print(json.loads(gzipfile.read()))
 
 #testcache()
-
 #testGetIIIFTh()

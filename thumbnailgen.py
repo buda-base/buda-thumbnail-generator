@@ -227,6 +227,18 @@ def getThumbnailForIIIFManifest(manifestUrl):
         print("can't find proper canvas for "+manifestUrl)
         return None
 
+def getFirstSyncedVolume(model):
+    for s, p, o in model.triples( (None, BDO.volumeNumber, Literal(1)) ):
+        return s
+    # no volume 1, looking for other volumes:
+    firstVolnum = 99999
+    firstVol = None
+    for s, p, o in model.triples( (None, BDO.volumeNumber, None) ):
+        if int(o) < firstVolnum:
+            firstVolnum = int(o)
+            firstVol = s
+    return firstVol
+
 def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent=False, forceRefreshDimensions=True, getMissingDimensions=True, refreshIIIF=False):
     # if file name is the same as an image instance already present in the database, don't read file:
     likelyiiQname = "bdr:"+Path(iiFilePath).stem
@@ -240,9 +252,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     if (None,  ADM.status, BDA.StatusReleased) not in model:
         return
     # get first volume resource
-    firstvolRes = None
-    for s, p, o in model.triples( (None, BDO.volumeNumber, Literal(1)) ):
-        firstvolRes = s
+    firstvolRes = getFirstSyncedVolume(model)
     if firstvolRes is None:
         tqdm.write("can't find first volume in "+iiFilePath)
         return
@@ -380,7 +390,7 @@ def mainIiif(wrid=None):
     print("writing iiifdb.yml")
     if i > 0:
         with open("iiifdb.yml", 'w') as stream:
-            yaml.dump(iiifdb, stream)
+            yaml.dump(iiifdb, stream, default_flow_style=False)
         with open("missinglists.yml", 'w') as stream:
             yaml.dump(missinglists, stream)
 

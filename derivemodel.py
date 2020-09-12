@@ -1,6 +1,7 @@
 import yaml
 from rdflib import URIRef, Literal, BNode, Graph, ConjunctiveGraph
 from rdflib.namespace import RDF, RDFS, SKOS, OWL, Namespace, NamespaceManager, XSD
+import sys
 
 BDR = Namespace("http://purl.bdrc.io/resource/")
 BDO = Namespace("http://purl.bdrc.io/ontology/core/")

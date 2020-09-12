@@ -18,9 +18,11 @@ with the third argument properly set. Then to derive and upload the RDF:
 
 
 ```
-python3 derivemodel.py
+python3 derivemodel.py iiif_prefix
 curl -X PUT -H Content-Type:text/turtle -T thumbnails.ttl -G http://buda1.bdrc.io:13180/fuseki/corerw/data --data-urlencode 'graph=http://purl.bdrc.io/graph/thumbnails'
 ```
+
+where `iiif_prefix` is the start of the iiifserv url, defaulting to `https://iiif.bdrc.io/`.
 
 ## Configuration
 
@@ -28,4 +30,3 @@ The script supposes that it can access AWS credentials with the name `thumbgen`,
 - read the `archive.tbrc.org` bucket
 
 It also supposes that a `thumbnailgen` AWS user is configured on the machine and has credentials accessible to the script.
-

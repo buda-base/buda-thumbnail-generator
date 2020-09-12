@@ -19,6 +19,10 @@ NSM.bind("adm", ADM)
 NSM.bind("skos", SKOS)
 NSM.bind("rdfs", RDFS)
 
+IIIFPREFIX = "https://iiif.bdrc.io/"
+if len(sys.argv) > 1:
+    IIIFPREFIX = sys.argv[1]
+
 def main():
 	iiifdb = {}
 	with open("iiifdb.yml", 'r') as stream:
@@ -37,7 +41,7 @@ def main():
 			print("space in filename: "+infos["imgfname"])
 			continue
 		# case of BDRC good old volumes
-		thservice = URIRef("https://iiif.bdrc.io/"+infos["igQname"]+"::"+infos["imgfname"])
+		thservice = URIRef(IIIFPREFIX+infos["igQname"]+"::"+infos["imgfname"])
 		res.add( (instanceRes, TMP.thumbnailIIIFService, thservice) )
 		res.add( (iinstanceRes, TMP.thumbnailIIIFService, thservice) )
 	

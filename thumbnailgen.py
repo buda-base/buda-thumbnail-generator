@@ -30,6 +30,10 @@ GITPATH = "../xmltoldmigration/tbrc-ttl/iinstances/"
 if len(sys.argv) > 1:
     GITPATH = sys.argv[1]
 
+VERBMODE = "-v"
+if len(sys.argv) > 2:
+    VERBMODE = sys.argv[2]
+
 BDR = Namespace("http://purl.bdrc.io/resource/")
 BDO = Namespace("http://purl.bdrc.io/ontology/core/")
 TMP = Namespace("http://purl.bdrc.io/ontology/tmp/")
@@ -302,6 +306,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
         iiifthumbnail["igQname"] = firstVolQname
         iiifthumbnail["instanceQname"] = instanceQname
         iiifdb[iinstanceQname] = iiifthumbnail
+        tqdm.write("new thumbnail for "+iinstanceLname)
         return iiifthumbnail
     # get image list
     imglist = getImageList(iinstanceLname, firstVolLname, forceRefreshDimensions, getMissingDimensions)
@@ -332,6 +337,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
 
     if not tbrcintroimagesoriginal:
         iiifinfo["guessedtbrcintroimages"] = tbrcintroimages
+    tqdm.write("new thumbnail for "+iinstanceLname)
     iiifdb[iinstanceQname] = iiifinfo
     return iiifinfo
 
@@ -372,7 +378,8 @@ def mainIiif(wrid=None):
         print(yaml.dump(iiifinfo))
         return
     i = 0
-    for fname in tqdm(sorted(glob.glob(GITPATH+'/**/W*.trig'))):
+    l = sorted(glob.glob(GITPATH+'/**/W*.trig'))
+    for fname in VERBMODE == "-v" and tqdm(l) or l:
         thumbnailForIiFile(fname, None, iiifdb, missinglists)
         i += 1
         #if i>= 1000:

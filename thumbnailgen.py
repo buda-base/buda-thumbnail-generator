@@ -231,6 +231,17 @@ def getThumbnailForIIIFManifest(manifestUrl):
         print("can't find proper canvas for "+manifestUrl)
         return None
 
+def hasImages(res, model):
+    total = 0
+    for _, _, t in model.triples( (res, BDO.volumePagesTotal, None) ):
+        total = int(t)
+    if total == 0:
+        return False
+    for _, _, ip in model.triples( (res, BDO.volumePagesTbrcIntro, None) ):
+        if int(ip) >= total:
+            return False
+    return True
+
 def isSynced(res, model):
     for adm, _, _ in model.triples( (None, ADM.adminAbout, res) ):
         for _, _, le in model.triples( (adm, ADM.logEntry, None) ):
@@ -239,13 +250,12 @@ def isSynced(res, model):
     return False
 
 def getFirstSyncedVolume(model):
-    for s, p, o in model.triples( (None, BDO.volumeNumber, Literal(1)) ):
-        return s
-    # no volume 1, looking for other volumes:
     firstVolnum = 99999
     firstVol = None
     for s, p, o in model.triples( (None, BDO.volumeNumber, None) ):
         if not isSynced(s, model):
+            continue
+        if not hasImages(s, model):
             continue
         if int(o) < firstVolnum:
             firstVolnum = int(o)
@@ -267,7 +277,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     # get first volume resource
     firstvolRes = getFirstSyncedVolume(model)
     if firstvolRes is None:
-        tqdm.write("can't find first volume in "+iiFilePath)
+        #tqdm.write("can't find first volume with images in "+iiFilePath)
         return
     # get first volume local name:
     firstVolPref, _, firstVolLname = NSM.compute_qname_strict(firstvolRes)
@@ -364,7 +374,11 @@ def modelLikelySynced(model, iinstanceLname):
         return True
     return False
 
-def mainIiif(wrid=None):
+def mainIiif(wrid=None, modelpath=None):
+    if wrid is not None:
+        md5 = hashlib.md5(str.encode(wrid))
+        two = md5.hexdigest()[:2]
+        modelpath = GITPATH+'/'+two+'/'+wrid+'.trig'
     # this currently only generates iiifdb.yml
     # create image list cache dir
     cachedir = Path("cache/il/")
@@ -372,18 +386,15 @@ def mainIiif(wrid=None):
         os.makedirs(str(cachedir))
     # read iiifdb
     iiifdb = {}
-    if Path("iiifdb.yml").is_file():
+    if modelpath is None and Path("iiifdb.yml").is_file():
         with open("iiifdb.yml", 'r') as stream:
             iiifdb = yaml.safe_load(stream)
     missinglists = []
     if Path("missinglists.yml").is_file():
         with open("missinglists.yml", 'r') as stream:
             missinglists = yaml.safe_load(stream)
-    # TODO: get iinstances path from cli
-    if wrid is not None:
-        md5 = hashlib.md5(str.encode(wrid))
-        two = md5.hexdigest()[:2]
-        iiifinfo = thumbnailForIiFile(GITPATH+'/'+two+'/'+wrid+'.trig', None, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=True)
+    if modelpath is not None:
+        iiifinfo = thumbnailForIiFile(modelpath, None, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=True)
         print(yaml.dump(iiifinfo))
         return
     i = 0

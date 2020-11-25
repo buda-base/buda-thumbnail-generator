@@ -231,6 +231,13 @@ def getThumbnailForIIIFManifest(manifestUrl):
         print("can't find proper canvas for "+manifestUrl)
         return None
 
+def isSynced(res, model):
+    for adm, _, _ in model.triples( (None, ADM.adminAbout, res) ):
+        for _, _, le in model.triples( (adm, ADM.logEntry, None) ):
+            if (le, RDF.type, ADM.Synced) in model:
+                return True
+    return False
+
 def getFirstSyncedVolume(model):
     for s, p, o in model.triples( (None, BDO.volumeNumber, Literal(1)) ):
         return s
@@ -238,6 +245,8 @@ def getFirstSyncedVolume(model):
     firstVolnum = 99999
     firstVol = None
     for s, p, o in model.triples( (None, BDO.volumeNumber, None) ):
+        if not isSynced(s, model):
+            continue
         if int(o) < firstVolnum:
             firstVolnum = int(o)
             firstVol = s

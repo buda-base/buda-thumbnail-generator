@@ -3364,6 +3364,141 @@ bdr:W0IA_HOD68:
   igQname: bdr:I0IA_HOD68
   instanceQname: bdr:MW0IA_HOD68
   service: https://iiif.archivelab.org/iiif/rashodgson68$1
+bdr:W0IA_HOD46:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson46$1/canvas
+  igQname: bdr:I0IA_HOD46
+  instanceQname: bdr:MW0IA_HOD46
+  service: https://iiif.archivelab.org/iiif/rashodgson46$1
+bdr:W0IA_HOD74:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson74$1/canvas
+  igQname: bdr:I0IA_HOD74
+  instanceQname: bdr:MW0IA_HOD74
+  service: https://iiif.archivelab.org/iiif/rashodgson74$1
+bdr:W0IA_HOD69:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson69$1/canvas
+  igQname: bdr:I0IA_HOD69
+  instanceQname: bdr:MW0IA_HOD69
+  service: https://iiif.archivelab.org/iiif/rashodgson69$1
+bdr:W0IA_HOD2:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson2$1/canvas
+  igQname: bdr:I0IA_HOD2
+  instanceQname: bdr:MW0IA_HOD2
+  service: https://iiif.archivelab.org/iiif/rashodgson2$1
+bdr:W0IA_HOD34:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson34$1/canvas
+  igQname: bdr:I0IA_HOD34
+  instanceQname: bdr:MW0IA_HOD34
+  service: https://iiif.archivelab.org/iiif/rashodgson34$1
+bdr:W0IA_HOD70:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson70$1/canvas
+  igQname: bdr:I0IA_HOD70
+  instanceQname: bdr:MW0IA_HOD70
+  service: https://iiif.archivelab.org/iiif/rashodgson70$1
+bdr:W0IA_HOD42:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson42$1/canvas
+  igQname: bdr:I0IA_HOD42
+  instanceQname: bdr:MW0IA_HOD42
+  service: https://iiif.archivelab.org/iiif/rashodgson42$1
+bdr:W0IA_HOD17:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson17$1/canvas
+  igQname: bdr:I0IA_HOD17
+  instanceQname: bdr:MW0IA_HOD17
+  service: https://iiif.archivelab.org/iiif/rashodgson17$1
+bdr:W0IA_HOD39:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson39$1/canvas
+  igQname: bdr:I0IA_HOD39
+  instanceQname: bdr:MW0IA_HOD39
+  service: https://iiif.archivelab.org/iiif/rashodgson39$1
+bdr:W0IA_HOD40:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson40$1/canvas
+  igQname: bdr:I0IA_HOD40
+  instanceQname: bdr:MW0IA_HOD40
+  service: https://iiif.archivelab.org/iiif/rashodgson40$1
+bdr:W0IA_HOD21:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson21$1/canvas
+  igQname: bdr:I0IA_HOD21
+  instanceQname: bdr:MW0IA_HOD21
+  service: https://iiif.archivelab.org/iiif/rashodgson21$1
+bdr:W0IA_HOD28:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson28$1/canvas
+  igQname: bdr:I0IA_HOD28
+  instanceQname: bdr:MW0IA_HOD28
+  service: https://iiif.archivelab.org/iiif/rashodgson28$1
+bdr:W0IA_HOD38:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson38$1/canvas
+  igQname: bdr:I0IA_HOD38
+  instanceQname: bdr:MW0IA_HOD38
+  service: https://iiif.archivelab.org/iiif/rashodgson38$1
+bdr:W0IA_HOD35:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson35$1/canvas
+  igQname: bdr:I0IA_HOD35
+  instanceQname: bdr:MW0IA_HOD35
+  service: https://iiif.archivelab.org/iiif/rashodgson35$1
+bdr:W0IA_HOD18:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson18$1/canvas
+  igQname: bdr:I0IA_HOD18
+  instanceQname: bdr:MW0IA_HOD18
+  service: https://iiif.archivelab.org/iiif/rashodgson18$1
+bdr:W0IA_HOD41:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson41$1/canvas
+  igQname: bdr:I0IA_HOD41
+  instanceQname: bdr:MW0IA_HOD41
+  service: https://iiif.archivelab.org/iiif/rashodgson41$1
+bdr:W0IA_HOD23:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson23$1/canvas
+  igQname: bdr:I0IA_HOD23
+  instanceQname: bdr:MW0IA_HOD23
+  service: https://iiif.archivelab.org/iiif/rashodgson23$1
+bdr:W0IA_HOD29:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson29$1/canvas
+  igQname: bdr:I0IA_HOD29
+  instanceQname: bdr:MW0IA_HOD29
+  service: https://iiif.archivelab.org/iiif/rashodgson29$1
+bdr:W0IA_HOD66:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson66$1/canvas
+  igQname: bdr:I0IA_HOD66
+  instanceQname: bdr:MW0IA_HOD66
+  service: https://iiif.archivelab.org/iiif/rashodgson66$1
+bdr:W0IA_HOD65:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson65$1/canvas
+  igQname: bdr:I0IA_HOD65
+  instanceQname: bdr:MW0IA_HOD65
+  service: https://iiif.archivelab.org/iiif/rashodgson65$1
+bdr:W0IA_HOD50:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson50$1/canvas
+  igQname: bdr:I0IA_HOD50
+  instanceQname: bdr:MW0IA_HOD50
+  service: https://iiif.archivelab.org/iiif/rashodgson50$1
+bdr:W0IA_HOD73:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson73$1/canvas
+  igQname: bdr:I0IA_HOD73
+  instanceQname: bdr:MW0IA_HOD73
+  service: https://iiif.archivelab.org/iiif/rashodgson73$1
+bdr:W0IA_HOD48:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson48$1/canvas
+  igQname: bdr:I0IA_HOD48
+  instanceQname: bdr:MW0IA_HOD48
+  service: https://iiif.archivelab.org/iiif/rashodgson48$1
+bdr:W0IA_HOD52:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson52$1/canvas
+  igQname: bdr:I0IA_HOD52
+  instanceQname: bdr:MW0IA_HOD52
+  service: https://iiif.archivelab.org/iiif/rashodgson52$1
+bdr:W0IA_HOD49:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson49$1/canvas
+  igQname: bdr:I0IA_HOD49
+  instanceQname: bdr:MW0IA_HOD49
+  service: https://iiif.archivelab.org/iiif/rashodgson49$1
+bdr:W0IA_HOD54:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson54$1/canvas
+  igQname: bdr:I0IA_HOD54
+  instanceQname: bdr:MW0IA_HOD54
+  service: https://iiif.archivelab.org/iiif/rashodgson54$1
+bdr:W0IA_HOD47:
+  canvas: https://iiif.archivelab.org/iiif/rashodgson47$1/canvas
+  igQname: bdr:I0IA_HOD47
+  instanceQname: bdr:MW0IA_HOD47
+  service: https://iiif.archivelab.org/iiif/rashodgson47$1
 bdr:W0TTBBC0001:
   igQname: bdr:I0TTBBC0001_001
   imgfname: I0TTBBC0001_0010001.jpg

@@ -247,6 +247,9 @@ def isSynced(res, model):
         for _, _, le in model.triples( (adm, ADM.logEntry, None) ):
             if (le, RDF.type, ADM.Synced) in model:
                 return True
+            if le == BDA.LGIGS001:
+                # There are probably edge cases where this doesn't work...
+                return True
     return False
 
 def getFirstSyncedVolume(model):
@@ -254,8 +257,10 @@ def getFirstSyncedVolume(model):
     firstVol = None
     for s, p, o in model.triples( (None, BDO.volumeNumber, None) ):
         if not isSynced(s, model):
+            #print("vol %d not synced" % int(o))
             continue
         if not hasImages(s, model):
+            #print("vol %d no images" % int(o))
             continue
         if int(o) < firstVolnum:
             firstVolnum = int(o)
@@ -422,7 +427,7 @@ def mainIiif(wrid=None, modelpath=None):
             yaml.dump(missinglists, stream)
 
 
-#mainIiif("W20325")
+#mainIiif("W1PD166109")
 mainIiif()
 
 def testThgen():

@@ -283,7 +283,6 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     model.parse(str(iiFilePath), format="trig")
     # if status != released, pass
     if (None,  ADM.status, BDA.StatusReleased) not in model:
-       print("return 0")
        return
     # get first volume resource
     firstvolRes = getFirstSyncedVolume(model)

@@ -227,7 +227,7 @@ def getThumbnailForIIIFManifest(manifestUrl):
         res["canvas"] = startcanvas["@id"]
         res["service"] = startcanvas["images"][0]["resource"]["@id"]
         return res
-    finally:
+    except:
         print("can't find proper canvas for "+manifestUrl)
         return None
 
@@ -256,6 +256,11 @@ def getFirstSyncedVolume(model):
     firstVolnum = 99999
     firstVol = None
     for s, p, o in model.triples( (None, BDO.volumeNumber, None) ):
+        if (s, BDO.hasIIIFManifest, None) in model:
+            if int(o) < firstVolnum:
+                firstVolnum = int(o)
+                firstVol = s
+            continue
         if not isSynced(s, model):
             #print("vol %d not synced" % int(o))
             continue
@@ -278,7 +283,8 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     model.parse(str(iiFilePath), format="trig")
     # if status != released, pass
     if (None,  ADM.status, BDA.StatusReleased) not in model:
-        return
+       print("return 0")
+       return
     # get first volume resource
     firstvolRes = getFirstSyncedVolume(model)
     if firstvolRes is None:
@@ -292,7 +298,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     for s, p, o in model.triples( (None, BDO.instanceHasVolume, firstvolRes) ):
         iinstanceRes = s
     if iinstanceRes is None:
-        tqdm.write("can't find iinstance in "+iinstanceLname)
+        tqdm.write("can't find iinstance in "+iiFilePath)
         return
     iinstancePref, _, iinstanceLname = NSM.compute_qname_strict(iinstanceRes)
     iinstanceQname = iinstancePref+":"+iinstanceLname
@@ -427,7 +433,7 @@ def mainIiif(wrid=None, modelpath=None):
             yaml.dump(missinglists, stream)
 
 
-#mainIiif("W1PD166109")
+#mainIiif("WEAP039-1-4-259")
 mainIiif()
 
 def testThgen():
@@ -449,6 +455,7 @@ def testGetIIIFTh():
     print(getThumbnailForIIIFManifest("https://eap.bl.uk/archive-file/EAP676-12-2/manifest"))
     print(getThumbnailForIIIFManifest("https://iiif.archivelab.org/iiif/rashodgson13/manifest.json"))
     print(getThumbnailForIIIFManifest("https://cudl.lib.cam.ac.uk/iiif/MS-OR-00159"))
+    print(getThumbnailForIIIFManifest("https://eap.bl.uk/archive-file/EAP039-1-4-259/manifest"))
 
 def testcache():
     cachepath = Path("cache/il/I00EGS1017179.json.gz")

@@ -121363,6 +121363,4076 @@ bdr:W9935:
   igQname: bdr:I1KG8939
   imgfname: I1KG89390010.tif
   instanceQname: bdr:MW9935
+bdr:WEAP039-1-2-1:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-2-1/canvas/1
+  igQname: bdr:IEAP039-1-2-1
+  instanceQname: bdr:MWEAP039-1-2-1
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_2_1/1.jp2
+bdr:WEAP039-1-2-2:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-2-2/canvas/1
+  igQname: bdr:IEAP039-1-2-2
+  instanceQname: bdr:MWEAP039-1-2-2
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_2_2/1.jp2
+bdr:WEAP039-1-2-3:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-2-3/canvas/1
+  igQname: bdr:IEAP039-1-2-3
+  instanceQname: bdr:MWEAP039-1-2-3
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_2_3/1.jp2
+bdr:WEAP039-1-2-4:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-2-4/canvas/1
+  igQname: bdr:IEAP039-1-2-4
+  instanceQname: bdr:MWEAP039-1-2-4
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_2_4/1.jp2
+bdr:WEAP039-1-2-5:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-2-5/canvas/1
+  igQname: bdr:IEAP039-1-2-5
+  instanceQname: bdr:MWEAP039-1-2-5
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_2_5/1.jp2
+bdr:WEAP039-1-2-6:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-2-6/canvas/1
+  igQname: bdr:IEAP039-1-2-6
+  instanceQname: bdr:MWEAP039-1-2-6
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_2_6/1.jp2
+bdr:WEAP039-1-2-7:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-2-7/canvas/1
+  igQname: bdr:IEAP039-1-2-7
+  instanceQname: bdr:MWEAP039-1-2-7
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_2_7/1.jp2
+bdr:WEAP039-1-4-1:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-1/canvas/1
+  igQname: bdr:IEAP039-1-4-1
+  instanceQname: bdr:MWEAP039-1-4-1
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_1/1.jp2
+bdr:WEAP039-1-4-10:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-10/canvas/1
+  igQname: bdr:IEAP039-1-4-10
+  instanceQname: bdr:MWEAP039-1-4-10
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_10/1.jp2
+bdr:WEAP039-1-4-100:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-100/canvas/1
+  igQname: bdr:IEAP039-1-4-100
+  instanceQname: bdr:MWEAP039-1-4-100
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_100/1.jp2
+bdr:WEAP039-1-4-101:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-101/canvas/1
+  igQname: bdr:IEAP039-1-4-101
+  instanceQname: bdr:MWEAP039-1-4-101
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_101/1.jp2
+bdr:WEAP039-1-4-102:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-102/canvas/1
+  igQname: bdr:IEAP039-1-4-102
+  instanceQname: bdr:MWEAP039-1-4-102
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_102/1.jp2
+bdr:WEAP039-1-4-103:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-103/canvas/1
+  igQname: bdr:IEAP039-1-4-103
+  instanceQname: bdr:MWEAP039-1-4-103
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_103/1.jp2
+bdr:WEAP039-1-4-104:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-104/canvas/1
+  igQname: bdr:IEAP039-1-4-104
+  instanceQname: bdr:MWEAP039-1-4-104
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_104/1.jp2
+bdr:WEAP039-1-4-105:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-105/canvas/1
+  igQname: bdr:IEAP039-1-4-105
+  instanceQname: bdr:MWEAP039-1-4-105
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_105/1.jp2
+bdr:WEAP039-1-4-106:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-106/canvas/1
+  igQname: bdr:IEAP039-1-4-106
+  instanceQname: bdr:MWEAP039-1-4-106
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_106/1.jp2
+bdr:WEAP039-1-4-107:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-107/canvas/1
+  igQname: bdr:IEAP039-1-4-107
+  instanceQname: bdr:MWEAP039-1-4-107
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_107/1.jp2
+bdr:WEAP039-1-4-108:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-108/canvas/1
+  igQname: bdr:IEAP039-1-4-108
+  instanceQname: bdr:MWEAP039-1-4-108
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_108/1.jp2
+bdr:WEAP039-1-4-109:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-109/canvas/1
+  igQname: bdr:IEAP039-1-4-109
+  instanceQname: bdr:MWEAP039-1-4-109
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_109/1.jp2
+bdr:WEAP039-1-4-11:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-11/canvas/1
+  igQname: bdr:IEAP039-1-4-11
+  instanceQname: bdr:MWEAP039-1-4-11
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_11/1.jp2
+bdr:WEAP039-1-4-110:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-110/canvas/1
+  igQname: bdr:IEAP039-1-4-110
+  instanceQname: bdr:MWEAP039-1-4-110
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_110/1.jp2
+bdr:WEAP039-1-4-111:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-111/canvas/1
+  igQname: bdr:IEAP039-1-4-111
+  instanceQname: bdr:MWEAP039-1-4-111
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_111/1.jp2
+bdr:WEAP039-1-4-112:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-112/canvas/1
+  igQname: bdr:IEAP039-1-4-112
+  instanceQname: bdr:MWEAP039-1-4-112
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_112/1.jp2
+bdr:WEAP039-1-4-113:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-113/canvas/1
+  igQname: bdr:IEAP039-1-4-113
+  instanceQname: bdr:MWEAP039-1-4-113
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_113/1.jp2
+bdr:WEAP039-1-4-114:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-114/canvas/1
+  igQname: bdr:IEAP039-1-4-114
+  instanceQname: bdr:MWEAP039-1-4-114
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_114/1.jp2
+bdr:WEAP039-1-4-115:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-115/canvas/1
+  igQname: bdr:IEAP039-1-4-115
+  instanceQname: bdr:MWEAP039-1-4-115
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_115/1.jp2
+bdr:WEAP039-1-4-116:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-116/canvas/1
+  igQname: bdr:IEAP039-1-4-116
+  instanceQname: bdr:MWEAP039-1-4-116
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_116/1.jp2
+bdr:WEAP039-1-4-117:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-117/canvas/1
+  igQname: bdr:IEAP039-1-4-117
+  instanceQname: bdr:MWEAP039-1-4-117
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_117/1.jp2
+bdr:WEAP039-1-4-118:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-118/canvas/1
+  igQname: bdr:IEAP039-1-4-118
+  instanceQname: bdr:MWEAP039-1-4-118
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_118/1.jp2
+bdr:WEAP039-1-4-119:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-119/canvas/1
+  igQname: bdr:IEAP039-1-4-119
+  instanceQname: bdr:MWEAP039-1-4-119
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_119/1.jp2
+bdr:WEAP039-1-4-12:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-12/canvas/1
+  igQname: bdr:IEAP039-1-4-12
+  instanceQname: bdr:MWEAP039-1-4-12
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_12/1.jp2
+bdr:WEAP039-1-4-120:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-120/canvas/1
+  igQname: bdr:IEAP039-1-4-120
+  instanceQname: bdr:MWEAP039-1-4-120
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_120/1.jp2
+bdr:WEAP039-1-4-121:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-121/canvas/1
+  igQname: bdr:IEAP039-1-4-121
+  instanceQname: bdr:MWEAP039-1-4-121
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_121/1.jp2
+bdr:WEAP039-1-4-122:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-122/canvas/1
+  igQname: bdr:IEAP039-1-4-122
+  instanceQname: bdr:MWEAP039-1-4-122
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_122/1.jp2
+bdr:WEAP039-1-4-123:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-123/canvas/1
+  igQname: bdr:IEAP039-1-4-123
+  instanceQname: bdr:MWEAP039-1-4-123
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_123/1.jp2
+bdr:WEAP039-1-4-124:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-124/canvas/1
+  igQname: bdr:IEAP039-1-4-124
+  instanceQname: bdr:MWEAP039-1-4-124
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_124/1.jp2
+bdr:WEAP039-1-4-125:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-125/canvas/1
+  igQname: bdr:IEAP039-1-4-125
+  instanceQname: bdr:MWEAP039-1-4-125
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_125/1.jp2
+bdr:WEAP039-1-4-126:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-126/canvas/1
+  igQname: bdr:IEAP039-1-4-126
+  instanceQname: bdr:MWEAP039-1-4-126
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_126/1.jp2
+bdr:WEAP039-1-4-127:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-127/canvas/1
+  igQname: bdr:IEAP039-1-4-127
+  instanceQname: bdr:MWEAP039-1-4-127
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_127/1.jp2
+bdr:WEAP039-1-4-128:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-128/canvas/1
+  igQname: bdr:IEAP039-1-4-128
+  instanceQname: bdr:MWEAP039-1-4-128
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_128/1.jp2
+bdr:WEAP039-1-4-129:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-129/canvas/1
+  igQname: bdr:IEAP039-1-4-129
+  instanceQname: bdr:MWEAP039-1-4-129
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_129/1.jp2
+bdr:WEAP039-1-4-13:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-13/canvas/1
+  igQname: bdr:IEAP039-1-4-13
+  instanceQname: bdr:MWEAP039-1-4-13
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_13/1.jp2
+bdr:WEAP039-1-4-130:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-130/canvas/1
+  igQname: bdr:IEAP039-1-4-130
+  instanceQname: bdr:MWEAP039-1-4-130
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_130/1.jp2
+bdr:WEAP039-1-4-131:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-131/canvas/1
+  igQname: bdr:IEAP039-1-4-131
+  instanceQname: bdr:MWEAP039-1-4-131
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_131/1.jp2
+bdr:WEAP039-1-4-132:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-132/canvas/1
+  igQname: bdr:IEAP039-1-4-132
+  instanceQname: bdr:MWEAP039-1-4-132
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_132/1.jp2
+bdr:WEAP039-1-4-133:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-133/canvas/1
+  igQname: bdr:IEAP039-1-4-133
+  instanceQname: bdr:MWEAP039-1-4-133
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_133/1.jp2
+bdr:WEAP039-1-4-134:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-134/canvas/1
+  igQname: bdr:IEAP039-1-4-134
+  instanceQname: bdr:MWEAP039-1-4-134
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_134/1.jp2
+bdr:WEAP039-1-4-135:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-135/canvas/1
+  igQname: bdr:IEAP039-1-4-135
+  instanceQname: bdr:MWEAP039-1-4-135
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_135/1.jp2
+bdr:WEAP039-1-4-136:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-136/canvas/1
+  igQname: bdr:IEAP039-1-4-136
+  instanceQname: bdr:MWEAP039-1-4-136
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_136/1.jp2
+bdr:WEAP039-1-4-137:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-137/canvas/1
+  igQname: bdr:IEAP039-1-4-137
+  instanceQname: bdr:MWEAP039-1-4-137
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_137/1.jp2
+bdr:WEAP039-1-4-138:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-138/canvas/1
+  igQname: bdr:IEAP039-1-4-138
+  instanceQname: bdr:MWEAP039-1-4-138
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_138/1.jp2
+bdr:WEAP039-1-4-139:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-139/canvas/1
+  igQname: bdr:IEAP039-1-4-139
+  instanceQname: bdr:MWEAP039-1-4-139
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_139/1.jp2
+bdr:WEAP039-1-4-14:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-14/canvas/1
+  igQname: bdr:IEAP039-1-4-14
+  instanceQname: bdr:MWEAP039-1-4-14
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_14/1.jp2
+bdr:WEAP039-1-4-140:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-140/canvas/1
+  igQname: bdr:IEAP039-1-4-140
+  instanceQname: bdr:MWEAP039-1-4-140
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_140/1.jp2
+bdr:WEAP039-1-4-141:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-141/canvas/1
+  igQname: bdr:IEAP039-1-4-141
+  instanceQname: bdr:MWEAP039-1-4-141
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_141/1.jp2
+bdr:WEAP039-1-4-142:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-142/canvas/1
+  igQname: bdr:IEAP039-1-4-142
+  instanceQname: bdr:MWEAP039-1-4-142
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_142/1.jp2
+bdr:WEAP039-1-4-143:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-143/canvas/1
+  igQname: bdr:IEAP039-1-4-143
+  instanceQname: bdr:MWEAP039-1-4-143
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_143/1.jp2
+bdr:WEAP039-1-4-144:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-144/canvas/1
+  igQname: bdr:IEAP039-1-4-144
+  instanceQname: bdr:MWEAP039-1-4-144
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_144/1.jp2
+bdr:WEAP039-1-4-145:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-145/canvas/1
+  igQname: bdr:IEAP039-1-4-145
+  instanceQname: bdr:MWEAP039-1-4-145
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_145/1.jp2
+bdr:WEAP039-1-4-146:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-146/canvas/1
+  igQname: bdr:IEAP039-1-4-146
+  instanceQname: bdr:MWEAP039-1-4-146
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_146/1.jp2
+bdr:WEAP039-1-4-147:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-147/canvas/1
+  igQname: bdr:IEAP039-1-4-147
+  instanceQname: bdr:MWEAP039-1-4-147
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_147/1.jp2
+bdr:WEAP039-1-4-148:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-148/canvas/1
+  igQname: bdr:IEAP039-1-4-148
+  instanceQname: bdr:MWEAP039-1-4-148
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_148/1.jp2
+bdr:WEAP039-1-4-149:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-149/canvas/1
+  igQname: bdr:IEAP039-1-4-149
+  instanceQname: bdr:MWEAP039-1-4-149
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_149/1.jp2
+bdr:WEAP039-1-4-15:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-15/canvas/1
+  igQname: bdr:IEAP039-1-4-15
+  instanceQname: bdr:MWEAP039-1-4-15
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_15/1.jp2
+bdr:WEAP039-1-4-150:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-150/canvas/1
+  igQname: bdr:IEAP039-1-4-150
+  instanceQname: bdr:MWEAP039-1-4-150
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_150/1.jp2
+bdr:WEAP039-1-4-151:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-151/canvas/1
+  igQname: bdr:IEAP039-1-4-151
+  instanceQname: bdr:MWEAP039-1-4-151
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_151/1.jp2
+bdr:WEAP039-1-4-152:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-152/canvas/1
+  igQname: bdr:IEAP039-1-4-152
+  instanceQname: bdr:MWEAP039-1-4-152
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_152/1.jp2
+bdr:WEAP039-1-4-153:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-153/canvas/1
+  igQname: bdr:IEAP039-1-4-153
+  instanceQname: bdr:MWEAP039-1-4-153
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_153/1.jp2
+bdr:WEAP039-1-4-154:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-154/canvas/1
+  igQname: bdr:IEAP039-1-4-154
+  instanceQname: bdr:MWEAP039-1-4-154
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_154/1.jp2
+bdr:WEAP039-1-4-155:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-155/canvas/1
+  igQname: bdr:IEAP039-1-4-155
+  instanceQname: bdr:MWEAP039-1-4-155
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_155/1.jp2
+bdr:WEAP039-1-4-156:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-156/canvas/1
+  igQname: bdr:IEAP039-1-4-156
+  instanceQname: bdr:MWEAP039-1-4-156
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_156/1.jp2
+bdr:WEAP039-1-4-157:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-157/canvas/1
+  igQname: bdr:IEAP039-1-4-157
+  instanceQname: bdr:MWEAP039-1-4-157
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_157/1.jp2
+bdr:WEAP039-1-4-158:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-158/canvas/1
+  igQname: bdr:IEAP039-1-4-158
+  instanceQname: bdr:MWEAP039-1-4-158
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_158/1.jp2
+bdr:WEAP039-1-4-159:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-159/canvas/1
+  igQname: bdr:IEAP039-1-4-159
+  instanceQname: bdr:MWEAP039-1-4-159
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_159/1.jp2
+bdr:WEAP039-1-4-16:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-16/canvas/1
+  igQname: bdr:IEAP039-1-4-16
+  instanceQname: bdr:MWEAP039-1-4-16
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_16/1.jp2
+bdr:WEAP039-1-4-160:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-160/canvas/1
+  igQname: bdr:IEAP039-1-4-160
+  instanceQname: bdr:MWEAP039-1-4-160
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_160/1.jp2
+bdr:WEAP039-1-4-161:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-161/canvas/1
+  igQname: bdr:IEAP039-1-4-161
+  instanceQname: bdr:MWEAP039-1-4-161
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_161/1.jp2
+bdr:WEAP039-1-4-162:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-162/canvas/1
+  igQname: bdr:IEAP039-1-4-162
+  instanceQname: bdr:MWEAP039-1-4-162
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_162/1.jp2
+bdr:WEAP039-1-4-163:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-163/canvas/1
+  igQname: bdr:IEAP039-1-4-163
+  instanceQname: bdr:MWEAP039-1-4-163
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_163/1.jp2
+bdr:WEAP039-1-4-164:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-164/canvas/1
+  igQname: bdr:IEAP039-1-4-164
+  instanceQname: bdr:MWEAP039-1-4-164
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_164/1.jp2
+bdr:WEAP039-1-4-165:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-165/canvas/1
+  igQname: bdr:IEAP039-1-4-165
+  instanceQname: bdr:MWEAP039-1-4-165
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_165/1.jp2
+bdr:WEAP039-1-4-166:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-166/canvas/1
+  igQname: bdr:IEAP039-1-4-166
+  instanceQname: bdr:MWEAP039-1-4-166
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_166/1.jp2
+bdr:WEAP039-1-4-167:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-167/canvas/1
+  igQname: bdr:IEAP039-1-4-167
+  instanceQname: bdr:MWEAP039-1-4-167
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_167/1.jp2
+bdr:WEAP039-1-4-168:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-168/canvas/1
+  igQname: bdr:IEAP039-1-4-168
+  instanceQname: bdr:MWEAP039-1-4-168
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_168/1.jp2
+bdr:WEAP039-1-4-169:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-169/canvas/1
+  igQname: bdr:IEAP039-1-4-169
+  instanceQname: bdr:MWEAP039-1-4-169
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_169/1.jp2
+bdr:WEAP039-1-4-17:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-17/canvas/1
+  igQname: bdr:IEAP039-1-4-17
+  instanceQname: bdr:MWEAP039-1-4-17
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_17/1.jp2
+bdr:WEAP039-1-4-170:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-170/canvas/1
+  igQname: bdr:IEAP039-1-4-170
+  instanceQname: bdr:MWEAP039-1-4-170
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_170/1.jp2
+bdr:WEAP039-1-4-171:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-171/canvas/1
+  igQname: bdr:IEAP039-1-4-171
+  instanceQname: bdr:MWEAP039-1-4-171
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_171/1.jp2
+bdr:WEAP039-1-4-172:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-172/canvas/1
+  igQname: bdr:IEAP039-1-4-172
+  instanceQname: bdr:MWEAP039-1-4-172
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_172/1.jp2
+bdr:WEAP039-1-4-173:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-173/canvas/1
+  igQname: bdr:IEAP039-1-4-173
+  instanceQname: bdr:MWEAP039-1-4-173
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_173/1.jp2
+bdr:WEAP039-1-4-174:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-174/canvas/1
+  igQname: bdr:IEAP039-1-4-174
+  instanceQname: bdr:MWEAP039-1-4-174
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_174/1.jp2
+bdr:WEAP039-1-4-175:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-175/canvas/1
+  igQname: bdr:IEAP039-1-4-175
+  instanceQname: bdr:MWEAP039-1-4-175
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_175/1.jp2
+bdr:WEAP039-1-4-176:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-176/canvas/1
+  igQname: bdr:IEAP039-1-4-176
+  instanceQname: bdr:MWEAP039-1-4-176
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_176/1.jp2
+bdr:WEAP039-1-4-177:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-177/canvas/1
+  igQname: bdr:IEAP039-1-4-177
+  instanceQname: bdr:MWEAP039-1-4-177
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_177/1.jp2
+bdr:WEAP039-1-4-178:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-178/canvas/1
+  igQname: bdr:IEAP039-1-4-178
+  instanceQname: bdr:MWEAP039-1-4-178
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_178/1.jp2
+bdr:WEAP039-1-4-179:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-179/canvas/1
+  igQname: bdr:IEAP039-1-4-179
+  instanceQname: bdr:MWEAP039-1-4-179
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_179/1.jp2
+bdr:WEAP039-1-4-18:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-18/canvas/1
+  igQname: bdr:IEAP039-1-4-18
+  instanceQname: bdr:MWEAP039-1-4-18
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_18/1.jp2
+bdr:WEAP039-1-4-180:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-180/canvas/1
+  igQname: bdr:IEAP039-1-4-180
+  instanceQname: bdr:MWEAP039-1-4-180
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_180/1.jp2
+bdr:WEAP039-1-4-181:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-181/canvas/1
+  igQname: bdr:IEAP039-1-4-181
+  instanceQname: bdr:MWEAP039-1-4-181
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_181/1.jp2
+bdr:WEAP039-1-4-182:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-182/canvas/1
+  igQname: bdr:IEAP039-1-4-182
+  instanceQname: bdr:MWEAP039-1-4-182
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_182/1.jp2
+bdr:WEAP039-1-4-183:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-183/canvas/1
+  igQname: bdr:IEAP039-1-4-183
+  instanceQname: bdr:MWEAP039-1-4-183
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_183/1.jp2
+bdr:WEAP039-1-4-184:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-184/canvas/1
+  igQname: bdr:IEAP039-1-4-184
+  instanceQname: bdr:MWEAP039-1-4-184
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_184/1.jp2
+bdr:WEAP039-1-4-185:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-185/canvas/1
+  igQname: bdr:IEAP039-1-4-185
+  instanceQname: bdr:MWEAP039-1-4-185
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_185/1.jp2
+bdr:WEAP039-1-4-186:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-186/canvas/1
+  igQname: bdr:IEAP039-1-4-186
+  instanceQname: bdr:MWEAP039-1-4-186
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_186/1.jp2
+bdr:WEAP039-1-4-187:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-187/canvas/1
+  igQname: bdr:IEAP039-1-4-187
+  instanceQname: bdr:MWEAP039-1-4-187
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_187/1.jp2
+bdr:WEAP039-1-4-188:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-188/canvas/1
+  igQname: bdr:IEAP039-1-4-188
+  instanceQname: bdr:MWEAP039-1-4-188
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_188/1.jp2
+bdr:WEAP039-1-4-189:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-189/canvas/1
+  igQname: bdr:IEAP039-1-4-189
+  instanceQname: bdr:MWEAP039-1-4-189
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_189/1.jp2
+bdr:WEAP039-1-4-19:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-19/canvas/1
+  igQname: bdr:IEAP039-1-4-19
+  instanceQname: bdr:MWEAP039-1-4-19
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_19/1.jp2
+bdr:WEAP039-1-4-190:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-190/canvas/1
+  igQname: bdr:IEAP039-1-4-190
+  instanceQname: bdr:MWEAP039-1-4-190
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_190/1.jp2
+bdr:WEAP039-1-4-191:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-191/canvas/1
+  igQname: bdr:IEAP039-1-4-191
+  instanceQname: bdr:MWEAP039-1-4-191
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_191/1.jp2
+bdr:WEAP039-1-4-192:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-192/canvas/1
+  igQname: bdr:IEAP039-1-4-192
+  instanceQname: bdr:MWEAP039-1-4-192
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_192/1.jp2
+bdr:WEAP039-1-4-193:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-193/canvas/1
+  igQname: bdr:IEAP039-1-4-193
+  instanceQname: bdr:MWEAP039-1-4-193
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_193/1.jp2
+bdr:WEAP039-1-4-194:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-194/canvas/1
+  igQname: bdr:IEAP039-1-4-194
+  instanceQname: bdr:MWEAP039-1-4-194
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_194/1.jp2
+bdr:WEAP039-1-4-195:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-195/canvas/1
+  igQname: bdr:IEAP039-1-4-195
+  instanceQname: bdr:MWEAP039-1-4-195
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_195/1.jp2
+bdr:WEAP039-1-4-196:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-196/canvas/1
+  igQname: bdr:IEAP039-1-4-196
+  instanceQname: bdr:MWEAP039-1-4-196
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_196/1.jp2
+bdr:WEAP039-1-4-197:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-197/canvas/1
+  igQname: bdr:IEAP039-1-4-197
+  instanceQname: bdr:MWEAP039-1-4-197
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_197/1.jp2
+bdr:WEAP039-1-4-198:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-198/canvas/1
+  igQname: bdr:IEAP039-1-4-198
+  instanceQname: bdr:MWEAP039-1-4-198
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_198/1.jp2
+bdr:WEAP039-1-4-199:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-199/canvas/1
+  igQname: bdr:IEAP039-1-4-199
+  instanceQname: bdr:MWEAP039-1-4-199
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_199/1.jp2
+bdr:WEAP039-1-4-2:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-2/canvas/1
+  igQname: bdr:IEAP039-1-4-2
+  instanceQname: bdr:MWEAP039-1-4-2
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_2/1.jp2
+bdr:WEAP039-1-4-20:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-20/canvas/1
+  igQname: bdr:IEAP039-1-4-20
+  instanceQname: bdr:MWEAP039-1-4-20
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_20/1.jp2
+bdr:WEAP039-1-4-200:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-200/canvas/1
+  igQname: bdr:IEAP039-1-4-200
+  instanceQname: bdr:MWEAP039-1-4-200
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_200/2.jp2
+bdr:WEAP039-1-4-201:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-201/canvas/1
+  igQname: bdr:IEAP039-1-4-201
+  instanceQname: bdr:MWEAP039-1-4-201
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_201/1.jp2
+bdr:WEAP039-1-4-202:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-202/canvas/1
+  igQname: bdr:IEAP039-1-4-202
+  instanceQname: bdr:MWEAP039-1-4-202
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_202/1.jp2
+bdr:WEAP039-1-4-203:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-203/canvas/1
+  igQname: bdr:IEAP039-1-4-203
+  instanceQname: bdr:MWEAP039-1-4-203
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_203/1.jp2
+bdr:WEAP039-1-4-204:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-204/canvas/1
+  igQname: bdr:IEAP039-1-4-204
+  instanceQname: bdr:MWEAP039-1-4-204
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_204/1.jp2
+bdr:WEAP039-1-4-205:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-205/canvas/1
+  igQname: bdr:IEAP039-1-4-205
+  instanceQname: bdr:MWEAP039-1-4-205
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_205/1.jp2
+bdr:WEAP039-1-4-206:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-206/canvas/1
+  igQname: bdr:IEAP039-1-4-206
+  instanceQname: bdr:MWEAP039-1-4-206
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_206/1.jp2
+bdr:WEAP039-1-4-207:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-207/canvas/1
+  igQname: bdr:IEAP039-1-4-207
+  instanceQname: bdr:MWEAP039-1-4-207
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_207/1.jp2
+bdr:WEAP039-1-4-208:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-208/canvas/1
+  igQname: bdr:IEAP039-1-4-208
+  instanceQname: bdr:MWEAP039-1-4-208
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_208/1.jp2
+bdr:WEAP039-1-4-209:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-209/canvas/1
+  igQname: bdr:IEAP039-1-4-209
+  instanceQname: bdr:MWEAP039-1-4-209
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_209/1.jp2
+bdr:WEAP039-1-4-21:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-21/canvas/1
+  igQname: bdr:IEAP039-1-4-21
+  instanceQname: bdr:MWEAP039-1-4-21
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_21/1.jp2
+bdr:WEAP039-1-4-210:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-210/canvas/1
+  igQname: bdr:IEAP039-1-4-210
+  instanceQname: bdr:MWEAP039-1-4-210
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_210/1.jp2
+bdr:WEAP039-1-4-211:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-211/canvas/1
+  igQname: bdr:IEAP039-1-4-211
+  instanceQname: bdr:MWEAP039-1-4-211
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_211/1.jp2
+bdr:WEAP039-1-4-212:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-212/canvas/1
+  igQname: bdr:IEAP039-1-4-212
+  instanceQname: bdr:MWEAP039-1-4-212
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_212/1.jp2
+bdr:WEAP039-1-4-213:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-213/canvas/1
+  igQname: bdr:IEAP039-1-4-213
+  instanceQname: bdr:MWEAP039-1-4-213
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_213/1.jp2
+bdr:WEAP039-1-4-214:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-214/canvas/1
+  igQname: bdr:IEAP039-1-4-214
+  instanceQname: bdr:MWEAP039-1-4-214
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_214/1.jp2
+bdr:WEAP039-1-4-215:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-215/canvas/1
+  igQname: bdr:IEAP039-1-4-215
+  instanceQname: bdr:MWEAP039-1-4-215
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_215/1.jp2
+bdr:WEAP039-1-4-216:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-216/canvas/1
+  igQname: bdr:IEAP039-1-4-216
+  instanceQname: bdr:MWEAP039-1-4-216
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_216/1.jp2
+bdr:WEAP039-1-4-217:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-217/canvas/1
+  igQname: bdr:IEAP039-1-4-217
+  instanceQname: bdr:MWEAP039-1-4-217
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_217/1.jp2
+bdr:WEAP039-1-4-218:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-218/canvas/1
+  igQname: bdr:IEAP039-1-4-218
+  instanceQname: bdr:MWEAP039-1-4-218
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_218/1.jp2
+bdr:WEAP039-1-4-219:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-219/canvas/1
+  igQname: bdr:IEAP039-1-4-219
+  instanceQname: bdr:MWEAP039-1-4-219
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_219/1.jp2
+bdr:WEAP039-1-4-22:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-22/canvas/1
+  igQname: bdr:IEAP039-1-4-22
+  instanceQname: bdr:MWEAP039-1-4-22
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_22/1.jp2
+bdr:WEAP039-1-4-220:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-220/canvas/1
+  igQname: bdr:IEAP039-1-4-220
+  instanceQname: bdr:MWEAP039-1-4-220
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_220/1.jp2
+bdr:WEAP039-1-4-221:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-221/canvas/1
+  igQname: bdr:IEAP039-1-4-221
+  instanceQname: bdr:MWEAP039-1-4-221
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_221/1.jp2
+bdr:WEAP039-1-4-222:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-222/canvas/1
+  igQname: bdr:IEAP039-1-4-222
+  instanceQname: bdr:MWEAP039-1-4-222
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_222/1.jp2
+bdr:WEAP039-1-4-223:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-223/canvas/1
+  igQname: bdr:IEAP039-1-4-223
+  instanceQname: bdr:MWEAP039-1-4-223
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_223/1.jp2
+bdr:WEAP039-1-4-224:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-224/canvas/1
+  igQname: bdr:IEAP039-1-4-224
+  instanceQname: bdr:MWEAP039-1-4-224
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_224/1.jp2
+bdr:WEAP039-1-4-225:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-225/canvas/1
+  igQname: bdr:IEAP039-1-4-225
+  instanceQname: bdr:MWEAP039-1-4-225
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_225/1.jp2
+bdr:WEAP039-1-4-226:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-226/canvas/1
+  igQname: bdr:IEAP039-1-4-226
+  instanceQname: bdr:MWEAP039-1-4-226
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_226/1.jp2
+bdr:WEAP039-1-4-227:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-227/canvas/1
+  igQname: bdr:IEAP039-1-4-227
+  instanceQname: bdr:MWEAP039-1-4-227
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_227/1.jp2
+bdr:WEAP039-1-4-228:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-228/canvas/1
+  igQname: bdr:IEAP039-1-4-228
+  instanceQname: bdr:MWEAP039-1-4-228
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_228/1.jp2
+bdr:WEAP039-1-4-229:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-229/canvas/1
+  igQname: bdr:IEAP039-1-4-229
+  instanceQname: bdr:MWEAP039-1-4-229
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_229/1.jp2
+bdr:WEAP039-1-4-23:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-23/canvas/1
+  igQname: bdr:IEAP039-1-4-23
+  instanceQname: bdr:MWEAP039-1-4-23
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_23/1.jp2
+bdr:WEAP039-1-4-230:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-230/canvas/1
+  igQname: bdr:IEAP039-1-4-230
+  instanceQname: bdr:MWEAP039-1-4-230
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_230/1.jp2
+bdr:WEAP039-1-4-231:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-231/canvas/1
+  igQname: bdr:IEAP039-1-4-231
+  instanceQname: bdr:MWEAP039-1-4-231
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_231/1.jp2
+bdr:WEAP039-1-4-232:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-232/canvas/1
+  igQname: bdr:IEAP039-1-4-232
+  instanceQname: bdr:MWEAP039-1-4-232
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_232/1.jp2
+bdr:WEAP039-1-4-233:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-233/canvas/1
+  igQname: bdr:IEAP039-1-4-233
+  instanceQname: bdr:MWEAP039-1-4-233
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_233/1.jp2
+bdr:WEAP039-1-4-234:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-234/canvas/1
+  igQname: bdr:IEAP039-1-4-234
+  instanceQname: bdr:MWEAP039-1-4-234
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_234/1.jp2
+bdr:WEAP039-1-4-235:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-235/canvas/1
+  igQname: bdr:IEAP039-1-4-235
+  instanceQname: bdr:MWEAP039-1-4-235
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_235/1.jp2
+bdr:WEAP039-1-4-236:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-236/canvas/1
+  igQname: bdr:IEAP039-1-4-236
+  instanceQname: bdr:MWEAP039-1-4-236
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_236/1.jp2
+bdr:WEAP039-1-4-237:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-237/canvas/1
+  igQname: bdr:IEAP039-1-4-237
+  instanceQname: bdr:MWEAP039-1-4-237
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_237/1.jp2
+bdr:WEAP039-1-4-238:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-238/canvas/1
+  igQname: bdr:IEAP039-1-4-238
+  instanceQname: bdr:MWEAP039-1-4-238
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_238/1.jp2
+bdr:WEAP039-1-4-239:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-239/canvas/1
+  igQname: bdr:IEAP039-1-4-239
+  instanceQname: bdr:MWEAP039-1-4-239
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_239/1.jp2
+bdr:WEAP039-1-4-24:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-24/canvas/1
+  igQname: bdr:IEAP039-1-4-24
+  instanceQname: bdr:MWEAP039-1-4-24
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_24/1.jp2
+bdr:WEAP039-1-4-240:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-240/canvas/1
+  igQname: bdr:IEAP039-1-4-240
+  instanceQname: bdr:MWEAP039-1-4-240
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_240/1.jp2
+bdr:WEAP039-1-4-241:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-241/canvas/1
+  igQname: bdr:IEAP039-1-4-241
+  instanceQname: bdr:MWEAP039-1-4-241
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_241/1.jp2
+bdr:WEAP039-1-4-242:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-242/canvas/1
+  igQname: bdr:IEAP039-1-4-242
+  instanceQname: bdr:MWEAP039-1-4-242
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_242/1.jp2
+bdr:WEAP039-1-4-243:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-243/canvas/1
+  igQname: bdr:IEAP039-1-4-243
+  instanceQname: bdr:MWEAP039-1-4-243
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_243/1.jp2
+bdr:WEAP039-1-4-244:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-244/canvas/1
+  igQname: bdr:IEAP039-1-4-244
+  instanceQname: bdr:MWEAP039-1-4-244
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_244/1.jp2
+bdr:WEAP039-1-4-245:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-245/canvas/1
+  igQname: bdr:IEAP039-1-4-245
+  instanceQname: bdr:MWEAP039-1-4-245
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_245/1.jp2
+bdr:WEAP039-1-4-246:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-246/canvas/1
+  igQname: bdr:IEAP039-1-4-246
+  instanceQname: bdr:MWEAP039-1-4-246
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_246/1.jp2
+bdr:WEAP039-1-4-247:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-247/canvas/1
+  igQname: bdr:IEAP039-1-4-247
+  instanceQname: bdr:MWEAP039-1-4-247
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_247/1.jp2
+bdr:WEAP039-1-4-248:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-248/canvas/1
+  igQname: bdr:IEAP039-1-4-248
+  instanceQname: bdr:MWEAP039-1-4-248
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_248/1.jp2
+bdr:WEAP039-1-4-249:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-249/canvas/1
+  igQname: bdr:IEAP039-1-4-249
+  instanceQname: bdr:MWEAP039-1-4-249
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_249/1.jp2
+bdr:WEAP039-1-4-25:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-25/canvas/1
+  igQname: bdr:IEAP039-1-4-25
+  instanceQname: bdr:MWEAP039-1-4-25
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_25/1.jp2
+bdr:WEAP039-1-4-250:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-250/canvas/1
+  igQname: bdr:IEAP039-1-4-250
+  instanceQname: bdr:MWEAP039-1-4-250
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_250/1.jp2
+bdr:WEAP039-1-4-251:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-251/canvas/1
+  igQname: bdr:IEAP039-1-4-251
+  instanceQname: bdr:MWEAP039-1-4-251
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_251/1.jp2
+bdr:WEAP039-1-4-252:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-252/canvas/1
+  igQname: bdr:IEAP039-1-4-252
+  instanceQname: bdr:MWEAP039-1-4-252
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_252/1.jp2
+bdr:WEAP039-1-4-253:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-253/canvas/1
+  igQname: bdr:IEAP039-1-4-253
+  instanceQname: bdr:MWEAP039-1-4-253
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_253/1.jp2
+bdr:WEAP039-1-4-254:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-254/canvas/1
+  igQname: bdr:IEAP039-1-4-254
+  instanceQname: bdr:MWEAP039-1-4-254
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_254/1.jp2
+bdr:WEAP039-1-4-255:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-255/canvas/1
+  igQname: bdr:IEAP039-1-4-255
+  instanceQname: bdr:MWEAP039-1-4-255
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_255/1.jp2
+bdr:WEAP039-1-4-256:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-256/canvas/1
+  igQname: bdr:IEAP039-1-4-256
+  instanceQname: bdr:MWEAP039-1-4-256
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_256/1.jp2
+bdr:WEAP039-1-4-257:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-257/canvas/1
+  igQname: bdr:IEAP039-1-4-257
+  instanceQname: bdr:MWEAP039-1-4-257
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_257/1.jp2
+bdr:WEAP039-1-4-258:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-258/canvas/1
+  igQname: bdr:IEAP039-1-4-258
+  instanceQname: bdr:MWEAP039-1-4-258
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_258/1.jp2
+bdr:WEAP039-1-4-259:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-259/canvas/1
+  igQname: bdr:IEAP039-1-4-259
+  instanceQname: bdr:MWEAP039-1-4-259
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_259/1.jp2
+bdr:WEAP039-1-4-26:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-26/canvas/1
+  igQname: bdr:IEAP039-1-4-26
+  instanceQname: bdr:MWEAP039-1-4-26
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_26/1.jp2
+bdr:WEAP039-1-4-260:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-260/canvas/1
+  igQname: bdr:IEAP039-1-4-260
+  instanceQname: bdr:MWEAP039-1-4-260
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_260/1.jp2
+bdr:WEAP039-1-4-261:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-261/canvas/1
+  igQname: bdr:IEAP039-1-4-261
+  instanceQname: bdr:MWEAP039-1-4-261
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_261/1.jp2
+bdr:WEAP039-1-4-262:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-262/canvas/1
+  igQname: bdr:IEAP039-1-4-262
+  instanceQname: bdr:MWEAP039-1-4-262
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_262/1.jp2
+bdr:WEAP039-1-4-263:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-263/canvas/1
+  igQname: bdr:IEAP039-1-4-263
+  instanceQname: bdr:MWEAP039-1-4-263
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_263/1.jp2
+bdr:WEAP039-1-4-264:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-264/canvas/1
+  igQname: bdr:IEAP039-1-4-264
+  instanceQname: bdr:MWEAP039-1-4-264
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_264/1.jp2
+bdr:WEAP039-1-4-265:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-265/canvas/1
+  igQname: bdr:IEAP039-1-4-265
+  instanceQname: bdr:MWEAP039-1-4-265
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_265/1.jp2
+bdr:WEAP039-1-4-266:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-266/canvas/1
+  igQname: bdr:IEAP039-1-4-266
+  instanceQname: bdr:MWEAP039-1-4-266
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_266/1.jp2
+bdr:WEAP039-1-4-267:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-267/canvas/1
+  igQname: bdr:IEAP039-1-4-267
+  instanceQname: bdr:MWEAP039-1-4-267
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_267/1.jp2
+bdr:WEAP039-1-4-268:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-268/canvas/1
+  igQname: bdr:IEAP039-1-4-268
+  instanceQname: bdr:MWEAP039-1-4-268
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_268/1.jp2
+bdr:WEAP039-1-4-269:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-269/canvas/1
+  igQname: bdr:IEAP039-1-4-269
+  instanceQname: bdr:MWEAP039-1-4-269
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_269/1.jp2
+bdr:WEAP039-1-4-27:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-27/canvas/1
+  igQname: bdr:IEAP039-1-4-27
+  instanceQname: bdr:MWEAP039-1-4-27
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_27/1.jp2
+bdr:WEAP039-1-4-270:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-270/canvas/1
+  igQname: bdr:IEAP039-1-4-270
+  instanceQname: bdr:MWEAP039-1-4-270
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_270/1.jp2
+bdr:WEAP039-1-4-271:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-271/canvas/1
+  igQname: bdr:IEAP039-1-4-271
+  instanceQname: bdr:MWEAP039-1-4-271
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_271/1.jp2
+bdr:WEAP039-1-4-272:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-272/canvas/1
+  igQname: bdr:IEAP039-1-4-272
+  instanceQname: bdr:MWEAP039-1-4-272
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_272/1.jp2
+bdr:WEAP039-1-4-273:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-273/canvas/1
+  igQname: bdr:IEAP039-1-4-273
+  instanceQname: bdr:MWEAP039-1-4-273
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_273/1.jp2
+bdr:WEAP039-1-4-274:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-274/canvas/1
+  igQname: bdr:IEAP039-1-4-274
+  instanceQname: bdr:MWEAP039-1-4-274
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_274/1.jp2
+bdr:WEAP039-1-4-275:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-275/canvas/1
+  igQname: bdr:IEAP039-1-4-275
+  instanceQname: bdr:MWEAP039-1-4-275
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_275/1.jp2
+bdr:WEAP039-1-4-276:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-276/canvas/1
+  igQname: bdr:IEAP039-1-4-276
+  instanceQname: bdr:MWEAP039-1-4-276
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_276/1.jp2
+bdr:WEAP039-1-4-277:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-277/canvas/1
+  igQname: bdr:IEAP039-1-4-277
+  instanceQname: bdr:MWEAP039-1-4-277
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_277/1.jp2
+bdr:WEAP039-1-4-278:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-278/canvas/1
+  igQname: bdr:IEAP039-1-4-278
+  instanceQname: bdr:MWEAP039-1-4-278
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_278/1.jp2
+bdr:WEAP039-1-4-28:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-28/canvas/1
+  igQname: bdr:IEAP039-1-4-28
+  instanceQname: bdr:MWEAP039-1-4-28
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_28/1.jp2
+bdr:WEAP039-1-4-29:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-29/canvas/1
+  igQname: bdr:IEAP039-1-4-29
+  instanceQname: bdr:MWEAP039-1-4-29
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_29/1.jp2
+bdr:WEAP039-1-4-3:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-3/canvas/1
+  igQname: bdr:IEAP039-1-4-3
+  instanceQname: bdr:MWEAP039-1-4-3
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_3/1.jp2
+bdr:WEAP039-1-4-30:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-30/canvas/1
+  igQname: bdr:IEAP039-1-4-30
+  instanceQname: bdr:MWEAP039-1-4-30
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_30/1.jp2
+bdr:WEAP039-1-4-31:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-31/canvas/1
+  igQname: bdr:IEAP039-1-4-31
+  instanceQname: bdr:MWEAP039-1-4-31
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_31/1.jp2
+bdr:WEAP039-1-4-32:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-32/canvas/1
+  igQname: bdr:IEAP039-1-4-32
+  instanceQname: bdr:MWEAP039-1-4-32
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_32/1.jp2
+bdr:WEAP039-1-4-33:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-33/canvas/1
+  igQname: bdr:IEAP039-1-4-33
+  instanceQname: bdr:MWEAP039-1-4-33
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_33/1.jp2
+bdr:WEAP039-1-4-34:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-34/canvas/1
+  igQname: bdr:IEAP039-1-4-34
+  instanceQname: bdr:MWEAP039-1-4-34
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_34/1.jp2
+bdr:WEAP039-1-4-35:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-35/canvas/1
+  igQname: bdr:IEAP039-1-4-35
+  instanceQname: bdr:MWEAP039-1-4-35
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_35/1.jp2
+bdr:WEAP039-1-4-36:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-36/canvas/1
+  igQname: bdr:IEAP039-1-4-36
+  instanceQname: bdr:MWEAP039-1-4-36
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_36/1.jp2
+bdr:WEAP039-1-4-37:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-37/canvas/1
+  igQname: bdr:IEAP039-1-4-37
+  instanceQname: bdr:MWEAP039-1-4-37
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_37/1.jp2
+bdr:WEAP039-1-4-38:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-38/canvas/1
+  igQname: bdr:IEAP039-1-4-38
+  instanceQname: bdr:MWEAP039-1-4-38
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_38/1.jp2
+bdr:WEAP039-1-4-39:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-39/canvas/1
+  igQname: bdr:IEAP039-1-4-39
+  instanceQname: bdr:MWEAP039-1-4-39
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_39/1.jp2
+bdr:WEAP039-1-4-4:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-4/canvas/1
+  igQname: bdr:IEAP039-1-4-4
+  instanceQname: bdr:MWEAP039-1-4-4
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_4/1.jp2
+bdr:WEAP039-1-4-40:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-40/canvas/1
+  igQname: bdr:IEAP039-1-4-40
+  instanceQname: bdr:MWEAP039-1-4-40
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_40/1.jp2
+bdr:WEAP039-1-4-41:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-41/canvas/1
+  igQname: bdr:IEAP039-1-4-41
+  instanceQname: bdr:MWEAP039-1-4-41
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_41/1.jp2
+bdr:WEAP039-1-4-42:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-42/canvas/1
+  igQname: bdr:IEAP039-1-4-42
+  instanceQname: bdr:MWEAP039-1-4-42
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_42/1.jp2
+bdr:WEAP039-1-4-43:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-43/canvas/1
+  igQname: bdr:IEAP039-1-4-43
+  instanceQname: bdr:MWEAP039-1-4-43
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_43/1.jp2
+bdr:WEAP039-1-4-44:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-44/canvas/1
+  igQname: bdr:IEAP039-1-4-44
+  instanceQname: bdr:MWEAP039-1-4-44
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_44/1.jp2
+bdr:WEAP039-1-4-45:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-45/canvas/1
+  igQname: bdr:IEAP039-1-4-45
+  instanceQname: bdr:MWEAP039-1-4-45
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_45/1.jp2
+bdr:WEAP039-1-4-46:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-46/canvas/1
+  igQname: bdr:IEAP039-1-4-46
+  instanceQname: bdr:MWEAP039-1-4-46
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_46/1.jp2
+bdr:WEAP039-1-4-47:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-47/canvas/1
+  igQname: bdr:IEAP039-1-4-47
+  instanceQname: bdr:MWEAP039-1-4-47
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_47/1.jp2
+bdr:WEAP039-1-4-48:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-48/canvas/1
+  igQname: bdr:IEAP039-1-4-48
+  instanceQname: bdr:MWEAP039-1-4-48
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_48/1.jp2
+bdr:WEAP039-1-4-49:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-49/canvas/1
+  igQname: bdr:IEAP039-1-4-49
+  instanceQname: bdr:MWEAP039-1-4-49
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_49/1.jp2
+bdr:WEAP039-1-4-5:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-5/canvas/1
+  igQname: bdr:IEAP039-1-4-5
+  instanceQname: bdr:MWEAP039-1-4-5
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_5/1.jp2
+bdr:WEAP039-1-4-50:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-50/canvas/1
+  igQname: bdr:IEAP039-1-4-50
+  instanceQname: bdr:MWEAP039-1-4-50
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_50/1.jp2
+bdr:WEAP039-1-4-51:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-51/canvas/1
+  igQname: bdr:IEAP039-1-4-51
+  instanceQname: bdr:MWEAP039-1-4-51
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_51/1.jp2
+bdr:WEAP039-1-4-52:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-52/canvas/1
+  igQname: bdr:IEAP039-1-4-52
+  instanceQname: bdr:MWEAP039-1-4-52
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_52/1.jp2
+bdr:WEAP039-1-4-53:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-53/canvas/1
+  igQname: bdr:IEAP039-1-4-53
+  instanceQname: bdr:MWEAP039-1-4-53
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_53/1.jp2
+bdr:WEAP039-1-4-54:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-54/canvas/1
+  igQname: bdr:IEAP039-1-4-54
+  instanceQname: bdr:MWEAP039-1-4-54
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_54/1.jp2
+bdr:WEAP039-1-4-55:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-55/canvas/1
+  igQname: bdr:IEAP039-1-4-55
+  instanceQname: bdr:MWEAP039-1-4-55
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_55/1.jp2
+bdr:WEAP039-1-4-56:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-56/canvas/1
+  igQname: bdr:IEAP039-1-4-56
+  instanceQname: bdr:MWEAP039-1-4-56
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_56/1.jp2
+bdr:WEAP039-1-4-57:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-57/canvas/1
+  igQname: bdr:IEAP039-1-4-57
+  instanceQname: bdr:MWEAP039-1-4-57
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_57/1.jp2
+bdr:WEAP039-1-4-58:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-58/canvas/1
+  igQname: bdr:IEAP039-1-4-58
+  instanceQname: bdr:MWEAP039-1-4-58
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_58/1.jp2
+bdr:WEAP039-1-4-59:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-59/canvas/1
+  igQname: bdr:IEAP039-1-4-59
+  instanceQname: bdr:MWEAP039-1-4-59
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_59/1.jp2
+bdr:WEAP039-1-4-6:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-6/canvas/1
+  igQname: bdr:IEAP039-1-4-6
+  instanceQname: bdr:MWEAP039-1-4-6
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_6/1.jp2
+bdr:WEAP039-1-4-60:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-60/canvas/1
+  igQname: bdr:IEAP039-1-4-60
+  instanceQname: bdr:MWEAP039-1-4-60
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_60/1.jp2
+bdr:WEAP039-1-4-61:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-61/canvas/1
+  igQname: bdr:IEAP039-1-4-61
+  instanceQname: bdr:MWEAP039-1-4-61
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_61/1.jp2
+bdr:WEAP039-1-4-62:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-62/canvas/1
+  igQname: bdr:IEAP039-1-4-62
+  instanceQname: bdr:MWEAP039-1-4-62
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_62/1.jp2
+bdr:WEAP039-1-4-63:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-63/canvas/1
+  igQname: bdr:IEAP039-1-4-63
+  instanceQname: bdr:MWEAP039-1-4-63
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_63/1.jp2
+bdr:WEAP039-1-4-64:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-64/canvas/1
+  igQname: bdr:IEAP039-1-4-64
+  instanceQname: bdr:MWEAP039-1-4-64
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_64/1.jp2
+bdr:WEAP039-1-4-65:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-65/canvas/1
+  igQname: bdr:IEAP039-1-4-65
+  instanceQname: bdr:MWEAP039-1-4-65
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_65/1.jp2
+bdr:WEAP039-1-4-66:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-66/canvas/1
+  igQname: bdr:IEAP039-1-4-66
+  instanceQname: bdr:MWEAP039-1-4-66
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_66/1.jp2
+bdr:WEAP039-1-4-67:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-67/canvas/1
+  igQname: bdr:IEAP039-1-4-67
+  instanceQname: bdr:MWEAP039-1-4-67
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_67/1.jp2
+bdr:WEAP039-1-4-68:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-68/canvas/1
+  igQname: bdr:IEAP039-1-4-68
+  instanceQname: bdr:MWEAP039-1-4-68
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_68/1.jp2
+bdr:WEAP039-1-4-69:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-69/canvas/1
+  igQname: bdr:IEAP039-1-4-69
+  instanceQname: bdr:MWEAP039-1-4-69
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_69/1.jp2
+bdr:WEAP039-1-4-7:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-7/canvas/1
+  igQname: bdr:IEAP039-1-4-7
+  instanceQname: bdr:MWEAP039-1-4-7
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_7/1.jp2
+bdr:WEAP039-1-4-70:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-70/canvas/1
+  igQname: bdr:IEAP039-1-4-70
+  instanceQname: bdr:MWEAP039-1-4-70
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_70/1.jp2
+bdr:WEAP039-1-4-71:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-71/canvas/1
+  igQname: bdr:IEAP039-1-4-71
+  instanceQname: bdr:MWEAP039-1-4-71
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_71/1.jp2
+bdr:WEAP039-1-4-72:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-72/canvas/1
+  igQname: bdr:IEAP039-1-4-72
+  instanceQname: bdr:MWEAP039-1-4-72
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_72/1.jp2
+bdr:WEAP039-1-4-73:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-73/canvas/1
+  igQname: bdr:IEAP039-1-4-73
+  instanceQname: bdr:MWEAP039-1-4-73
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_73/1.jp2
+bdr:WEAP039-1-4-74:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-74/canvas/1
+  igQname: bdr:IEAP039-1-4-74
+  instanceQname: bdr:MWEAP039-1-4-74
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_74/1.jp2
+bdr:WEAP039-1-4-75:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-75/canvas/1
+  igQname: bdr:IEAP039-1-4-75
+  instanceQname: bdr:MWEAP039-1-4-75
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_75/1.jp2
+bdr:WEAP039-1-4-76:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-76/canvas/1
+  igQname: bdr:IEAP039-1-4-76
+  instanceQname: bdr:MWEAP039-1-4-76
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_76/1.jp2
+bdr:WEAP039-1-4-77:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-77/canvas/1
+  igQname: bdr:IEAP039-1-4-77
+  instanceQname: bdr:MWEAP039-1-4-77
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_77/1.jp2
+bdr:WEAP039-1-4-78:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-78/canvas/1
+  igQname: bdr:IEAP039-1-4-78
+  instanceQname: bdr:MWEAP039-1-4-78
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_78/1.jp2
+bdr:WEAP039-1-4-79:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-79/canvas/1
+  igQname: bdr:IEAP039-1-4-79
+  instanceQname: bdr:MWEAP039-1-4-79
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_79/1.jp2
+bdr:WEAP039-1-4-8:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-8/canvas/1
+  igQname: bdr:IEAP039-1-4-8
+  instanceQname: bdr:MWEAP039-1-4-8
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_8/1.jp2
+bdr:WEAP039-1-4-80:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-80/canvas/1
+  igQname: bdr:IEAP039-1-4-80
+  instanceQname: bdr:MWEAP039-1-4-80
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_80/1.jp2
+bdr:WEAP039-1-4-81:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-81/canvas/1
+  igQname: bdr:IEAP039-1-4-81
+  instanceQname: bdr:MWEAP039-1-4-81
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_81/1.jp2
+bdr:WEAP039-1-4-82:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-82/canvas/1
+  igQname: bdr:IEAP039-1-4-82
+  instanceQname: bdr:MWEAP039-1-4-82
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_82/1.jp2
+bdr:WEAP039-1-4-83:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-83/canvas/1
+  igQname: bdr:IEAP039-1-4-83
+  instanceQname: bdr:MWEAP039-1-4-83
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_83/1.jp2
+bdr:WEAP039-1-4-84:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-84/canvas/1
+  igQname: bdr:IEAP039-1-4-84
+  instanceQname: bdr:MWEAP039-1-4-84
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_84/1.jp2
+bdr:WEAP039-1-4-85:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-85/canvas/1
+  igQname: bdr:IEAP039-1-4-85
+  instanceQname: bdr:MWEAP039-1-4-85
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_85/1.jp2
+bdr:WEAP039-1-4-86:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-86/canvas/1
+  igQname: bdr:IEAP039-1-4-86
+  instanceQname: bdr:MWEAP039-1-4-86
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_86/1.jp2
+bdr:WEAP039-1-4-87:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-87/canvas/1
+  igQname: bdr:IEAP039-1-4-87
+  instanceQname: bdr:MWEAP039-1-4-87
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_87/1.jp2
+bdr:WEAP039-1-4-88:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-88/canvas/1
+  igQname: bdr:IEAP039-1-4-88
+  instanceQname: bdr:MWEAP039-1-4-88
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_88/1.jp2
+bdr:WEAP039-1-4-89:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-89/canvas/1
+  igQname: bdr:IEAP039-1-4-89
+  instanceQname: bdr:MWEAP039-1-4-89
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_89/1.jp2
+bdr:WEAP039-1-4-9:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-9/canvas/1
+  igQname: bdr:IEAP039-1-4-9
+  instanceQname: bdr:MWEAP039-1-4-9
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_9/1.jp2
+bdr:WEAP039-1-4-90:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-90/canvas/1
+  igQname: bdr:IEAP039-1-4-90
+  instanceQname: bdr:MWEAP039-1-4-90
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_90/1.jp2
+bdr:WEAP039-1-4-91:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-91/canvas/1
+  igQname: bdr:IEAP039-1-4-91
+  instanceQname: bdr:MWEAP039-1-4-91
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_91/1.jp2
+bdr:WEAP039-1-4-92:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-92/canvas/1
+  igQname: bdr:IEAP039-1-4-92
+  instanceQname: bdr:MWEAP039-1-4-92
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_92/1.jp2
+bdr:WEAP039-1-4-93:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-93/canvas/1
+  igQname: bdr:IEAP039-1-4-93
+  instanceQname: bdr:MWEAP039-1-4-93
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_93/1.jp2
+bdr:WEAP039-1-4-94:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-94/canvas/1
+  igQname: bdr:IEAP039-1-4-94
+  instanceQname: bdr:MWEAP039-1-4-94
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_94/1.jp2
+bdr:WEAP039-1-4-95:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-95/canvas/1
+  igQname: bdr:IEAP039-1-4-95
+  instanceQname: bdr:MWEAP039-1-4-95
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_95/1.jp2
+bdr:WEAP039-1-4-96:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-96/canvas/1
+  igQname: bdr:IEAP039-1-4-96
+  instanceQname: bdr:MWEAP039-1-4-96
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_96/1.jp2
+bdr:WEAP039-1-4-97:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-97/canvas/1
+  igQname: bdr:IEAP039-1-4-97
+  instanceQname: bdr:MWEAP039-1-4-97
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_97/1.jp2
+bdr:WEAP039-1-4-98:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-98/canvas/1
+  igQname: bdr:IEAP039-1-4-98
+  instanceQname: bdr:MWEAP039-1-4-98
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_98/1.jp2
+bdr:WEAP039-1-4-99:
+  canvas: https://eap.bl.uk/archive-file/EAP039-1-4-99/canvas/1
+  igQname: bdr:IEAP039-1-4-99
+  instanceQname: bdr:MWEAP039-1-4-99
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_4_99/1.jp2
+bdr:WEAP105-2-1-1:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-1/canvas/1
+  igQname: bdr:IEAP105-2-1-1
+  instanceQname: bdr:MWEAP105-2-1-1
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_1/1.jp2
+bdr:WEAP105-2-1-10:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-10/canvas/1
+  igQname: bdr:IEAP105-2-1-10
+  instanceQname: bdr:MWEAP105-2-1-10
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_10/1.jp2
+bdr:WEAP105-2-1-100:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-100/canvas/1
+  igQname: bdr:IEAP105-2-1-100
+  instanceQname: bdr:MWEAP105-2-1-100
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_100/1.jp2
+bdr:WEAP105-2-1-101:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-101/canvas/1
+  igQname: bdr:IEAP105-2-1-101
+  instanceQname: bdr:MWEAP105-2-1-101
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_101/1.jp2
+bdr:WEAP105-2-1-102:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-102/canvas/1
+  igQname: bdr:IEAP105-2-1-102
+  instanceQname: bdr:MWEAP105-2-1-102
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_102/1.jp2
+bdr:WEAP105-2-1-103:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-103/canvas/1
+  igQname: bdr:IEAP105-2-1-103
+  instanceQname: bdr:MWEAP105-2-1-103
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_103/1.jp2
+bdr:WEAP105-2-1-104:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-104/canvas/1
+  igQname: bdr:IEAP105-2-1-104
+  instanceQname: bdr:MWEAP105-2-1-104
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_104/1.jp2
+bdr:WEAP105-2-1-105:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-105/canvas/1
+  igQname: bdr:IEAP105-2-1-105
+  instanceQname: bdr:MWEAP105-2-1-105
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_105/1.jp2
+bdr:WEAP105-2-1-106:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-106/canvas/1
+  igQname: bdr:IEAP105-2-1-106
+  instanceQname: bdr:MWEAP105-2-1-106
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_106/1.jp2
+bdr:WEAP105-2-1-107:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-107/canvas/1
+  igQname: bdr:IEAP105-2-1-107
+  instanceQname: bdr:MWEAP105-2-1-107
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_107/1.jp2
+bdr:WEAP105-2-1-108:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-108/canvas/1
+  igQname: bdr:IEAP105-2-1-108
+  instanceQname: bdr:MWEAP105-2-1-108
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_108/1.jp2
+bdr:WEAP105-2-1-109:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-109/canvas/1
+  igQname: bdr:IEAP105-2-1-109
+  instanceQname: bdr:MWEAP105-2-1-109
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_109/1.jp2
+bdr:WEAP105-2-1-11:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-11/canvas/1
+  igQname: bdr:IEAP105-2-1-11
+  instanceQname: bdr:MWEAP105-2-1-11
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_11/1.jp2
+bdr:WEAP105-2-1-110:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-110/canvas/1
+  igQname: bdr:IEAP105-2-1-110
+  instanceQname: bdr:MWEAP105-2-1-110
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_110/1.jp2
+bdr:WEAP105-2-1-111:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-111/canvas/1
+  igQname: bdr:IEAP105-2-1-111
+  instanceQname: bdr:MWEAP105-2-1-111
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_111/1.jp2
+bdr:WEAP105-2-1-112:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-112/canvas/1
+  igQname: bdr:IEAP105-2-1-112
+  instanceQname: bdr:MWEAP105-2-1-112
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_112/1.jp2
+bdr:WEAP105-2-1-113:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-113/canvas/1
+  igQname: bdr:IEAP105-2-1-113
+  instanceQname: bdr:MWEAP105-2-1-113
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_113/1.jp2
+bdr:WEAP105-2-1-114:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-114/canvas/1
+  igQname: bdr:IEAP105-2-1-114
+  instanceQname: bdr:MWEAP105-2-1-114
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_114/1.jp2
+bdr:WEAP105-2-1-115:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-115/canvas/1
+  igQname: bdr:IEAP105-2-1-115
+  instanceQname: bdr:MWEAP105-2-1-115
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_115/1.jp2
+bdr:WEAP105-2-1-116:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-116/canvas/1
+  igQname: bdr:IEAP105-2-1-116
+  instanceQname: bdr:MWEAP105-2-1-116
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_116/1.jp2
+bdr:WEAP105-2-1-117:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-117/canvas/1
+  igQname: bdr:IEAP105-2-1-117
+  instanceQname: bdr:MWEAP105-2-1-117
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_117/1.jp2
+bdr:WEAP105-2-1-118:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-118/canvas/1
+  igQname: bdr:IEAP105-2-1-118
+  instanceQname: bdr:MWEAP105-2-1-118
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_118/1.jp2
+bdr:WEAP105-2-1-119:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-119/canvas/1
+  igQname: bdr:IEAP105-2-1-119
+  instanceQname: bdr:MWEAP105-2-1-119
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_119/1.jp2
+bdr:WEAP105-2-1-12:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-12/canvas/1
+  igQname: bdr:IEAP105-2-1-12
+  instanceQname: bdr:MWEAP105-2-1-12
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_12/1.jp2
+bdr:WEAP105-2-1-120:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-120/canvas/1
+  igQname: bdr:IEAP105-2-1-120
+  instanceQname: bdr:MWEAP105-2-1-120
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_120/1.jp2
+bdr:WEAP105-2-1-121:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-121/canvas/1
+  igQname: bdr:IEAP105-2-1-121
+  instanceQname: bdr:MWEAP105-2-1-121
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_121/1.jp2
+bdr:WEAP105-2-1-122:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-122/canvas/1
+  igQname: bdr:IEAP105-2-1-122
+  instanceQname: bdr:MWEAP105-2-1-122
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_122/1.jp2
+bdr:WEAP105-2-1-123:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-123/canvas/1
+  igQname: bdr:IEAP105-2-1-123
+  instanceQname: bdr:MWEAP105-2-1-123
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_123/1.jp2
+bdr:WEAP105-2-1-124:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-124/canvas/1
+  igQname: bdr:IEAP105-2-1-124
+  instanceQname: bdr:MWEAP105-2-1-124
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_124/1.jp2
+bdr:WEAP105-2-1-125:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-125/canvas/1
+  igQname: bdr:IEAP105-2-1-125
+  instanceQname: bdr:MWEAP105-2-1-125
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_125/1.jp2
+bdr:WEAP105-2-1-126:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-126/canvas/1
+  igQname: bdr:IEAP105-2-1-126
+  instanceQname: bdr:MWEAP105-2-1-126
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_126/1.jp2
+bdr:WEAP105-2-1-127:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-127/canvas/1
+  igQname: bdr:IEAP105-2-1-127
+  instanceQname: bdr:MWEAP105-2-1-127
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_127/1.jp2
+bdr:WEAP105-2-1-128:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-128/canvas/1
+  igQname: bdr:IEAP105-2-1-128
+  instanceQname: bdr:MWEAP105-2-1-128
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_128/1.jp2
+bdr:WEAP105-2-1-129:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-129/canvas/1
+  igQname: bdr:IEAP105-2-1-129
+  instanceQname: bdr:MWEAP105-2-1-129
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_129/1.jp2
+bdr:WEAP105-2-1-13:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-13/canvas/1
+  igQname: bdr:IEAP105-2-1-13
+  instanceQname: bdr:MWEAP105-2-1-13
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_13/1.jp2
+bdr:WEAP105-2-1-130:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-130/canvas/1
+  igQname: bdr:IEAP105-2-1-130
+  instanceQname: bdr:MWEAP105-2-1-130
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_130/1.jp2
+bdr:WEAP105-2-1-131:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-131/canvas/1
+  igQname: bdr:IEAP105-2-1-131
+  instanceQname: bdr:MWEAP105-2-1-131
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_131/1.jp2
+bdr:WEAP105-2-1-132:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-132/canvas/1
+  igQname: bdr:IEAP105-2-1-132
+  instanceQname: bdr:MWEAP105-2-1-132
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_132/1.jp2
+bdr:WEAP105-2-1-133:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-133/canvas/1
+  igQname: bdr:IEAP105-2-1-133
+  instanceQname: bdr:MWEAP105-2-1-133
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_133/1.jp2
+bdr:WEAP105-2-1-134:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-134/canvas/1
+  igQname: bdr:IEAP105-2-1-134
+  instanceQname: bdr:MWEAP105-2-1-134
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_134/1.jp2
+bdr:WEAP105-2-1-135:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-135/canvas/1
+  igQname: bdr:IEAP105-2-1-135
+  instanceQname: bdr:MWEAP105-2-1-135
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_135/1.jp2
+bdr:WEAP105-2-1-136:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-136/canvas/1
+  igQname: bdr:IEAP105-2-1-136
+  instanceQname: bdr:MWEAP105-2-1-136
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_136/1.jp2
+bdr:WEAP105-2-1-137:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-137/canvas/1
+  igQname: bdr:IEAP105-2-1-137
+  instanceQname: bdr:MWEAP105-2-1-137
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_137/1.jp2
+bdr:WEAP105-2-1-138:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-138/canvas/1
+  igQname: bdr:IEAP105-2-1-138
+  instanceQname: bdr:MWEAP105-2-1-138
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_138/1.jp2
+bdr:WEAP105-2-1-139:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-139/canvas/1
+  igQname: bdr:IEAP105-2-1-139
+  instanceQname: bdr:MWEAP105-2-1-139
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_139/1.jp2
+bdr:WEAP105-2-1-14:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-14/canvas/1
+  igQname: bdr:IEAP105-2-1-14
+  instanceQname: bdr:MWEAP105-2-1-14
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_14/1.jp2
+bdr:WEAP105-2-1-140:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-140/canvas/1
+  igQname: bdr:IEAP105-2-1-140
+  instanceQname: bdr:MWEAP105-2-1-140
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_140/1.jp2
+bdr:WEAP105-2-1-141:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-141/canvas/1
+  igQname: bdr:IEAP105-2-1-141
+  instanceQname: bdr:MWEAP105-2-1-141
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_141/1.jp2
+bdr:WEAP105-2-1-142:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-142/canvas/1
+  igQname: bdr:IEAP105-2-1-142
+  instanceQname: bdr:MWEAP105-2-1-142
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_142/1.jp2
+bdr:WEAP105-2-1-143:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-143/canvas/1
+  igQname: bdr:IEAP105-2-1-143
+  instanceQname: bdr:MWEAP105-2-1-143
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_143/1.jp2
+bdr:WEAP105-2-1-144:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-144/canvas/1
+  igQname: bdr:IEAP105-2-1-144
+  instanceQname: bdr:MWEAP105-2-1-144
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_144/1.jp2
+bdr:WEAP105-2-1-145:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-145/canvas/1
+  igQname: bdr:IEAP105-2-1-145
+  instanceQname: bdr:MWEAP105-2-1-145
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_145/1.jp2
+bdr:WEAP105-2-1-146:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-146/canvas/1
+  igQname: bdr:IEAP105-2-1-146
+  instanceQname: bdr:MWEAP105-2-1-146
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_146/1.jp2
+bdr:WEAP105-2-1-147:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-147/canvas/1
+  igQname: bdr:IEAP105-2-1-147
+  instanceQname: bdr:MWEAP105-2-1-147
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_147/1.jp2
+bdr:WEAP105-2-1-148:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-148/canvas/1
+  igQname: bdr:IEAP105-2-1-148
+  instanceQname: bdr:MWEAP105-2-1-148
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_148/1.jp2
+bdr:WEAP105-2-1-149:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-149/canvas/1
+  igQname: bdr:IEAP105-2-1-149
+  instanceQname: bdr:MWEAP105-2-1-149
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_149/1.jp2
+bdr:WEAP105-2-1-15:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-15/canvas/1
+  igQname: bdr:IEAP105-2-1-15
+  instanceQname: bdr:MWEAP105-2-1-15
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_15/1.jp2
+bdr:WEAP105-2-1-150:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-150/canvas/1
+  igQname: bdr:IEAP105-2-1-150
+  instanceQname: bdr:MWEAP105-2-1-150
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_150/1.jp2
+bdr:WEAP105-2-1-151:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-151/canvas/1
+  igQname: bdr:IEAP105-2-1-151
+  instanceQname: bdr:MWEAP105-2-1-151
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_151/1.jp2
+bdr:WEAP105-2-1-152:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-152/canvas/1
+  igQname: bdr:IEAP105-2-1-152
+  instanceQname: bdr:MWEAP105-2-1-152
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_152/1.jp2
+bdr:WEAP105-2-1-153:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-153/canvas/1
+  igQname: bdr:IEAP105-2-1-153
+  instanceQname: bdr:MWEAP105-2-1-153
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_153/1.jp2
+bdr:WEAP105-2-1-154:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-154/canvas/1
+  igQname: bdr:IEAP105-2-1-154
+  instanceQname: bdr:MWEAP105-2-1-154
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_154/1.jp2
+bdr:WEAP105-2-1-155:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-155/canvas/1
+  igQname: bdr:IEAP105-2-1-155
+  instanceQname: bdr:MWEAP105-2-1-155
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_155/1.jp2
+bdr:WEAP105-2-1-156:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-156/canvas/1
+  igQname: bdr:IEAP105-2-1-156
+  instanceQname: bdr:MWEAP105-2-1-156
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_156/1.jp2
+bdr:WEAP105-2-1-157:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-157/canvas/1
+  igQname: bdr:IEAP105-2-1-157
+  instanceQname: bdr:MWEAP105-2-1-157
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_157/1.jp2
+bdr:WEAP105-2-1-158:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-158/canvas/1
+  igQname: bdr:IEAP105-2-1-158
+  instanceQname: bdr:MWEAP105-2-1-158
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_158/1.jp2
+bdr:WEAP105-2-1-159:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-159/canvas/1
+  igQname: bdr:IEAP105-2-1-159
+  instanceQname: bdr:MWEAP105-2-1-159
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_159/1.jp2
+bdr:WEAP105-2-1-16:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-16/canvas/1
+  igQname: bdr:IEAP105-2-1-16
+  instanceQname: bdr:MWEAP105-2-1-16
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_16/1.jp2
+bdr:WEAP105-2-1-160:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-160/canvas/1
+  igQname: bdr:IEAP105-2-1-160
+  instanceQname: bdr:MWEAP105-2-1-160
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_160/1.jp2
+bdr:WEAP105-2-1-161:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-161/canvas/1
+  igQname: bdr:IEAP105-2-1-161
+  instanceQname: bdr:MWEAP105-2-1-161
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_161/1.jp2
+bdr:WEAP105-2-1-162:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-162/canvas/1
+  igQname: bdr:IEAP105-2-1-162
+  instanceQname: bdr:MWEAP105-2-1-162
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_162/1.jp2
+bdr:WEAP105-2-1-163:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-163/canvas/1
+  igQname: bdr:IEAP105-2-1-163
+  instanceQname: bdr:MWEAP105-2-1-163
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_163/1.jp2
+bdr:WEAP105-2-1-164:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-164/canvas/1
+  igQname: bdr:IEAP105-2-1-164
+  instanceQname: bdr:MWEAP105-2-1-164
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_164/1.jp2
+bdr:WEAP105-2-1-165:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-165/canvas/1
+  igQname: bdr:IEAP105-2-1-165
+  instanceQname: bdr:MWEAP105-2-1-165
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_165/1.jp2
+bdr:WEAP105-2-1-166:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-166/canvas/1
+  igQname: bdr:IEAP105-2-1-166
+  instanceQname: bdr:MWEAP105-2-1-166
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_166/1.jp2
+bdr:WEAP105-2-1-167:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-167/canvas/1
+  igQname: bdr:IEAP105-2-1-167
+  instanceQname: bdr:MWEAP105-2-1-167
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_167/1.jp2
+bdr:WEAP105-2-1-168:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-168/canvas/1
+  igQname: bdr:IEAP105-2-1-168
+  instanceQname: bdr:MWEAP105-2-1-168
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_168/1.jp2
+bdr:WEAP105-2-1-169:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-169/canvas/1
+  igQname: bdr:IEAP105-2-1-169
+  instanceQname: bdr:MWEAP105-2-1-169
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_169/1.jp2
+bdr:WEAP105-2-1-17:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-17/canvas/1
+  igQname: bdr:IEAP105-2-1-17
+  instanceQname: bdr:MWEAP105-2-1-17
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_17/1.jp2
+bdr:WEAP105-2-1-170:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-170/canvas/1
+  igQname: bdr:IEAP105-2-1-170
+  instanceQname: bdr:MWEAP105-2-1-170
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_170/1.jp2
+bdr:WEAP105-2-1-171:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-171/canvas/1
+  igQname: bdr:IEAP105-2-1-171
+  instanceQname: bdr:MWEAP105-2-1-171
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_171/1.jp2
+bdr:WEAP105-2-1-172:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-172/canvas/1
+  igQname: bdr:IEAP105-2-1-172
+  instanceQname: bdr:MWEAP105-2-1-172
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_172/1.jp2
+bdr:WEAP105-2-1-173:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-173/canvas/1
+  igQname: bdr:IEAP105-2-1-173
+  instanceQname: bdr:MWEAP105-2-1-173
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_173/1.jp2
+bdr:WEAP105-2-1-174:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-174/canvas/1
+  igQname: bdr:IEAP105-2-1-174
+  instanceQname: bdr:MWEAP105-2-1-174
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_174/1.jp2
+bdr:WEAP105-2-1-175:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-175/canvas/1
+  igQname: bdr:IEAP105-2-1-175
+  instanceQname: bdr:MWEAP105-2-1-175
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_175/1.jp2
+bdr:WEAP105-2-1-176:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-176/canvas/1
+  igQname: bdr:IEAP105-2-1-176
+  instanceQname: bdr:MWEAP105-2-1-176
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_176/1.jp2
+bdr:WEAP105-2-1-177:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-177/canvas/1
+  igQname: bdr:IEAP105-2-1-177
+  instanceQname: bdr:MWEAP105-2-1-177
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_177/1.jp2
+bdr:WEAP105-2-1-178:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-178/canvas/1
+  igQname: bdr:IEAP105-2-1-178
+  instanceQname: bdr:MWEAP105-2-1-178
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_178/1.jp2
+bdr:WEAP105-2-1-179:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-179/canvas/1
+  igQname: bdr:IEAP105-2-1-179
+  instanceQname: bdr:MWEAP105-2-1-179
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_179/1.jp2
+bdr:WEAP105-2-1-18:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-18/canvas/1
+  igQname: bdr:IEAP105-2-1-18
+  instanceQname: bdr:MWEAP105-2-1-18
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_18/1.jp2
+bdr:WEAP105-2-1-180:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-180/canvas/1
+  igQname: bdr:IEAP105-2-1-180
+  instanceQname: bdr:MWEAP105-2-1-180
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_180/1.jp2
+bdr:WEAP105-2-1-181:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-181/canvas/1
+  igQname: bdr:IEAP105-2-1-181
+  instanceQname: bdr:MWEAP105-2-1-181
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_181/1.jp2
+bdr:WEAP105-2-1-182:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-182/canvas/1
+  igQname: bdr:IEAP105-2-1-182
+  instanceQname: bdr:MWEAP105-2-1-182
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_182/1.jp2
+bdr:WEAP105-2-1-183:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-183/canvas/1
+  igQname: bdr:IEAP105-2-1-183
+  instanceQname: bdr:MWEAP105-2-1-183
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_183/1.jp2
+bdr:WEAP105-2-1-184:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-184/canvas/1
+  igQname: bdr:IEAP105-2-1-184
+  instanceQname: bdr:MWEAP105-2-1-184
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_184/1.jp2
+bdr:WEAP105-2-1-185:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-185/canvas/1
+  igQname: bdr:IEAP105-2-1-185
+  instanceQname: bdr:MWEAP105-2-1-185
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_185/1.jp2
+bdr:WEAP105-2-1-186:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-186/canvas/1
+  igQname: bdr:IEAP105-2-1-186
+  instanceQname: bdr:MWEAP105-2-1-186
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_186/1.jp2
+bdr:WEAP105-2-1-187:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-187/canvas/1
+  igQname: bdr:IEAP105-2-1-187
+  instanceQname: bdr:MWEAP105-2-1-187
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_187/1.jp2
+bdr:WEAP105-2-1-188:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-188/canvas/1
+  igQname: bdr:IEAP105-2-1-188
+  instanceQname: bdr:MWEAP105-2-1-188
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_188/1.jp2
+bdr:WEAP105-2-1-189:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-189/canvas/1
+  igQname: bdr:IEAP105-2-1-189
+  instanceQname: bdr:MWEAP105-2-1-189
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_189/1.jp2
+bdr:WEAP105-2-1-19:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-19/canvas/1
+  igQname: bdr:IEAP105-2-1-19
+  instanceQname: bdr:MWEAP105-2-1-19
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_19/1.jp2
+bdr:WEAP105-2-1-190:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-190/canvas/1
+  igQname: bdr:IEAP105-2-1-190
+  instanceQname: bdr:MWEAP105-2-1-190
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_190/1.jp2
+bdr:WEAP105-2-1-191:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-191/canvas/1
+  igQname: bdr:IEAP105-2-1-191
+  instanceQname: bdr:MWEAP105-2-1-191
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_191/1.jp2
+bdr:WEAP105-2-1-192:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-192/canvas/1
+  igQname: bdr:IEAP105-2-1-192
+  instanceQname: bdr:MWEAP105-2-1-192
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_192/1.jp2
+bdr:WEAP105-2-1-193:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-193/canvas/1
+  igQname: bdr:IEAP105-2-1-193
+  instanceQname: bdr:MWEAP105-2-1-193
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_193/1.jp2
+bdr:WEAP105-2-1-194:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-194/canvas/1
+  igQname: bdr:IEAP105-2-1-194
+  instanceQname: bdr:MWEAP105-2-1-194
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_194/1.jp2
+bdr:WEAP105-2-1-195:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-195/canvas/1
+  igQname: bdr:IEAP105-2-1-195
+  instanceQname: bdr:MWEAP105-2-1-195
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_195/1.jp2
+bdr:WEAP105-2-1-196:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-196/canvas/1
+  igQname: bdr:IEAP105-2-1-196
+  instanceQname: bdr:MWEAP105-2-1-196
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_196/1.jp2
+bdr:WEAP105-2-1-197:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-197/canvas/1
+  igQname: bdr:IEAP105-2-1-197
+  instanceQname: bdr:MWEAP105-2-1-197
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_197/1.jp2
+bdr:WEAP105-2-1-198:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-198/canvas/1
+  igQname: bdr:IEAP105-2-1-198
+  instanceQname: bdr:MWEAP105-2-1-198
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_198/1.jp2
+bdr:WEAP105-2-1-199:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-199/canvas/1
+  igQname: bdr:IEAP105-2-1-199
+  instanceQname: bdr:MWEAP105-2-1-199
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_199/1.jp2
+bdr:WEAP105-2-1-2:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-2/canvas/1
+  igQname: bdr:IEAP105-2-1-2
+  instanceQname: bdr:MWEAP105-2-1-2
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_2/1.jp2
+bdr:WEAP105-2-1-20:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-20/canvas/1
+  igQname: bdr:IEAP105-2-1-20
+  instanceQname: bdr:MWEAP105-2-1-20
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_20/1.jp2
+bdr:WEAP105-2-1-200:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-200/canvas/1
+  igQname: bdr:IEAP105-2-1-200
+  instanceQname: bdr:MWEAP105-2-1-200
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_200/1.jp2
+bdr:WEAP105-2-1-201:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-201/canvas/1
+  igQname: bdr:IEAP105-2-1-201
+  instanceQname: bdr:MWEAP105-2-1-201
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_201/1.jp2
+bdr:WEAP105-2-1-202:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-202/canvas/1
+  igQname: bdr:IEAP105-2-1-202
+  instanceQname: bdr:MWEAP105-2-1-202
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_202/1.jp2
+bdr:WEAP105-2-1-203:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-203/canvas/1
+  igQname: bdr:IEAP105-2-1-203
+  instanceQname: bdr:MWEAP105-2-1-203
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_203/1.jp2
+bdr:WEAP105-2-1-204:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-204/canvas/1
+  igQname: bdr:IEAP105-2-1-204
+  instanceQname: bdr:MWEAP105-2-1-204
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_204/1.jp2
+bdr:WEAP105-2-1-205:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-205/canvas/1
+  igQname: bdr:IEAP105-2-1-205
+  instanceQname: bdr:MWEAP105-2-1-205
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_205/1.jp2
+bdr:WEAP105-2-1-206:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-206/canvas/1
+  igQname: bdr:IEAP105-2-1-206
+  instanceQname: bdr:MWEAP105-2-1-206
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_206/1.jp2
+bdr:WEAP105-2-1-207:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-207/canvas/1
+  igQname: bdr:IEAP105-2-1-207
+  instanceQname: bdr:MWEAP105-2-1-207
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_207/1.jp2
+bdr:WEAP105-2-1-208:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-208/canvas/1
+  igQname: bdr:IEAP105-2-1-208
+  instanceQname: bdr:MWEAP105-2-1-208
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_208/1.jp2
+bdr:WEAP105-2-1-209:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-209/canvas/1
+  igQname: bdr:IEAP105-2-1-209
+  instanceQname: bdr:MWEAP105-2-1-209
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_209/1.jp2
+bdr:WEAP105-2-1-21:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-21/canvas/1
+  igQname: bdr:IEAP105-2-1-21
+  instanceQname: bdr:MWEAP105-2-1-21
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_21/1.jp2
+bdr:WEAP105-2-1-210:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-210/canvas/1
+  igQname: bdr:IEAP105-2-1-210
+  instanceQname: bdr:MWEAP105-2-1-210
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_210/1.jp2
+bdr:WEAP105-2-1-211:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-211/canvas/1
+  igQname: bdr:IEAP105-2-1-211
+  instanceQname: bdr:MWEAP105-2-1-211
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_211/1.jp2
+bdr:WEAP105-2-1-212:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-212/canvas/1
+  igQname: bdr:IEAP105-2-1-212
+  instanceQname: bdr:MWEAP105-2-1-212
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_212/1.jp2
+bdr:WEAP105-2-1-213:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-213/canvas/1
+  igQname: bdr:IEAP105-2-1-213
+  instanceQname: bdr:MWEAP105-2-1-213
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_213/1.jp2
+bdr:WEAP105-2-1-214:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-214/canvas/1
+  igQname: bdr:IEAP105-2-1-214
+  instanceQname: bdr:MWEAP105-2-1-214
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_214/1.jp2
+bdr:WEAP105-2-1-215:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-215/canvas/1
+  igQname: bdr:IEAP105-2-1-215
+  instanceQname: bdr:MWEAP105-2-1-215
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_215/1.jp2
+bdr:WEAP105-2-1-216:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-216/canvas/1
+  igQname: bdr:IEAP105-2-1-216
+  instanceQname: bdr:MWEAP105-2-1-216
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_216/1.jp2
+bdr:WEAP105-2-1-217:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-217/canvas/1
+  igQname: bdr:IEAP105-2-1-217
+  instanceQname: bdr:MWEAP105-2-1-217
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_217/1.jp2
+bdr:WEAP105-2-1-218:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-218/canvas/1
+  igQname: bdr:IEAP105-2-1-218
+  instanceQname: bdr:MWEAP105-2-1-218
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_218/1.jp2
+bdr:WEAP105-2-1-219:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-219/canvas/1
+  igQname: bdr:IEAP105-2-1-219
+  instanceQname: bdr:MWEAP105-2-1-219
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_219/1.jp2
+bdr:WEAP105-2-1-22:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-22/canvas/1
+  igQname: bdr:IEAP105-2-1-22
+  instanceQname: bdr:MWEAP105-2-1-22
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_22/1.jp2
+bdr:WEAP105-2-1-220:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-220/canvas/1
+  igQname: bdr:IEAP105-2-1-220
+  instanceQname: bdr:MWEAP105-2-1-220
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_220/1.jp2
+bdr:WEAP105-2-1-221:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-221/canvas/1
+  igQname: bdr:IEAP105-2-1-221
+  instanceQname: bdr:MWEAP105-2-1-221
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_221/1.jp2
+bdr:WEAP105-2-1-222:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-222/canvas/1
+  igQname: bdr:IEAP105-2-1-222
+  instanceQname: bdr:MWEAP105-2-1-222
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_222/1.jp2
+bdr:WEAP105-2-1-223:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-223/canvas/1
+  igQname: bdr:IEAP105-2-1-223
+  instanceQname: bdr:MWEAP105-2-1-223
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_223/1.jp2
+bdr:WEAP105-2-1-224:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-224/canvas/1
+  igQname: bdr:IEAP105-2-1-224
+  instanceQname: bdr:MWEAP105-2-1-224
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_224/1.jp2
+bdr:WEAP105-2-1-225:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-225/canvas/1
+  igQname: bdr:IEAP105-2-1-225
+  instanceQname: bdr:MWEAP105-2-1-225
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_225/1.jp2
+bdr:WEAP105-2-1-226:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-226/canvas/1
+  igQname: bdr:IEAP105-2-1-226
+  instanceQname: bdr:MWEAP105-2-1-226
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_226/1.jp2
+bdr:WEAP105-2-1-227:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-227/canvas/1
+  igQname: bdr:IEAP105-2-1-227
+  instanceQname: bdr:MWEAP105-2-1-227
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_227/1.jp2
+bdr:WEAP105-2-1-228:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-228/canvas/1
+  igQname: bdr:IEAP105-2-1-228
+  instanceQname: bdr:MWEAP105-2-1-228
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_228/1.jp2
+bdr:WEAP105-2-1-229:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-229/canvas/1
+  igQname: bdr:IEAP105-2-1-229
+  instanceQname: bdr:MWEAP105-2-1-229
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_229/1.jp2
+bdr:WEAP105-2-1-23:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-23/canvas/1
+  igQname: bdr:IEAP105-2-1-23
+  instanceQname: bdr:MWEAP105-2-1-23
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_23/1.jp2
+bdr:WEAP105-2-1-230:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-230/canvas/1
+  igQname: bdr:IEAP105-2-1-230
+  instanceQname: bdr:MWEAP105-2-1-230
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_230/1.jp2
+bdr:WEAP105-2-1-231:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-231/canvas/1
+  igQname: bdr:IEAP105-2-1-231
+  instanceQname: bdr:MWEAP105-2-1-231
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_231/1.jp2
+bdr:WEAP105-2-1-232:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-232/canvas/1
+  igQname: bdr:IEAP105-2-1-232
+  instanceQname: bdr:MWEAP105-2-1-232
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_232/1.jp2
+bdr:WEAP105-2-1-233:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-233/canvas/1
+  igQname: bdr:IEAP105-2-1-233
+  instanceQname: bdr:MWEAP105-2-1-233
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_233/1.jp2
+bdr:WEAP105-2-1-234:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-234/canvas/1
+  igQname: bdr:IEAP105-2-1-234
+  instanceQname: bdr:MWEAP105-2-1-234
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_234/1.jp2
+bdr:WEAP105-2-1-235:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-235/canvas/1
+  igQname: bdr:IEAP105-2-1-235
+  instanceQname: bdr:MWEAP105-2-1-235
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_235/1.jp2
+bdr:WEAP105-2-1-236:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-236/canvas/1
+  igQname: bdr:IEAP105-2-1-236
+  instanceQname: bdr:MWEAP105-2-1-236
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_236/1.jp2
+bdr:WEAP105-2-1-237:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-237/canvas/1
+  igQname: bdr:IEAP105-2-1-237
+  instanceQname: bdr:MWEAP105-2-1-237
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_237/1.jp2
+bdr:WEAP105-2-1-238:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-238/canvas/1
+  igQname: bdr:IEAP105-2-1-238
+  instanceQname: bdr:MWEAP105-2-1-238
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_238/1.jp2
+bdr:WEAP105-2-1-239:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-239/canvas/1
+  igQname: bdr:IEAP105-2-1-239
+  instanceQname: bdr:MWEAP105-2-1-239
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_239/1.jp2
+bdr:WEAP105-2-1-24:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-24/canvas/1
+  igQname: bdr:IEAP105-2-1-24
+  instanceQname: bdr:MWEAP105-2-1-24
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_24/1.jp2
+bdr:WEAP105-2-1-240:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-240/canvas/1
+  igQname: bdr:IEAP105-2-1-240
+  instanceQname: bdr:MWEAP105-2-1-240
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_240/1.jp2
+bdr:WEAP105-2-1-241:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-241/canvas/1
+  igQname: bdr:IEAP105-2-1-241
+  instanceQname: bdr:MWEAP105-2-1-241
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_241/1.jp2
+bdr:WEAP105-2-1-242:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-242/canvas/1
+  igQname: bdr:IEAP105-2-1-242
+  instanceQname: bdr:MWEAP105-2-1-242
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_242/1.jp2
+bdr:WEAP105-2-1-243:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-243/canvas/1
+  igQname: bdr:IEAP105-2-1-243
+  instanceQname: bdr:MWEAP105-2-1-243
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_243/1.jp2
+bdr:WEAP105-2-1-244:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-244/canvas/1
+  igQname: bdr:IEAP105-2-1-244
+  instanceQname: bdr:MWEAP105-2-1-244
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_244/1.jp2
+bdr:WEAP105-2-1-245:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-245/canvas/1
+  igQname: bdr:IEAP105-2-1-245
+  instanceQname: bdr:MWEAP105-2-1-245
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_245/1.jp2
+bdr:WEAP105-2-1-246:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-246/canvas/1
+  igQname: bdr:IEAP105-2-1-246
+  instanceQname: bdr:MWEAP105-2-1-246
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_246/1.jp2
+bdr:WEAP105-2-1-247:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-247/canvas/1
+  igQname: bdr:IEAP105-2-1-247
+  instanceQname: bdr:MWEAP105-2-1-247
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_247/1.jp2
+bdr:WEAP105-2-1-248:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-248/canvas/1
+  igQname: bdr:IEAP105-2-1-248
+  instanceQname: bdr:MWEAP105-2-1-248
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_248/1.jp2
+bdr:WEAP105-2-1-249:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-249/canvas/1
+  igQname: bdr:IEAP105-2-1-249
+  instanceQname: bdr:MWEAP105-2-1-249
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_249/1.jp2
+bdr:WEAP105-2-1-25:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-25/canvas/1
+  igQname: bdr:IEAP105-2-1-25
+  instanceQname: bdr:MWEAP105-2-1-25
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_25/1.jp2
+bdr:WEAP105-2-1-250:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-250/canvas/1
+  igQname: bdr:IEAP105-2-1-250
+  instanceQname: bdr:MWEAP105-2-1-250
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_250/1.jp2
+bdr:WEAP105-2-1-251:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-251/canvas/1
+  igQname: bdr:IEAP105-2-1-251
+  instanceQname: bdr:MWEAP105-2-1-251
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_251/1.jp2
+bdr:WEAP105-2-1-252:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-252/canvas/1
+  igQname: bdr:IEAP105-2-1-252
+  instanceQname: bdr:MWEAP105-2-1-252
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_252/1.jp2
+bdr:WEAP105-2-1-253:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-253/canvas/1
+  igQname: bdr:IEAP105-2-1-253
+  instanceQname: bdr:MWEAP105-2-1-253
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_253/1.jp2
+bdr:WEAP105-2-1-254:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-254/canvas/1
+  igQname: bdr:IEAP105-2-1-254
+  instanceQname: bdr:MWEAP105-2-1-254
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_254/1.jp2
+bdr:WEAP105-2-1-255:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-255/canvas/1
+  igQname: bdr:IEAP105-2-1-255
+  instanceQname: bdr:MWEAP105-2-1-255
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_255/1.jp2
+bdr:WEAP105-2-1-256:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-256/canvas/1
+  igQname: bdr:IEAP105-2-1-256
+  instanceQname: bdr:MWEAP105-2-1-256
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_256/1.jp2
+bdr:WEAP105-2-1-257:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-257/canvas/1
+  igQname: bdr:IEAP105-2-1-257
+  instanceQname: bdr:MWEAP105-2-1-257
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_257/1.jp2
+bdr:WEAP105-2-1-258:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-258/canvas/1
+  igQname: bdr:IEAP105-2-1-258
+  instanceQname: bdr:MWEAP105-2-1-258
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_258/1.jp2
+bdr:WEAP105-2-1-259:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-259/canvas/1
+  igQname: bdr:IEAP105-2-1-259
+  instanceQname: bdr:MWEAP105-2-1-259
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_259/1.jp2
+bdr:WEAP105-2-1-26:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-26/canvas/1
+  igQname: bdr:IEAP105-2-1-26
+  instanceQname: bdr:MWEAP105-2-1-26
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_26/1.jp2
+bdr:WEAP105-2-1-260:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-260/canvas/1
+  igQname: bdr:IEAP105-2-1-260
+  instanceQname: bdr:MWEAP105-2-1-260
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_260/1.jp2
+bdr:WEAP105-2-1-261:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-261/canvas/1
+  igQname: bdr:IEAP105-2-1-261
+  instanceQname: bdr:MWEAP105-2-1-261
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_261/1.jp2
+bdr:WEAP105-2-1-262:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-262/canvas/1
+  igQname: bdr:IEAP105-2-1-262
+  instanceQname: bdr:MWEAP105-2-1-262
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_262/1.jp2
+bdr:WEAP105-2-1-263:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-263/canvas/1
+  igQname: bdr:IEAP105-2-1-263
+  instanceQname: bdr:MWEAP105-2-1-263
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_263/1.jp2
+bdr:WEAP105-2-1-264:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-264/canvas/1
+  igQname: bdr:IEAP105-2-1-264
+  instanceQname: bdr:MWEAP105-2-1-264
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_264/1.jp2
+bdr:WEAP105-2-1-265:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-265/canvas/1
+  igQname: bdr:IEAP105-2-1-265
+  instanceQname: bdr:MWEAP105-2-1-265
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_265/1.jp2
+bdr:WEAP105-2-1-266:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-266/canvas/1
+  igQname: bdr:IEAP105-2-1-266
+  instanceQname: bdr:MWEAP105-2-1-266
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_266/1.jp2
+bdr:WEAP105-2-1-267:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-267/canvas/1
+  igQname: bdr:IEAP105-2-1-267
+  instanceQname: bdr:MWEAP105-2-1-267
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_267/1.jp2
+bdr:WEAP105-2-1-268:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-268/canvas/1
+  igQname: bdr:IEAP105-2-1-268
+  instanceQname: bdr:MWEAP105-2-1-268
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_268/1.jp2
+bdr:WEAP105-2-1-269:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-269/canvas/1
+  igQname: bdr:IEAP105-2-1-269
+  instanceQname: bdr:MWEAP105-2-1-269
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_269/1.jp2
+bdr:WEAP105-2-1-27:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-27/canvas/1
+  igQname: bdr:IEAP105-2-1-27
+  instanceQname: bdr:MWEAP105-2-1-27
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_27/1.jp2
+bdr:WEAP105-2-1-270:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-270/canvas/1
+  igQname: bdr:IEAP105-2-1-270
+  instanceQname: bdr:MWEAP105-2-1-270
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_270/1.jp2
+bdr:WEAP105-2-1-271:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-271/canvas/1
+  igQname: bdr:IEAP105-2-1-271
+  instanceQname: bdr:MWEAP105-2-1-271
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_271/1.jp2
+bdr:WEAP105-2-1-272:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-272/canvas/1
+  igQname: bdr:IEAP105-2-1-272
+  instanceQname: bdr:MWEAP105-2-1-272
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_272/1.jp2
+bdr:WEAP105-2-1-273:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-273/canvas/1
+  igQname: bdr:IEAP105-2-1-273
+  instanceQname: bdr:MWEAP105-2-1-273
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_273/1.jp2
+bdr:WEAP105-2-1-274:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-274/canvas/1
+  igQname: bdr:IEAP105-2-1-274
+  instanceQname: bdr:MWEAP105-2-1-274
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_274/1.jp2
+bdr:WEAP105-2-1-275:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-275/canvas/1
+  igQname: bdr:IEAP105-2-1-275
+  instanceQname: bdr:MWEAP105-2-1-275
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_275/1.jp2
+bdr:WEAP105-2-1-276:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-276/canvas/1
+  igQname: bdr:IEAP105-2-1-276
+  instanceQname: bdr:MWEAP105-2-1-276
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_276/1.jp2
+bdr:WEAP105-2-1-277:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-277/canvas/1
+  igQname: bdr:IEAP105-2-1-277
+  instanceQname: bdr:MWEAP105-2-1-277
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_277/1.jp2
+bdr:WEAP105-2-1-278:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-278/canvas/1
+  igQname: bdr:IEAP105-2-1-278
+  instanceQname: bdr:MWEAP105-2-1-278
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_278/1.jp2
+bdr:WEAP105-2-1-279:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-279/canvas/1
+  igQname: bdr:IEAP105-2-1-279
+  instanceQname: bdr:MWEAP105-2-1-279
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_279/1.jp2
+bdr:WEAP105-2-1-28:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-28/canvas/1
+  igQname: bdr:IEAP105-2-1-28
+  instanceQname: bdr:MWEAP105-2-1-28
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_28/1.jp2
+bdr:WEAP105-2-1-280:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-280/canvas/1
+  igQname: bdr:IEAP105-2-1-280
+  instanceQname: bdr:MWEAP105-2-1-280
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_280/1.jp2
+bdr:WEAP105-2-1-281:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-281/canvas/1
+  igQname: bdr:IEAP105-2-1-281
+  instanceQname: bdr:MWEAP105-2-1-281
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_281/1.jp2
+bdr:WEAP105-2-1-282:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-282/canvas/1
+  igQname: bdr:IEAP105-2-1-282
+  instanceQname: bdr:MWEAP105-2-1-282
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_282/1.jp2
+bdr:WEAP105-2-1-283:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-283/canvas/1
+  igQname: bdr:IEAP105-2-1-283
+  instanceQname: bdr:MWEAP105-2-1-283
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_283/1.jp2
+bdr:WEAP105-2-1-284:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-284/canvas/1
+  igQname: bdr:IEAP105-2-1-284
+  instanceQname: bdr:MWEAP105-2-1-284
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_284/1.jp2
+bdr:WEAP105-2-1-285:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-285/canvas/1
+  igQname: bdr:IEAP105-2-1-285
+  instanceQname: bdr:MWEAP105-2-1-285
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_285/1.jp2
+bdr:WEAP105-2-1-286:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-286/canvas/1
+  igQname: bdr:IEAP105-2-1-286
+  instanceQname: bdr:MWEAP105-2-1-286
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_286/1.jp2
+bdr:WEAP105-2-1-287:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-287/canvas/1
+  igQname: bdr:IEAP105-2-1-287
+  instanceQname: bdr:MWEAP105-2-1-287
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_287/1.jp2
+bdr:WEAP105-2-1-288:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-288/canvas/1
+  igQname: bdr:IEAP105-2-1-288
+  instanceQname: bdr:MWEAP105-2-1-288
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_288/1.jp2
+bdr:WEAP105-2-1-289:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-289/canvas/1
+  igQname: bdr:IEAP105-2-1-289
+  instanceQname: bdr:MWEAP105-2-1-289
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_289/1.jp2
+bdr:WEAP105-2-1-29:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-29/canvas/1
+  igQname: bdr:IEAP105-2-1-29
+  instanceQname: bdr:MWEAP105-2-1-29
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_29/1.jp2
+bdr:WEAP105-2-1-290:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-290/canvas/1
+  igQname: bdr:IEAP105-2-1-290
+  instanceQname: bdr:MWEAP105-2-1-290
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_290/1.jp2
+bdr:WEAP105-2-1-291:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-291/canvas/1
+  igQname: bdr:IEAP105-2-1-291
+  instanceQname: bdr:MWEAP105-2-1-291
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_291/1.jp2
+bdr:WEAP105-2-1-292:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-292/canvas/1
+  igQname: bdr:IEAP105-2-1-292
+  instanceQname: bdr:MWEAP105-2-1-292
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_292/1.jp2
+bdr:WEAP105-2-1-293:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-293/canvas/1
+  igQname: bdr:IEAP105-2-1-293
+  instanceQname: bdr:MWEAP105-2-1-293
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_293/1.jp2
+bdr:WEAP105-2-1-294:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-294/canvas/1
+  igQname: bdr:IEAP105-2-1-294
+  instanceQname: bdr:MWEAP105-2-1-294
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_294/1.jp2
+bdr:WEAP105-2-1-295:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-295/canvas/1
+  igQname: bdr:IEAP105-2-1-295
+  instanceQname: bdr:MWEAP105-2-1-295
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_295/1.jp2
+bdr:WEAP105-2-1-296:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-296/canvas/1
+  igQname: bdr:IEAP105-2-1-296
+  instanceQname: bdr:MWEAP105-2-1-296
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_296/1.jp2
+bdr:WEAP105-2-1-297:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-297/canvas/1
+  igQname: bdr:IEAP105-2-1-297
+  instanceQname: bdr:MWEAP105-2-1-297
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_297/1.jp2
+bdr:WEAP105-2-1-298:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-298/canvas/1
+  igQname: bdr:IEAP105-2-1-298
+  instanceQname: bdr:MWEAP105-2-1-298
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_298/1.jp2
+bdr:WEAP105-2-1-299:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-299/canvas/1
+  igQname: bdr:IEAP105-2-1-299
+  instanceQname: bdr:MWEAP105-2-1-299
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_299/1.jp2
+bdr:WEAP105-2-1-3:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-3/canvas/1
+  igQname: bdr:IEAP105-2-1-3
+  instanceQname: bdr:MWEAP105-2-1-3
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_3/1.jp2
+bdr:WEAP105-2-1-30:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-30/canvas/1
+  igQname: bdr:IEAP105-2-1-30
+  instanceQname: bdr:MWEAP105-2-1-30
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_30/1.jp2
+bdr:WEAP105-2-1-300:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-300/canvas/1
+  igQname: bdr:IEAP105-2-1-300
+  instanceQname: bdr:MWEAP105-2-1-300
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_300/1.jp2
+bdr:WEAP105-2-1-301:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-301/canvas/1
+  igQname: bdr:IEAP105-2-1-301
+  instanceQname: bdr:MWEAP105-2-1-301
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_301/1.jp2
+bdr:WEAP105-2-1-302:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-302/canvas/1
+  igQname: bdr:IEAP105-2-1-302
+  instanceQname: bdr:MWEAP105-2-1-302
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_302/1.jp2
+bdr:WEAP105-2-1-303:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-303/canvas/1
+  igQname: bdr:IEAP105-2-1-303
+  instanceQname: bdr:MWEAP105-2-1-303
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_303/1.jp2
+bdr:WEAP105-2-1-304:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-304/canvas/1
+  igQname: bdr:IEAP105-2-1-304
+  instanceQname: bdr:MWEAP105-2-1-304
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_304/1.jp2
+bdr:WEAP105-2-1-305:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-305/canvas/1
+  igQname: bdr:IEAP105-2-1-305
+  instanceQname: bdr:MWEAP105-2-1-305
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_305/1.jp2
+bdr:WEAP105-2-1-306:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-306/canvas/1
+  igQname: bdr:IEAP105-2-1-306
+  instanceQname: bdr:MWEAP105-2-1-306
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_306/1.jp2
+bdr:WEAP105-2-1-307:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-307/canvas/1
+  igQname: bdr:IEAP105-2-1-307
+  instanceQname: bdr:MWEAP105-2-1-307
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_307/1.jp2
+bdr:WEAP105-2-1-308:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-308/canvas/1
+  igQname: bdr:IEAP105-2-1-308
+  instanceQname: bdr:MWEAP105-2-1-308
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_308/1.jp2
+bdr:WEAP105-2-1-309:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-309/canvas/1
+  igQname: bdr:IEAP105-2-1-309
+  instanceQname: bdr:MWEAP105-2-1-309
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_309/1.jp2
+bdr:WEAP105-2-1-31:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-31/canvas/1
+  igQname: bdr:IEAP105-2-1-31
+  instanceQname: bdr:MWEAP105-2-1-31
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_31/1.jp2
+bdr:WEAP105-2-1-310:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-310/canvas/1
+  igQname: bdr:IEAP105-2-1-310
+  instanceQname: bdr:MWEAP105-2-1-310
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_310/1.jp2
+bdr:WEAP105-2-1-311:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-311/canvas/1
+  igQname: bdr:IEAP105-2-1-311
+  instanceQname: bdr:MWEAP105-2-1-311
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_311/1.jp2
+bdr:WEAP105-2-1-312:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-312/canvas/1
+  igQname: bdr:IEAP105-2-1-312
+  instanceQname: bdr:MWEAP105-2-1-312
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_312/1.jp2
+bdr:WEAP105-2-1-313:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-313/canvas/1
+  igQname: bdr:IEAP105-2-1-313
+  instanceQname: bdr:MWEAP105-2-1-313
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_313/1.jp2
+bdr:WEAP105-2-1-314:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-314/canvas/1
+  igQname: bdr:IEAP105-2-1-314
+  instanceQname: bdr:MWEAP105-2-1-314
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_314/1.jp2
+bdr:WEAP105-2-1-315:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-315/canvas/1
+  igQname: bdr:IEAP105-2-1-315
+  instanceQname: bdr:MWEAP105-2-1-315
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_315/1.jp2
+bdr:WEAP105-2-1-316:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-316/canvas/1
+  igQname: bdr:IEAP105-2-1-316
+  instanceQname: bdr:MWEAP105-2-1-316
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_316/1.jp2
+bdr:WEAP105-2-1-317:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-317/canvas/1
+  igQname: bdr:IEAP105-2-1-317
+  instanceQname: bdr:MWEAP105-2-1-317
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_317/1.jp2
+bdr:WEAP105-2-1-318:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-318/canvas/1
+  igQname: bdr:IEAP105-2-1-318
+  instanceQname: bdr:MWEAP105-2-1-318
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_318/1.jp2
+bdr:WEAP105-2-1-319:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-319/canvas/1
+  igQname: bdr:IEAP105-2-1-319
+  instanceQname: bdr:MWEAP105-2-1-319
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_319/1.jp2
+bdr:WEAP105-2-1-32:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-32/canvas/1
+  igQname: bdr:IEAP105-2-1-32
+  instanceQname: bdr:MWEAP105-2-1-32
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_32/1.jp2
+bdr:WEAP105-2-1-320:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-320/canvas/1
+  igQname: bdr:IEAP105-2-1-320
+  instanceQname: bdr:MWEAP105-2-1-320
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_320/1.jp2
+bdr:WEAP105-2-1-321:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-321/canvas/1
+  igQname: bdr:IEAP105-2-1-321
+  instanceQname: bdr:MWEAP105-2-1-321
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_321/1.jp2
+bdr:WEAP105-2-1-322:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-322/canvas/1
+  igQname: bdr:IEAP105-2-1-322
+  instanceQname: bdr:MWEAP105-2-1-322
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_322/1.jp2
+bdr:WEAP105-2-1-323:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-323/canvas/1
+  igQname: bdr:IEAP105-2-1-323
+  instanceQname: bdr:MWEAP105-2-1-323
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_323/1.jp2
+bdr:WEAP105-2-1-324:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-324/canvas/1
+  igQname: bdr:IEAP105-2-1-324
+  instanceQname: bdr:MWEAP105-2-1-324
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_324/1.jp2
+bdr:WEAP105-2-1-325:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-325/canvas/1
+  igQname: bdr:IEAP105-2-1-325
+  instanceQname: bdr:MWEAP105-2-1-325
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_325/1.jp2
+bdr:WEAP105-2-1-326:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-326/canvas/1
+  igQname: bdr:IEAP105-2-1-326
+  instanceQname: bdr:MWEAP105-2-1-326
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_326/1.jp2
+bdr:WEAP105-2-1-327:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-327/canvas/1
+  igQname: bdr:IEAP105-2-1-327
+  instanceQname: bdr:MWEAP105-2-1-327
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_327/1.jp2
+bdr:WEAP105-2-1-328:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-328/canvas/1
+  igQname: bdr:IEAP105-2-1-328
+  instanceQname: bdr:MWEAP105-2-1-328
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_328/1.jp2
+bdr:WEAP105-2-1-329:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-329/canvas/1
+  igQname: bdr:IEAP105-2-1-329
+  instanceQname: bdr:MWEAP105-2-1-329
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_329/1.jp2
+bdr:WEAP105-2-1-33:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-33/canvas/1
+  igQname: bdr:IEAP105-2-1-33
+  instanceQname: bdr:MWEAP105-2-1-33
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_33/2.jp2
+bdr:WEAP105-2-1-330:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-330/canvas/1
+  igQname: bdr:IEAP105-2-1-330
+  instanceQname: bdr:MWEAP105-2-1-330
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_330/1.jp2
+bdr:WEAP105-2-1-331:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-331/canvas/1
+  igQname: bdr:IEAP105-2-1-331
+  instanceQname: bdr:MWEAP105-2-1-331
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_331/1.jp2
+bdr:WEAP105-2-1-332:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-332/canvas/1
+  igQname: bdr:IEAP105-2-1-332
+  instanceQname: bdr:MWEAP105-2-1-332
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_332/1.jp2
+bdr:WEAP105-2-1-333:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-333/canvas/1
+  igQname: bdr:IEAP105-2-1-333
+  instanceQname: bdr:MWEAP105-2-1-333
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_333/1.jp2
+bdr:WEAP105-2-1-334:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-334/canvas/1
+  igQname: bdr:IEAP105-2-1-334
+  instanceQname: bdr:MWEAP105-2-1-334
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_334/1.jp2
+bdr:WEAP105-2-1-335:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-335/canvas/1
+  igQname: bdr:IEAP105-2-1-335
+  instanceQname: bdr:MWEAP105-2-1-335
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_335/1.jp2
+bdr:WEAP105-2-1-336:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-336/canvas/1
+  igQname: bdr:IEAP105-2-1-336
+  instanceQname: bdr:MWEAP105-2-1-336
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_336/1.jp2
+bdr:WEAP105-2-1-337:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-337/canvas/1
+  igQname: bdr:IEAP105-2-1-337
+  instanceQname: bdr:MWEAP105-2-1-337
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_337/1.jp2
+bdr:WEAP105-2-1-338:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-338/canvas/1
+  igQname: bdr:IEAP105-2-1-338
+  instanceQname: bdr:MWEAP105-2-1-338
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_338/1.jp2
+bdr:WEAP105-2-1-339:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-339/canvas/1
+  igQname: bdr:IEAP105-2-1-339
+  instanceQname: bdr:MWEAP105-2-1-339
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_339/1.jp2
+bdr:WEAP105-2-1-34:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-34/canvas/1
+  igQname: bdr:IEAP105-2-1-34
+  instanceQname: bdr:MWEAP105-2-1-34
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_34/1.jp2
+bdr:WEAP105-2-1-340:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-340/canvas/1
+  igQname: bdr:IEAP105-2-1-340
+  instanceQname: bdr:MWEAP105-2-1-340
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_340/1.jp2
+bdr:WEAP105-2-1-341:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-341/canvas/1
+  igQname: bdr:IEAP105-2-1-341
+  instanceQname: bdr:MWEAP105-2-1-341
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_341/1.jp2
+bdr:WEAP105-2-1-342:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-342/canvas/1
+  igQname: bdr:IEAP105-2-1-342
+  instanceQname: bdr:MWEAP105-2-1-342
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_342/1.jp2
+bdr:WEAP105-2-1-343:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-343/canvas/1
+  igQname: bdr:IEAP105-2-1-343
+  instanceQname: bdr:MWEAP105-2-1-343
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_343/1.jp2
+bdr:WEAP105-2-1-344:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-344/canvas/1
+  igQname: bdr:IEAP105-2-1-344
+  instanceQname: bdr:MWEAP105-2-1-344
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_344/1.jp2
+bdr:WEAP105-2-1-345:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-345/canvas/1
+  igQname: bdr:IEAP105-2-1-345
+  instanceQname: bdr:MWEAP105-2-1-345
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_345/1.jp2
+bdr:WEAP105-2-1-346:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-346/canvas/1
+  igQname: bdr:IEAP105-2-1-346
+  instanceQname: bdr:MWEAP105-2-1-346
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_346/1.jp2
+bdr:WEAP105-2-1-347:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-347/canvas/1
+  igQname: bdr:IEAP105-2-1-347
+  instanceQname: bdr:MWEAP105-2-1-347
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_347/1.jp2
+bdr:WEAP105-2-1-348:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-348/canvas/1
+  igQname: bdr:IEAP105-2-1-348
+  instanceQname: bdr:MWEAP105-2-1-348
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_348/1.jp2
+bdr:WEAP105-2-1-349:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-349/canvas/1
+  igQname: bdr:IEAP105-2-1-349
+  instanceQname: bdr:MWEAP105-2-1-349
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_349/1.jp2
+bdr:WEAP105-2-1-35:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-35/canvas/1
+  igQname: bdr:IEAP105-2-1-35
+  instanceQname: bdr:MWEAP105-2-1-35
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_35/1.jp2
+bdr:WEAP105-2-1-350:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-350/canvas/1
+  igQname: bdr:IEAP105-2-1-350
+  instanceQname: bdr:MWEAP105-2-1-350
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_350/1.jp2
+bdr:WEAP105-2-1-351:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-351/canvas/1
+  igQname: bdr:IEAP105-2-1-351
+  instanceQname: bdr:MWEAP105-2-1-351
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_351/1.jp2
+bdr:WEAP105-2-1-352:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-352/canvas/1
+  igQname: bdr:IEAP105-2-1-352
+  instanceQname: bdr:MWEAP105-2-1-352
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_352/1.jp2
+bdr:WEAP105-2-1-353:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-353/canvas/1
+  igQname: bdr:IEAP105-2-1-353
+  instanceQname: bdr:MWEAP105-2-1-353
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_353/1.jp2
+bdr:WEAP105-2-1-354:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-354/canvas/1
+  igQname: bdr:IEAP105-2-1-354
+  instanceQname: bdr:MWEAP105-2-1-354
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_354/1.jp2
+bdr:WEAP105-2-1-355:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-355/canvas/1
+  igQname: bdr:IEAP105-2-1-355
+  instanceQname: bdr:MWEAP105-2-1-355
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_355/1.jp2
+bdr:WEAP105-2-1-356:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-356/canvas/1
+  igQname: bdr:IEAP105-2-1-356
+  instanceQname: bdr:MWEAP105-2-1-356
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_356/1.jp2
+bdr:WEAP105-2-1-357:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-357/canvas/1
+  igQname: bdr:IEAP105-2-1-357
+  instanceQname: bdr:MWEAP105-2-1-357
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_357/1.jp2
+bdr:WEAP105-2-1-358:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-358/canvas/1
+  igQname: bdr:IEAP105-2-1-358
+  instanceQname: bdr:MWEAP105-2-1-358
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_358/1.jp2
+bdr:WEAP105-2-1-359:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-359/canvas/1
+  igQname: bdr:IEAP105-2-1-359
+  instanceQname: bdr:MWEAP105-2-1-359
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_359/1.jp2
+bdr:WEAP105-2-1-36:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-36/canvas/1
+  igQname: bdr:IEAP105-2-1-36
+  instanceQname: bdr:MWEAP105-2-1-36
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_36/1.jp2
+bdr:WEAP105-2-1-360:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-360/canvas/1
+  igQname: bdr:IEAP105-2-1-360
+  instanceQname: bdr:MWEAP105-2-1-360
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_360/1.jp2
+bdr:WEAP105-2-1-361:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-361/canvas/1
+  igQname: bdr:IEAP105-2-1-361
+  instanceQname: bdr:MWEAP105-2-1-361
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_361/1.jp2
+bdr:WEAP105-2-1-362:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-362/canvas/1
+  igQname: bdr:IEAP105-2-1-362
+  instanceQname: bdr:MWEAP105-2-1-362
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_362/1.jp2
+bdr:WEAP105-2-1-363:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-363/canvas/1
+  igQname: bdr:IEAP105-2-1-363
+  instanceQname: bdr:MWEAP105-2-1-363
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_363/1.jp2
+bdr:WEAP105-2-1-364:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-364/canvas/1
+  igQname: bdr:IEAP105-2-1-364
+  instanceQname: bdr:MWEAP105-2-1-364
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_364/1.jp2
+bdr:WEAP105-2-1-365:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-365/canvas/1
+  igQname: bdr:IEAP105-2-1-365
+  instanceQname: bdr:MWEAP105-2-1-365
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_365/1.jp2
+bdr:WEAP105-2-1-366:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-366/canvas/1
+  igQname: bdr:IEAP105-2-1-366
+  instanceQname: bdr:MWEAP105-2-1-366
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_366/1.jp2
+bdr:WEAP105-2-1-367:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-367/canvas/1
+  igQname: bdr:IEAP105-2-1-367
+  instanceQname: bdr:MWEAP105-2-1-367
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_367/1.jp2
+bdr:WEAP105-2-1-368:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-368/canvas/1
+  igQname: bdr:IEAP105-2-1-368
+  instanceQname: bdr:MWEAP105-2-1-368
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_368/1.jp2
+bdr:WEAP105-2-1-369:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-369/canvas/1
+  igQname: bdr:IEAP105-2-1-369
+  instanceQname: bdr:MWEAP105-2-1-369
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_369/1.jp2
+bdr:WEAP105-2-1-37:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-37/canvas/1
+  igQname: bdr:IEAP105-2-1-37
+  instanceQname: bdr:MWEAP105-2-1-37
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_37/4.jp2
+bdr:WEAP105-2-1-370:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-370/canvas/1
+  igQname: bdr:IEAP105-2-1-370
+  instanceQname: bdr:MWEAP105-2-1-370
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_370/1.jp2
+bdr:WEAP105-2-1-371:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-371/canvas/1
+  igQname: bdr:IEAP105-2-1-371
+  instanceQname: bdr:MWEAP105-2-1-371
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_371/1.jp2
+bdr:WEAP105-2-1-372:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-372/canvas/1
+  igQname: bdr:IEAP105-2-1-372
+  instanceQname: bdr:MWEAP105-2-1-372
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_372/1.jp2
+bdr:WEAP105-2-1-373:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-373/canvas/1
+  igQname: bdr:IEAP105-2-1-373
+  instanceQname: bdr:MWEAP105-2-1-373
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_373/1.jp2
+bdr:WEAP105-2-1-374:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-374/canvas/1
+  igQname: bdr:IEAP105-2-1-374
+  instanceQname: bdr:MWEAP105-2-1-374
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_374/1.jp2
+bdr:WEAP105-2-1-375:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-375/canvas/1
+  igQname: bdr:IEAP105-2-1-375
+  instanceQname: bdr:MWEAP105-2-1-375
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_375/1.jp2
+bdr:WEAP105-2-1-376:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-376/canvas/1
+  igQname: bdr:IEAP105-2-1-376
+  instanceQname: bdr:MWEAP105-2-1-376
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_376/1.jp2
+bdr:WEAP105-2-1-377:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-377/canvas/1
+  igQname: bdr:IEAP105-2-1-377
+  instanceQname: bdr:MWEAP105-2-1-377
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_377/1.jp2
+bdr:WEAP105-2-1-378:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-378/canvas/1
+  igQname: bdr:IEAP105-2-1-378
+  instanceQname: bdr:MWEAP105-2-1-378
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_378/1.jp2
+bdr:WEAP105-2-1-379:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-379/canvas/1
+  igQname: bdr:IEAP105-2-1-379
+  instanceQname: bdr:MWEAP105-2-1-379
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_379/1.jp2
+bdr:WEAP105-2-1-38:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-38/canvas/1
+  igQname: bdr:IEAP105-2-1-38
+  instanceQname: bdr:MWEAP105-2-1-38
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_38/1.jp2
+bdr:WEAP105-2-1-380:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-380/canvas/1
+  igQname: bdr:IEAP105-2-1-380
+  instanceQname: bdr:MWEAP105-2-1-380
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_380/2.jp2
+bdr:WEAP105-2-1-381:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-381/canvas/1
+  igQname: bdr:IEAP105-2-1-381
+  instanceQname: bdr:MWEAP105-2-1-381
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_381/1.jp2
+bdr:WEAP105-2-1-382:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-382/canvas/1
+  igQname: bdr:IEAP105-2-1-382
+  instanceQname: bdr:MWEAP105-2-1-382
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_382/1.jp2
+bdr:WEAP105-2-1-383:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-383/canvas/1
+  igQname: bdr:IEAP105-2-1-383
+  instanceQname: bdr:MWEAP105-2-1-383
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_383/1.jp2
+bdr:WEAP105-2-1-384:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-384/canvas/1
+  igQname: bdr:IEAP105-2-1-384
+  instanceQname: bdr:MWEAP105-2-1-384
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_384/1.jp2
+bdr:WEAP105-2-1-39:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-39/canvas/1
+  igQname: bdr:IEAP105-2-1-39
+  instanceQname: bdr:MWEAP105-2-1-39
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_39/1.jp2
+bdr:WEAP105-2-1-4:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-4/canvas/1
+  igQname: bdr:IEAP105-2-1-4
+  instanceQname: bdr:MWEAP105-2-1-4
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_4/1.jp2
+bdr:WEAP105-2-1-40:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-40/canvas/1
+  igQname: bdr:IEAP105-2-1-40
+  instanceQname: bdr:MWEAP105-2-1-40
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_40/1.jp2
+bdr:WEAP105-2-1-41:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-41/canvas/1
+  igQname: bdr:IEAP105-2-1-41
+  instanceQname: bdr:MWEAP105-2-1-41
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_41/1.jp2
+bdr:WEAP105-2-1-42:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-42/canvas/1
+  igQname: bdr:IEAP105-2-1-42
+  instanceQname: bdr:MWEAP105-2-1-42
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_42/1.jp2
+bdr:WEAP105-2-1-43:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-43/canvas/1
+  igQname: bdr:IEAP105-2-1-43
+  instanceQname: bdr:MWEAP105-2-1-43
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_43/3.jp2
+bdr:WEAP105-2-1-44:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-44/canvas/1
+  igQname: bdr:IEAP105-2-1-44
+  instanceQname: bdr:MWEAP105-2-1-44
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_44/1.jp2
+bdr:WEAP105-2-1-45:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-45/canvas/1
+  igQname: bdr:IEAP105-2-1-45
+  instanceQname: bdr:MWEAP105-2-1-45
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_45/1.jp2
+bdr:WEAP105-2-1-46:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-46/canvas/1
+  igQname: bdr:IEAP105-2-1-46
+  instanceQname: bdr:MWEAP105-2-1-46
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_46/1.jp2
+bdr:WEAP105-2-1-47:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-47/canvas/1
+  igQname: bdr:IEAP105-2-1-47
+  instanceQname: bdr:MWEAP105-2-1-47
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_47/1.jp2
+bdr:WEAP105-2-1-48:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-48/canvas/1
+  igQname: bdr:IEAP105-2-1-48
+  instanceQname: bdr:MWEAP105-2-1-48
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_48/1.jp2
+bdr:WEAP105-2-1-49:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-49/canvas/1
+  igQname: bdr:IEAP105-2-1-49
+  instanceQname: bdr:MWEAP105-2-1-49
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_49/1.jp2
+bdr:WEAP105-2-1-5:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-5/canvas/1
+  igQname: bdr:IEAP105-2-1-5
+  instanceQname: bdr:MWEAP105-2-1-5
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_5/1.jp2
+bdr:WEAP105-2-1-50:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-50/canvas/1
+  igQname: bdr:IEAP105-2-1-50
+  instanceQname: bdr:MWEAP105-2-1-50
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_50/1.jp2
+bdr:WEAP105-2-1-51:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-51/canvas/1
+  igQname: bdr:IEAP105-2-1-51
+  instanceQname: bdr:MWEAP105-2-1-51
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_51/1.jp2
+bdr:WEAP105-2-1-52:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-52/canvas/1
+  igQname: bdr:IEAP105-2-1-52
+  instanceQname: bdr:MWEAP105-2-1-52
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_52/1.jp2
+bdr:WEAP105-2-1-53:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-53/canvas/1
+  igQname: bdr:IEAP105-2-1-53
+  instanceQname: bdr:MWEAP105-2-1-53
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_53/1.jp2
+bdr:WEAP105-2-1-54:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-54/canvas/1
+  igQname: bdr:IEAP105-2-1-54
+  instanceQname: bdr:MWEAP105-2-1-54
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_54/1.jp2
+bdr:WEAP105-2-1-55:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-55/canvas/1
+  igQname: bdr:IEAP105-2-1-55
+  instanceQname: bdr:MWEAP105-2-1-55
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_55/1.jp2
+bdr:WEAP105-2-1-56:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-56/canvas/1
+  igQname: bdr:IEAP105-2-1-56
+  instanceQname: bdr:MWEAP105-2-1-56
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_56/1.jp2
+bdr:WEAP105-2-1-57:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-57/canvas/1
+  igQname: bdr:IEAP105-2-1-57
+  instanceQname: bdr:MWEAP105-2-1-57
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_57/1.jp2
+bdr:WEAP105-2-1-58:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-58/canvas/1
+  igQname: bdr:IEAP105-2-1-58
+  instanceQname: bdr:MWEAP105-2-1-58
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_58/1.jp2
+bdr:WEAP105-2-1-59:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-59/canvas/1
+  igQname: bdr:IEAP105-2-1-59
+  instanceQname: bdr:MWEAP105-2-1-59
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_59/1.jp2
+bdr:WEAP105-2-1-6:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-6/canvas/1
+  igQname: bdr:IEAP105-2-1-6
+  instanceQname: bdr:MWEAP105-2-1-6
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_6/1.jp2
+bdr:WEAP105-2-1-60:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-60/canvas/1
+  igQname: bdr:IEAP105-2-1-60
+  instanceQname: bdr:MWEAP105-2-1-60
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_60/1.jp2
+bdr:WEAP105-2-1-61:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-61/canvas/1
+  igQname: bdr:IEAP105-2-1-61
+  instanceQname: bdr:MWEAP105-2-1-61
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_61/1.jp2
+bdr:WEAP105-2-1-62:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-62/canvas/1
+  igQname: bdr:IEAP105-2-1-62
+  instanceQname: bdr:MWEAP105-2-1-62
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_62/1.jp2
+bdr:WEAP105-2-1-63:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-63/canvas/1
+  igQname: bdr:IEAP105-2-1-63
+  instanceQname: bdr:MWEAP105-2-1-63
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_63/1.jp2
+bdr:WEAP105-2-1-64:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-64/canvas/1
+  igQname: bdr:IEAP105-2-1-64
+  instanceQname: bdr:MWEAP105-2-1-64
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_64/1.jp2
+bdr:WEAP105-2-1-65:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-65/canvas/1
+  igQname: bdr:IEAP105-2-1-65
+  instanceQname: bdr:MWEAP105-2-1-65
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_65/1.jp2
+bdr:WEAP105-2-1-66:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-66/canvas/1
+  igQname: bdr:IEAP105-2-1-66
+  instanceQname: bdr:MWEAP105-2-1-66
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_66/1.jp2
+bdr:WEAP105-2-1-67:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-67/canvas/1
+  igQname: bdr:IEAP105-2-1-67
+  instanceQname: bdr:MWEAP105-2-1-67
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_67/1.jp2
+bdr:WEAP105-2-1-68:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-68/canvas/1
+  igQname: bdr:IEAP105-2-1-68
+  instanceQname: bdr:MWEAP105-2-1-68
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_68/1.jp2
+bdr:WEAP105-2-1-69:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-69/canvas/1
+  igQname: bdr:IEAP105-2-1-69
+  instanceQname: bdr:MWEAP105-2-1-69
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_69/1.jp2
+bdr:WEAP105-2-1-7:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-7/canvas/1
+  igQname: bdr:IEAP105-2-1-7
+  instanceQname: bdr:MWEAP105-2-1-7
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_7/1.jp2
+bdr:WEAP105-2-1-70:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-70/canvas/1
+  igQname: bdr:IEAP105-2-1-70
+  instanceQname: bdr:MWEAP105-2-1-70
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_70/1.jp2
+bdr:WEAP105-2-1-71:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-71/canvas/1
+  igQname: bdr:IEAP105-2-1-71
+  instanceQname: bdr:MWEAP105-2-1-71
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_71/1.jp2
+bdr:WEAP105-2-1-72:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-72/canvas/1
+  igQname: bdr:IEAP105-2-1-72
+  instanceQname: bdr:MWEAP105-2-1-72
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_72/1.jp2
+bdr:WEAP105-2-1-73:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-73/canvas/1
+  igQname: bdr:IEAP105-2-1-73
+  instanceQname: bdr:MWEAP105-2-1-73
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_73/1.jp2
+bdr:WEAP105-2-1-74:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-74/canvas/1
+  igQname: bdr:IEAP105-2-1-74
+  instanceQname: bdr:MWEAP105-2-1-74
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_74/1.jp2
+bdr:WEAP105-2-1-75:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-75/canvas/1
+  igQname: bdr:IEAP105-2-1-75
+  instanceQname: bdr:MWEAP105-2-1-75
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_75/1.jp2
+bdr:WEAP105-2-1-76:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-76/canvas/1
+  igQname: bdr:IEAP105-2-1-76
+  instanceQname: bdr:MWEAP105-2-1-76
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_76/1.jp2
+bdr:WEAP105-2-1-77:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-77/canvas/1
+  igQname: bdr:IEAP105-2-1-77
+  instanceQname: bdr:MWEAP105-2-1-77
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_77/1.jp2
+bdr:WEAP105-2-1-78:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-78/canvas/1
+  igQname: bdr:IEAP105-2-1-78
+  instanceQname: bdr:MWEAP105-2-1-78
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_78/1.jp2
+bdr:WEAP105-2-1-79:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-79/canvas/1
+  igQname: bdr:IEAP105-2-1-79
+  instanceQname: bdr:MWEAP105-2-1-79
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_79/1.jp2
+bdr:WEAP105-2-1-8:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-8/canvas/1
+  igQname: bdr:IEAP105-2-1-8
+  instanceQname: bdr:MWEAP105-2-1-8
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_8/1.jp2
+bdr:WEAP105-2-1-80:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-80/canvas/1
+  igQname: bdr:IEAP105-2-1-80
+  instanceQname: bdr:MWEAP105-2-1-80
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_80/1.jp2
+bdr:WEAP105-2-1-81:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-81/canvas/1
+  igQname: bdr:IEAP105-2-1-81
+  instanceQname: bdr:MWEAP105-2-1-81
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_81/1.jp2
+bdr:WEAP105-2-1-82:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-82/canvas/1
+  igQname: bdr:IEAP105-2-1-82
+  instanceQname: bdr:MWEAP105-2-1-82
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_82/1.jp2
+bdr:WEAP105-2-1-83:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-83/canvas/1
+  igQname: bdr:IEAP105-2-1-83
+  instanceQname: bdr:MWEAP105-2-1-83
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_83/1.jp2
+bdr:WEAP105-2-1-84:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-84/canvas/1
+  igQname: bdr:IEAP105-2-1-84
+  instanceQname: bdr:MWEAP105-2-1-84
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_84/1.jp2
+bdr:WEAP105-2-1-85:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-85/canvas/1
+  igQname: bdr:IEAP105-2-1-85
+  instanceQname: bdr:MWEAP105-2-1-85
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_85/1.jp2
+bdr:WEAP105-2-1-86:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-86/canvas/1
+  igQname: bdr:IEAP105-2-1-86
+  instanceQname: bdr:MWEAP105-2-1-86
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_86/1.jp2
+bdr:WEAP105-2-1-87:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-87/canvas/1
+  igQname: bdr:IEAP105-2-1-87
+  instanceQname: bdr:MWEAP105-2-1-87
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_87/1.jp2
+bdr:WEAP105-2-1-88:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-88/canvas/1
+  igQname: bdr:IEAP105-2-1-88
+  instanceQname: bdr:MWEAP105-2-1-88
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_88/1.jp2
+bdr:WEAP105-2-1-89:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-89/canvas/1
+  igQname: bdr:IEAP105-2-1-89
+  instanceQname: bdr:MWEAP105-2-1-89
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_89/1.jp2
+bdr:WEAP105-2-1-9:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-9/canvas/1
+  igQname: bdr:IEAP105-2-1-9
+  instanceQname: bdr:MWEAP105-2-1-9
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_9/1.jp2
+bdr:WEAP105-2-1-90:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-90/canvas/1
+  igQname: bdr:IEAP105-2-1-90
+  instanceQname: bdr:MWEAP105-2-1-90
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_90/1.jp2
+bdr:WEAP105-2-1-91:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-91/canvas/1
+  igQname: bdr:IEAP105-2-1-91
+  instanceQname: bdr:MWEAP105-2-1-91
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_91/1.jp2
+bdr:WEAP105-2-1-92:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-92/canvas/1
+  igQname: bdr:IEAP105-2-1-92
+  instanceQname: bdr:MWEAP105-2-1-92
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_92/1.jp2
+bdr:WEAP105-2-1-93:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-93/canvas/1
+  igQname: bdr:IEAP105-2-1-93
+  instanceQname: bdr:MWEAP105-2-1-93
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_93/1.jp2
+bdr:WEAP105-2-1-94:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-94/canvas/1
+  igQname: bdr:IEAP105-2-1-94
+  instanceQname: bdr:MWEAP105-2-1-94
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_94/1.jp2
+bdr:WEAP105-2-1-95:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-95/canvas/1
+  igQname: bdr:IEAP105-2-1-95
+  instanceQname: bdr:MWEAP105-2-1-95
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_95/1.jp2
+bdr:WEAP105-2-1-96:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-96/canvas/1
+  igQname: bdr:IEAP105-2-1-96
+  instanceQname: bdr:MWEAP105-2-1-96
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_96/1.jp2
+bdr:WEAP105-2-1-97:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-97/canvas/1
+  igQname: bdr:IEAP105-2-1-97
+  instanceQname: bdr:MWEAP105-2-1-97
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_97/1.jp2
+bdr:WEAP105-2-1-98:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-98/canvas/1
+  igQname: bdr:IEAP105-2-1-98
+  instanceQname: bdr:MWEAP105-2-1-98
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_98/1.jp2
+bdr:WEAP105-2-1-99:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-1-99/canvas/1
+  igQname: bdr:IEAP105-2-1-99
+  instanceQname: bdr:MWEAP105-2-1-99
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_1_99/1.jp2
+bdr:WEAP105-2-2-1:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-2-1/canvas/1
+  igQname: bdr:IEAP105-2-2-1
+  instanceQname: bdr:MWEAP105-2-2-1
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_2_1/1.jp2
+bdr:WEAP105-2-2-2:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-2-2/canvas/1
+  igQname: bdr:IEAP105-2-2-2
+  instanceQname: bdr:MWEAP105-2-2-2
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_2_2/1.jp2
+bdr:WEAP105-2-2-3:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-2-3/canvas/1
+  igQname: bdr:IEAP105-2-2-3
+  instanceQname: bdr:MWEAP105-2-2-3
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_2_3/1.jp2
+bdr:WEAP105-2-3-1:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-1/canvas/1
+  igQname: bdr:IEAP105-2-3-1
+  instanceQname: bdr:MWEAP105-2-3-1
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_1/1.jp2
+bdr:WEAP105-2-3-10:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-10/canvas/1
+  igQname: bdr:IEAP105-2-3-10
+  instanceQname: bdr:MWEAP105-2-3-10
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_10/1.jp2
+bdr:WEAP105-2-3-11:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-11/canvas/1
+  igQname: bdr:IEAP105-2-3-11
+  instanceQname: bdr:MWEAP105-2-3-11
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_11/1.jp2
+bdr:WEAP105-2-3-12:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-12/canvas/1
+  igQname: bdr:IEAP105-2-3-12
+  instanceQname: bdr:MWEAP105-2-3-12
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_12/1.jp2
+bdr:WEAP105-2-3-13:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-13/canvas/1
+  igQname: bdr:IEAP105-2-3-13
+  instanceQname: bdr:MWEAP105-2-3-13
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_13/1.jp2
+bdr:WEAP105-2-3-14:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-14/canvas/1
+  igQname: bdr:IEAP105-2-3-14
+  instanceQname: bdr:MWEAP105-2-3-14
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_14/1.jp2
+bdr:WEAP105-2-3-15:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-15/canvas/1
+  igQname: bdr:IEAP105-2-3-15
+  instanceQname: bdr:MWEAP105-2-3-15
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_15/1.jp2
+bdr:WEAP105-2-3-16:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-16/canvas/1
+  igQname: bdr:IEAP105-2-3-16
+  instanceQname: bdr:MWEAP105-2-3-16
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_16/1.jp2
+bdr:WEAP105-2-3-17:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-17/canvas/1
+  igQname: bdr:IEAP105-2-3-17
+  instanceQname: bdr:MWEAP105-2-3-17
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_17/1.jp2
+bdr:WEAP105-2-3-18:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-18/canvas/1
+  igQname: bdr:IEAP105-2-3-18
+  instanceQname: bdr:MWEAP105-2-3-18
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_18/1.jp2
+bdr:WEAP105-2-3-19:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-19/canvas/1
+  igQname: bdr:IEAP105-2-3-19
+  instanceQname: bdr:MWEAP105-2-3-19
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_19/1.jp2
+bdr:WEAP105-2-3-2:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-2/canvas/1
+  igQname: bdr:IEAP105-2-3-2
+  instanceQname: bdr:MWEAP105-2-3-2
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_2/1.jp2
+bdr:WEAP105-2-3-20:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-20/canvas/1
+  igQname: bdr:IEAP105-2-3-20
+  instanceQname: bdr:MWEAP105-2-3-20
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_20/1.jp2
+bdr:WEAP105-2-3-21:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-21/canvas/1
+  igQname: bdr:IEAP105-2-3-21
+  instanceQname: bdr:MWEAP105-2-3-21
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_21/1.jp2
+bdr:WEAP105-2-3-22:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-22/canvas/1
+  igQname: bdr:IEAP105-2-3-22
+  instanceQname: bdr:MWEAP105-2-3-22
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_22/1.jp2
+bdr:WEAP105-2-3-23:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-23/canvas/1
+  igQname: bdr:IEAP105-2-3-23
+  instanceQname: bdr:MWEAP105-2-3-23
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_23/1.jp2
+bdr:WEAP105-2-3-24:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-24/canvas/1
+  igQname: bdr:IEAP105-2-3-24
+  instanceQname: bdr:MWEAP105-2-3-24
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_24/1.jp2
+bdr:WEAP105-2-3-25:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-25/canvas/1
+  igQname: bdr:IEAP105-2-3-25
+  instanceQname: bdr:MWEAP105-2-3-25
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_25/1.jp2
+bdr:WEAP105-2-3-26:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-26/canvas/1
+  igQname: bdr:IEAP105-2-3-26
+  instanceQname: bdr:MWEAP105-2-3-26
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_26/1.jp2
+bdr:WEAP105-2-3-27:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-27/canvas/1
+  igQname: bdr:IEAP105-2-3-27
+  instanceQname: bdr:MWEAP105-2-3-27
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_27/1.jp2
+bdr:WEAP105-2-3-28:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-28/canvas/1
+  igQname: bdr:IEAP105-2-3-28
+  instanceQname: bdr:MWEAP105-2-3-28
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_28/1.jp2
+bdr:WEAP105-2-3-29:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-29/canvas/1
+  igQname: bdr:IEAP105-2-3-29
+  instanceQname: bdr:MWEAP105-2-3-29
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_29/1.jp2
+bdr:WEAP105-2-3-3:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-3/canvas/1
+  igQname: bdr:IEAP105-2-3-3
+  instanceQname: bdr:MWEAP105-2-3-3
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_3/1.jp2
+bdr:WEAP105-2-3-30:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-30/canvas/1
+  igQname: bdr:IEAP105-2-3-30
+  instanceQname: bdr:MWEAP105-2-3-30
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_30/1.jp2
+bdr:WEAP105-2-3-31:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-31/canvas/1
+  igQname: bdr:IEAP105-2-3-31
+  instanceQname: bdr:MWEAP105-2-3-31
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_31/1.jp2
+bdr:WEAP105-2-3-32:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-32/canvas/1
+  igQname: bdr:IEAP105-2-3-32
+  instanceQname: bdr:MWEAP105-2-3-32
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_32/1.jp2
+bdr:WEAP105-2-3-33:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-33/canvas/1
+  igQname: bdr:IEAP105-2-3-33
+  instanceQname: bdr:MWEAP105-2-3-33
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_33/1.jp2
+bdr:WEAP105-2-3-34:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-34/canvas/1
+  igQname: bdr:IEAP105-2-3-34
+  instanceQname: bdr:MWEAP105-2-3-34
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_34/1.jp2
+bdr:WEAP105-2-3-35:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-35/canvas/1
+  igQname: bdr:IEAP105-2-3-35
+  instanceQname: bdr:MWEAP105-2-3-35
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_35/1.jp2
+bdr:WEAP105-2-3-36:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-36/canvas/1
+  igQname: bdr:IEAP105-2-3-36
+  instanceQname: bdr:MWEAP105-2-3-36
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_36/1.jp2
+bdr:WEAP105-2-3-37:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-37/canvas/1
+  igQname: bdr:IEAP105-2-3-37
+  instanceQname: bdr:MWEAP105-2-3-37
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_37/1.jp2
+bdr:WEAP105-2-3-38:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-38/canvas/1
+  igQname: bdr:IEAP105-2-3-38
+  instanceQname: bdr:MWEAP105-2-3-38
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_38/1.jp2
+bdr:WEAP105-2-3-39:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-39/canvas/1
+  igQname: bdr:IEAP105-2-3-39
+  instanceQname: bdr:MWEAP105-2-3-39
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_39/1.jp2
+bdr:WEAP105-2-3-4:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-4/canvas/1
+  igQname: bdr:IEAP105-2-3-4
+  instanceQname: bdr:MWEAP105-2-3-4
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_4/1.jp2
+bdr:WEAP105-2-3-40:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-40/canvas/1
+  igQname: bdr:IEAP105-2-3-40
+  instanceQname: bdr:MWEAP105-2-3-40
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_40/1.jp2
+bdr:WEAP105-2-3-41:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-41/canvas/1
+  igQname: bdr:IEAP105-2-3-41
+  instanceQname: bdr:MWEAP105-2-3-41
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_41/1.jp2
+bdr:WEAP105-2-3-42:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-42/canvas/1
+  igQname: bdr:IEAP105-2-3-42
+  instanceQname: bdr:MWEAP105-2-3-42
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_42/1.jp2
+bdr:WEAP105-2-3-43:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-43/canvas/1
+  igQname: bdr:IEAP105-2-3-43
+  instanceQname: bdr:MWEAP105-2-3-43
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_43/1.jp2
+bdr:WEAP105-2-3-44:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-44/canvas/1
+  igQname: bdr:IEAP105-2-3-44
+  instanceQname: bdr:MWEAP105-2-3-44
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_44/1.jp2
+bdr:WEAP105-2-3-45:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-45/canvas/1
+  igQname: bdr:IEAP105-2-3-45
+  instanceQname: bdr:MWEAP105-2-3-45
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_45/1.jp2
+bdr:WEAP105-2-3-46:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-46/canvas/1
+  igQname: bdr:IEAP105-2-3-46
+  instanceQname: bdr:MWEAP105-2-3-46
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_46/1.jp2
+bdr:WEAP105-2-3-47:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-47/canvas/1
+  igQname: bdr:IEAP105-2-3-47
+  instanceQname: bdr:MWEAP105-2-3-47
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_47/1.jp2
+bdr:WEAP105-2-3-48:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-48/canvas/1
+  igQname: bdr:IEAP105-2-3-48
+  instanceQname: bdr:MWEAP105-2-3-48
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_48/1.jp2
+bdr:WEAP105-2-3-49:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-49/canvas/1
+  igQname: bdr:IEAP105-2-3-49
+  instanceQname: bdr:MWEAP105-2-3-49
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_49/1.jp2
+bdr:WEAP105-2-3-5:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-5/canvas/1
+  igQname: bdr:IEAP105-2-3-5
+  instanceQname: bdr:MWEAP105-2-3-5
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_5/1.jp2
+bdr:WEAP105-2-3-50:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-50/canvas/1
+  igQname: bdr:IEAP105-2-3-50
+  instanceQname: bdr:MWEAP105-2-3-50
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_50/1.jp2
+bdr:WEAP105-2-3-51:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-51/canvas/1
+  igQname: bdr:IEAP105-2-3-51
+  instanceQname: bdr:MWEAP105-2-3-51
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_51/1.jp2
+bdr:WEAP105-2-3-52:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-52/canvas/1
+  igQname: bdr:IEAP105-2-3-52
+  instanceQname: bdr:MWEAP105-2-3-52
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_52/1.jp2
+bdr:WEAP105-2-3-53:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-53/canvas/1
+  igQname: bdr:IEAP105-2-3-53
+  instanceQname: bdr:MWEAP105-2-3-53
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_53/1.jp2
+bdr:WEAP105-2-3-54:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-54/canvas/1
+  igQname: bdr:IEAP105-2-3-54
+  instanceQname: bdr:MWEAP105-2-3-54
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_54/1.jp2
+bdr:WEAP105-2-3-55:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-55/canvas/1
+  igQname: bdr:IEAP105-2-3-55
+  instanceQname: bdr:MWEAP105-2-3-55
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_55/1.jp2
+bdr:WEAP105-2-3-56:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-56/canvas/1
+  igQname: bdr:IEAP105-2-3-56
+  instanceQname: bdr:MWEAP105-2-3-56
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_56/1.jp2
+bdr:WEAP105-2-3-57:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-57/canvas/1
+  igQname: bdr:IEAP105-2-3-57
+  instanceQname: bdr:MWEAP105-2-3-57
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_57/1.jp2
+bdr:WEAP105-2-3-58:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-58/canvas/1
+  igQname: bdr:IEAP105-2-3-58
+  instanceQname: bdr:MWEAP105-2-3-58
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_58/1.jp2
+bdr:WEAP105-2-3-59:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-59/canvas/1
+  igQname: bdr:IEAP105-2-3-59
+  instanceQname: bdr:MWEAP105-2-3-59
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_59/1.jp2
+bdr:WEAP105-2-3-6:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-6/canvas/1
+  igQname: bdr:IEAP105-2-3-6
+  instanceQname: bdr:MWEAP105-2-3-6
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_6/1.jp2
+bdr:WEAP105-2-3-60:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-60/canvas/1
+  igQname: bdr:IEAP105-2-3-60
+  instanceQname: bdr:MWEAP105-2-3-60
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_60/1.jp2
+bdr:WEAP105-2-3-61:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-61/canvas/1
+  igQname: bdr:IEAP105-2-3-61
+  instanceQname: bdr:MWEAP105-2-3-61
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_61/1.jp2
+bdr:WEAP105-2-3-62:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-62/canvas/1
+  igQname: bdr:IEAP105-2-3-62
+  instanceQname: bdr:MWEAP105-2-3-62
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_62/1.jp2
+bdr:WEAP105-2-3-63:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-63/canvas/1
+  igQname: bdr:IEAP105-2-3-63
+  instanceQname: bdr:MWEAP105-2-3-63
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_63/1.jp2
+bdr:WEAP105-2-3-64:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-64/canvas/1
+  igQname: bdr:IEAP105-2-3-64
+  instanceQname: bdr:MWEAP105-2-3-64
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_64/1.jp2
+bdr:WEAP105-2-3-65:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-65/canvas/1
+  igQname: bdr:IEAP105-2-3-65
+  instanceQname: bdr:MWEAP105-2-3-65
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_65/1.jp2
+bdr:WEAP105-2-3-66:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-66/canvas/1
+  igQname: bdr:IEAP105-2-3-66
+  instanceQname: bdr:MWEAP105-2-3-66
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_66/1.jp2
+bdr:WEAP105-2-3-67:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-67/canvas/1
+  igQname: bdr:IEAP105-2-3-67
+  instanceQname: bdr:MWEAP105-2-3-67
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_67/1.jp2
+bdr:WEAP105-2-3-68:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-68/canvas/1
+  igQname: bdr:IEAP105-2-3-68
+  instanceQname: bdr:MWEAP105-2-3-68
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_68/1.jp2
+bdr:WEAP105-2-3-69:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-69/canvas/1
+  igQname: bdr:IEAP105-2-3-69
+  instanceQname: bdr:MWEAP105-2-3-69
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_69/1.jp2
+bdr:WEAP105-2-3-7:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-7/canvas/1
+  igQname: bdr:IEAP105-2-3-7
+  instanceQname: bdr:MWEAP105-2-3-7
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_7/1.jp2
+bdr:WEAP105-2-3-70:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-70/canvas/1
+  igQname: bdr:IEAP105-2-3-70
+  instanceQname: bdr:MWEAP105-2-3-70
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_70/1.jp2
+bdr:WEAP105-2-3-71:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-71/canvas/1
+  igQname: bdr:IEAP105-2-3-71
+  instanceQname: bdr:MWEAP105-2-3-71
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_71/1.jp2
+bdr:WEAP105-2-3-72:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-72/canvas/1
+  igQname: bdr:IEAP105-2-3-72
+  instanceQname: bdr:MWEAP105-2-3-72
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_72/1.jp2
+bdr:WEAP105-2-3-73:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-73/canvas/1
+  igQname: bdr:IEAP105-2-3-73
+  instanceQname: bdr:MWEAP105-2-3-73
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_73/1.jp2
+bdr:WEAP105-2-3-74:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-74/canvas/1
+  igQname: bdr:IEAP105-2-3-74
+  instanceQname: bdr:MWEAP105-2-3-74
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_74/1.jp2
+bdr:WEAP105-2-3-75:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-75/canvas/1
+  igQname: bdr:IEAP105-2-3-75
+  instanceQname: bdr:MWEAP105-2-3-75
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_75/1.jp2
+bdr:WEAP105-2-3-76:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-76/canvas/1
+  igQname: bdr:IEAP105-2-3-76
+  instanceQname: bdr:MWEAP105-2-3-76
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_76/1.jp2
+bdr:WEAP105-2-3-77:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-77/canvas/1
+  igQname: bdr:IEAP105-2-3-77
+  instanceQname: bdr:MWEAP105-2-3-77
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_77/1.jp2
+bdr:WEAP105-2-3-78:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-78/canvas/1
+  igQname: bdr:IEAP105-2-3-78
+  instanceQname: bdr:MWEAP105-2-3-78
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_78/1.jp2
+bdr:WEAP105-2-3-8:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-8/canvas/1
+  igQname: bdr:IEAP105-2-3-8
+  instanceQname: bdr:MWEAP105-2-3-8
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_8/1.jp2
+bdr:WEAP105-2-3-9:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-3-9/canvas/1
+  igQname: bdr:IEAP105-2-3-9
+  instanceQname: bdr:MWEAP105-2-3-9
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_3_9/1.jp2
+bdr:WEAP105-2-4-1:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-1/canvas/1
+  igQname: bdr:IEAP105-2-4-1
+  instanceQname: bdr:MWEAP105-2-4-1
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_1/1.jp2
+bdr:WEAP105-2-4-10:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-10/canvas/1
+  igQname: bdr:IEAP105-2-4-10
+  instanceQname: bdr:MWEAP105-2-4-10
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_10/1.jp2
+bdr:WEAP105-2-4-11:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-11/canvas/1
+  igQname: bdr:IEAP105-2-4-11
+  instanceQname: bdr:MWEAP105-2-4-11
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_11/1.jp2
+bdr:WEAP105-2-4-12:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-12/canvas/1
+  igQname: bdr:IEAP105-2-4-12
+  instanceQname: bdr:MWEAP105-2-4-12
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_12/1.jp2
+bdr:WEAP105-2-4-13:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-13/canvas/1
+  igQname: bdr:IEAP105-2-4-13
+  instanceQname: bdr:MWEAP105-2-4-13
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_13/1.jp2
+bdr:WEAP105-2-4-14:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-14/canvas/1
+  igQname: bdr:IEAP105-2-4-14
+  instanceQname: bdr:MWEAP105-2-4-14
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_14/1.jp2
+bdr:WEAP105-2-4-15:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-15/canvas/1
+  igQname: bdr:IEAP105-2-4-15
+  instanceQname: bdr:MWEAP105-2-4-15
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_15/1.jp2
+bdr:WEAP105-2-4-16:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-16/canvas/1
+  igQname: bdr:IEAP105-2-4-16
+  instanceQname: bdr:MWEAP105-2-4-16
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_16/1.jp2
+bdr:WEAP105-2-4-17:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-17/canvas/1
+  igQname: bdr:IEAP105-2-4-17
+  instanceQname: bdr:MWEAP105-2-4-17
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_17/1.jp2
+bdr:WEAP105-2-4-18:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-18/canvas/1
+  igQname: bdr:IEAP105-2-4-18
+  instanceQname: bdr:MWEAP105-2-4-18
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_18/1.jp2
+bdr:WEAP105-2-4-19:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-19/canvas/1
+  igQname: bdr:IEAP105-2-4-19
+  instanceQname: bdr:MWEAP105-2-4-19
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_19/1.jp2
+bdr:WEAP105-2-4-2:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-2/canvas/1
+  igQname: bdr:IEAP105-2-4-2
+  instanceQname: bdr:MWEAP105-2-4-2
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_2/1.jp2
+bdr:WEAP105-2-4-20:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-20/canvas/1
+  igQname: bdr:IEAP105-2-4-20
+  instanceQname: bdr:MWEAP105-2-4-20
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_20/1.jp2
+bdr:WEAP105-2-4-21:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-21/canvas/1
+  igQname: bdr:IEAP105-2-4-21
+  instanceQname: bdr:MWEAP105-2-4-21
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_21/1.jp2
+bdr:WEAP105-2-4-22:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-22/canvas/1
+  igQname: bdr:IEAP105-2-4-22
+  instanceQname: bdr:MWEAP105-2-4-22
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_22/1.jp2
+bdr:WEAP105-2-4-23:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-23/canvas/1
+  igQname: bdr:IEAP105-2-4-23
+  instanceQname: bdr:MWEAP105-2-4-23
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_23/1.jp2
+bdr:WEAP105-2-4-24:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-24/canvas/1
+  igQname: bdr:IEAP105-2-4-24
+  instanceQname: bdr:MWEAP105-2-4-24
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_24/1.jp2
+bdr:WEAP105-2-4-25:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-25/canvas/1
+  igQname: bdr:IEAP105-2-4-25
+  instanceQname: bdr:MWEAP105-2-4-25
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_25/1.jp2
+bdr:WEAP105-2-4-26:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-26/canvas/1
+  igQname: bdr:IEAP105-2-4-26
+  instanceQname: bdr:MWEAP105-2-4-26
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_26/1.jp2
+bdr:WEAP105-2-4-27:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-27/canvas/1
+  igQname: bdr:IEAP105-2-4-27
+  instanceQname: bdr:MWEAP105-2-4-27
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_27/1.jp2
+bdr:WEAP105-2-4-3:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-3/canvas/1
+  igQname: bdr:IEAP105-2-4-3
+  instanceQname: bdr:MWEAP105-2-4-3
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_3/1.jp2
+bdr:WEAP105-2-4-4:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-4/canvas/1
+  igQname: bdr:IEAP105-2-4-4
+  instanceQname: bdr:MWEAP105-2-4-4
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_4/1.jp2
+bdr:WEAP105-2-4-5:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-5/canvas/1
+  igQname: bdr:IEAP105-2-4-5
+  instanceQname: bdr:MWEAP105-2-4-5
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_5/1.jp2
+bdr:WEAP105-2-4-6:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-6/canvas/1
+  igQname: bdr:IEAP105-2-4-6
+  instanceQname: bdr:MWEAP105-2-4-6
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_6/1.jp2
+bdr:WEAP105-2-4-7:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-7/canvas/1
+  igQname: bdr:IEAP105-2-4-7
+  instanceQname: bdr:MWEAP105-2-4-7
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_7/1.jp2
+bdr:WEAP105-2-4-8:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-8/canvas/1
+  igQname: bdr:IEAP105-2-4-8
+  instanceQname: bdr:MWEAP105-2-4-8
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_8/1.jp2
+bdr:WEAP105-2-4-9:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-4-9/canvas/1
+  igQname: bdr:IEAP105-2-4-9
+  instanceQname: bdr:MWEAP105-2-4-9
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_4_9/1.jp2
+bdr:WEAP105-2-5-1:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-1/canvas/1
+  igQname: bdr:IEAP105-2-5-1
+  instanceQname: bdr:MWEAP105-2-5-1
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_1/1.jp2
+bdr:WEAP105-2-5-10:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-10/canvas/1
+  igQname: bdr:IEAP105-2-5-10
+  instanceQname: bdr:MWEAP105-2-5-10
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_10/1.jp2
+bdr:WEAP105-2-5-11:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-11/canvas/1
+  igQname: bdr:IEAP105-2-5-11
+  instanceQname: bdr:MWEAP105-2-5-11
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_11/1.jp2
+bdr:WEAP105-2-5-12:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-12/canvas/1
+  igQname: bdr:IEAP105-2-5-12
+  instanceQname: bdr:MWEAP105-2-5-12
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_12/1.jp2
+bdr:WEAP105-2-5-13:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-13/canvas/1
+  igQname: bdr:IEAP105-2-5-13
+  instanceQname: bdr:MWEAP105-2-5-13
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_13/1.jp2
+bdr:WEAP105-2-5-14:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-14/canvas/1
+  igQname: bdr:IEAP105-2-5-14
+  instanceQname: bdr:MWEAP105-2-5-14
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_14/1.jp2
+bdr:WEAP105-2-5-15:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-15/canvas/1
+  igQname: bdr:IEAP105-2-5-15
+  instanceQname: bdr:MWEAP105-2-5-15
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_15/1.jp2
+bdr:WEAP105-2-5-16:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-16/canvas/1
+  igQname: bdr:IEAP105-2-5-16
+  instanceQname: bdr:MWEAP105-2-5-16
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_16/1.jp2
+bdr:WEAP105-2-5-17:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-17/canvas/1
+  igQname: bdr:IEAP105-2-5-17
+  instanceQname: bdr:MWEAP105-2-5-17
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_17/1.jp2
+bdr:WEAP105-2-5-18:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-18/canvas/1
+  igQname: bdr:IEAP105-2-5-18
+  instanceQname: bdr:MWEAP105-2-5-18
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_18/1.jp2
+bdr:WEAP105-2-5-19:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-19/canvas/1
+  igQname: bdr:IEAP105-2-5-19
+  instanceQname: bdr:MWEAP105-2-5-19
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_19/1.jp2
+bdr:WEAP105-2-5-2:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-2/canvas/1
+  igQname: bdr:IEAP105-2-5-2
+  instanceQname: bdr:MWEAP105-2-5-2
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_2/1.jp2
+bdr:WEAP105-2-5-20:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-20/canvas/1
+  igQname: bdr:IEAP105-2-5-20
+  instanceQname: bdr:MWEAP105-2-5-20
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_20/1.jp2
+bdr:WEAP105-2-5-21:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-21/canvas/1
+  igQname: bdr:IEAP105-2-5-21
+  instanceQname: bdr:MWEAP105-2-5-21
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_21/1.jp2
+bdr:WEAP105-2-5-22:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-22/canvas/1
+  igQname: bdr:IEAP105-2-5-22
+  instanceQname: bdr:MWEAP105-2-5-22
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_22/1.jp2
+bdr:WEAP105-2-5-23:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-23/canvas/1
+  igQname: bdr:IEAP105-2-5-23
+  instanceQname: bdr:MWEAP105-2-5-23
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_23/1.jp2
+bdr:WEAP105-2-5-24:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-24/canvas/1
+  igQname: bdr:IEAP105-2-5-24
+  instanceQname: bdr:MWEAP105-2-5-24
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_24/1.jp2
+bdr:WEAP105-2-5-25:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-25/canvas/1
+  igQname: bdr:IEAP105-2-5-25
+  instanceQname: bdr:MWEAP105-2-5-25
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_25/1.jp2
+bdr:WEAP105-2-5-26:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-26/canvas/1
+  igQname: bdr:IEAP105-2-5-26
+  instanceQname: bdr:MWEAP105-2-5-26
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_26/1.jp2
+bdr:WEAP105-2-5-27:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-27/canvas/1
+  igQname: bdr:IEAP105-2-5-27
+  instanceQname: bdr:MWEAP105-2-5-27
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_27/1.jp2
+bdr:WEAP105-2-5-28:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-28/canvas/1
+  igQname: bdr:IEAP105-2-5-28
+  instanceQname: bdr:MWEAP105-2-5-28
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_28/1.jp2
+bdr:WEAP105-2-5-29:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-29/canvas/1
+  igQname: bdr:IEAP105-2-5-29
+  instanceQname: bdr:MWEAP105-2-5-29
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_29/1.jp2
+bdr:WEAP105-2-5-3:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-3/canvas/1
+  igQname: bdr:IEAP105-2-5-3
+  instanceQname: bdr:MWEAP105-2-5-3
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_3/1.jp2
+bdr:WEAP105-2-5-30:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-30/canvas/1
+  igQname: bdr:IEAP105-2-5-30
+  instanceQname: bdr:MWEAP105-2-5-30
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_30/1.jp2
+bdr:WEAP105-2-5-31:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-31/canvas/1
+  igQname: bdr:IEAP105-2-5-31
+  instanceQname: bdr:MWEAP105-2-5-31
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_31/1.jp2
+bdr:WEAP105-2-5-32:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-32/canvas/1
+  igQname: bdr:IEAP105-2-5-32
+  instanceQname: bdr:MWEAP105-2-5-32
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_32/1.jp2
+bdr:WEAP105-2-5-33:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-33/canvas/1
+  igQname: bdr:IEAP105-2-5-33
+  instanceQname: bdr:MWEAP105-2-5-33
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_33/1.jp2
+bdr:WEAP105-2-5-34:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-34/canvas/1
+  igQname: bdr:IEAP105-2-5-34
+  instanceQname: bdr:MWEAP105-2-5-34
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_34/1.jp2
+bdr:WEAP105-2-5-35:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-35/canvas/1
+  igQname: bdr:IEAP105-2-5-35
+  instanceQname: bdr:MWEAP105-2-5-35
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_35/1.jp2
+bdr:WEAP105-2-5-36:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-36/canvas/1
+  igQname: bdr:IEAP105-2-5-36
+  instanceQname: bdr:MWEAP105-2-5-36
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_36/1.jp2
+bdr:WEAP105-2-5-37:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-37/canvas/1
+  igQname: bdr:IEAP105-2-5-37
+  instanceQname: bdr:MWEAP105-2-5-37
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_37/1.jp2
+bdr:WEAP105-2-5-4:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-4/canvas/1
+  igQname: bdr:IEAP105-2-5-4
+  instanceQname: bdr:MWEAP105-2-5-4
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_4/1.jp2
+bdr:WEAP105-2-5-5:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-5/canvas/1
+  igQname: bdr:IEAP105-2-5-5
+  instanceQname: bdr:MWEAP105-2-5-5
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_5/1.jp2
+bdr:WEAP105-2-5-6:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-6/canvas/1
+  igQname: bdr:IEAP105-2-5-6
+  instanceQname: bdr:MWEAP105-2-5-6
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_6/1.jp2
+bdr:WEAP105-2-5-7:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-7/canvas/1
+  igQname: bdr:IEAP105-2-5-7
+  instanceQname: bdr:MWEAP105-2-5-7
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_7/1.jp2
+bdr:WEAP105-2-5-8:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-8/canvas/1
+  igQname: bdr:IEAP105-2-5-8
+  instanceQname: bdr:MWEAP105-2-5-8
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_8/1.jp2
+bdr:WEAP105-2-5-9:
+  canvas: https://eap.bl.uk/archive-file/EAP105-2-5-9/canvas/1
+  igQname: bdr:IEAP105-2-5-9
+  instanceQname: bdr:MWEAP105-2-5-9
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_5_9/1.jp2
 bdr:WEAP676-1-1:
   canvas: https://eap.bl.uk/archive-file/EAP676-1-1/canvas/1
   igQname: bdr:I0EAP676-1-1

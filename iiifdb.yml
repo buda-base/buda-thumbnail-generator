@@ -124222,7 +124222,7 @@ bdr:WEAP039-1-1:
   canvas: https://eap.bl.uk/archive-file/EAP039-1-1-1-1/canvas/1
   igQname: bdr:I0EAP039-1-1-1-1
   instanceQname: bdr:MWEAP039-1-1
-  service: https://images.eap.bl.uk/EAP039/EAP039_1_1_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP039/EAP039_1_1_1_1/1.jp2
 bdr:WEAP039-1-2-1:
   canvas: https://eap.bl.uk/archive-file/EAP039-1-2-1/canvas/1
   igQname: bdr:IEAP039-1-2-1
@@ -125652,17 +125652,17 @@ bdr:WEAP105-1-1:
   canvas: https://eap.bl.uk/archive-file/EAP105-1-1-1/canvas/1
   igQname: bdr:I0EAP105-1-1-1
   instanceQname: bdr:MWEAP105-1-1
-  service: https://images.eap.bl.uk/EAP105/EAP105_1_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP105/EAP105_1_1_1/1.jp2
 bdr:WEAP105-1-2:
   canvas: https://eap.bl.uk/archive-file/EAP105-1-2-1/canvas/1
   igQname: bdr:I0EAP105-1-2-1
   instanceQname: bdr:MWEAP105-1-2
-  service: https://images.eap.bl.uk/EAP105/EAP105_1_2_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP105/EAP105_1_2_1/1.jp2
 bdr:WEAP105-1-3:
   canvas: https://eap.bl.uk/archive-file/EAP105-1-3-1/canvas/1
   igQname: bdr:I0EAP105-1-3-1
   instanceQname: bdr:MWEAP105-1-3
-  service: https://images.eap.bl.uk/EAP105/EAP105_1_3_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP105/EAP105_1_3_1/1.jp2
 bdr:WEAP105-2-1-1:
   canvas: https://eap.bl.uk/archive-file/EAP105-2-1-1/canvas/1
   igQname: bdr:IEAP105-2-1-1
@@ -128312,137 +128312,137 @@ bdr:WEAP105-2-6:
   canvas: https://eap.bl.uk/archive-file/EAP105-2-6-1/canvas/1
   igQname: bdr:I0EAP105-2-6-1
   instanceQname: bdr:MWEAP105-2-6
-  service: https://images.eap.bl.uk/EAP105/EAP105_2_6_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP105/EAP105_2_6_1/1.jp2
 bdr:WEAP310-1-1:
   canvas: https://eap.bl.uk/archive-file/EAP310-1-1-1/canvas/1
   igQname: bdr:I0EAP310-1-1-1
   instanceQname: bdr:MWEAP310-1-1
-  service: https://images.eap.bl.uk/EAP310/EAP310_1_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP310/EAP310_1_1_1/1.jp2
 bdr:WEAP310-1-2:
   canvas: https://eap.bl.uk/archive-file/EAP310-1-2-1/canvas/1
   igQname: bdr:I0EAP310-1-2-1
   instanceQname: bdr:MWEAP310-1-2
-  service: https://images.eap.bl.uk/EAP310/EAP310_1_2_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP310/EAP310_1_2_1/1.jp2
 bdr:WEAP310-2-1:
   canvas: https://eap.bl.uk/archive-file/EAP310-2-1-1/canvas/1
   igQname: bdr:I0EAP310-2-1-1
   instanceQname: bdr:MWEAP310-2-1
-  service: https://images.eap.bl.uk/EAP310/EAP310_2_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP310/EAP310_2_1_1/1.jp2
 bdr:WEAP310-2-2:
   canvas: https://eap.bl.uk/archive-file/EAP310-2-2-1/canvas/1
   igQname: bdr:I0EAP310-2-2-1
   instanceQname: bdr:MWEAP310-2-2
-  service: https://images.eap.bl.uk/EAP310/EAP310_2_2_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP310/EAP310_2_2_1/1.jp2
 bdr:WEAP310-3-1:
   canvas: https://eap.bl.uk/archive-file/EAP310-3-1-1/canvas/1
   igQname: bdr:I0EAP310-3-1-1
   instanceQname: bdr:MWEAP310-3-1
-  service: https://images.eap.bl.uk/EAP310/EAP310_3_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP310/EAP310_3_1_1/1.jp2
 bdr:WEAP310-3-2:
   canvas: https://eap.bl.uk/archive-file/EAP310-3-2-1/canvas/1
   igQname: bdr:I0EAP310-3-2-1
   instanceQname: bdr:MWEAP310-3-2
-  service: https://images.eap.bl.uk/EAP310/EAP310_3_2_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP310/EAP310_3_2_1/1.jp2
 bdr:WEAP310-3-3:
   canvas: https://eap.bl.uk/archive-file/EAP310-3-3-1/canvas/1
   igQname: bdr:I0EAP310-3-3-1
   instanceQname: bdr:MWEAP310-3-3
-  service: https://images.eap.bl.uk/EAP310/EAP310_3_3_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP310/EAP310_3_3_1/1.jp2
 bdr:WEAP310-4-1:
   canvas: https://eap.bl.uk/archive-file/EAP310-4-1-1/canvas/1
   igQname: bdr:I0EAP310-4-1-1
   instanceQname: bdr:MWEAP310-4-1
-  service: https://images.eap.bl.uk/EAP310/EAP310_4_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP310/EAP310_4_1_1/1.jp2
 bdr:WEAP310-4-2:
   canvas: https://eap.bl.uk/archive-file/EAP310-4-2-1/canvas/1
   igQname: bdr:I0EAP310-4-2-1
   instanceQname: bdr:MWEAP310-4-2
-  service: https://images.eap.bl.uk/EAP310/EAP310_4_2_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP310/EAP310_4_2_1/1.jp2
 bdr:WEAP570-1-1:
   canvas: https://eap.bl.uk/archive-file/EAP570-1-1-1/canvas/1
   igQname: bdr:I0EAP570-1-1-1
   instanceQname: bdr:MWEAP570-1-1
-  service: https://images.eap.bl.uk/EAP570/EAP570_1_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_1_1_1/1.jp2
 bdr:WEAP570-1-2:
   canvas: https://eap.bl.uk/archive-file/EAP570-1-2-1/canvas/1
   igQname: bdr:I0EAP570-1-2-1
   instanceQname: bdr:MWEAP570-1-2
-  service: https://images.eap.bl.uk/EAP570/EAP570_1_2_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_1_2_1/1.jp2
 bdr:WEAP570-1-3:
   canvas: https://eap.bl.uk/archive-file/EAP570-1-3-1/canvas/1
   igQname: bdr:I0EAP570-1-3-1
   instanceQname: bdr:MWEAP570-1-3
-  service: https://images.eap.bl.uk/EAP570/EAP570_1_3_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_1_3_1/1.jp2
 bdr:WEAP570-1-4:
   canvas: https://eap.bl.uk/archive-file/EAP570-1-4-1/canvas/1
   igQname: bdr:I0EAP570-1-4-1
   instanceQname: bdr:MWEAP570-1-4
-  service: https://images.eap.bl.uk/EAP570/EAP570_1_4_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_1_4_1/1.jp2
 bdr:WEAP570-1-5:
   canvas: https://eap.bl.uk/archive-file/EAP570-1-5-1/canvas/1
   igQname: bdr:I0EAP570-1-5-1
   instanceQname: bdr:MWEAP570-1-5
-  service: https://images.eap.bl.uk/EAP570/EAP570_1_5_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_1_5_1/1.jp2
 bdr:WEAP570-2-1:
   canvas: https://eap.bl.uk/archive-file/EAP570-2-1-1/canvas/1
   igQname: bdr:I0EAP570-2-1-1
   instanceQname: bdr:MWEAP570-2-1
-  service: https://images.eap.bl.uk/EAP570/EAP570_2_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_2_1_1/1.jp2
 bdr:WEAP570-3-1:
   canvas: https://eap.bl.uk/archive-file/EAP570-3-1-1/canvas/1
   igQname: bdr:I0EAP570-3-1-1
   instanceQname: bdr:MWEAP570-3-1
-  service: https://images.eap.bl.uk/EAP570/EAP570_3_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_3_1_1/1.jp2
 bdr:WEAP570-4-1:
   canvas: https://eap.bl.uk/archive-file/EAP570-4-1-1/canvas/1
   igQname: bdr:I0EAP570-4-1-1
   instanceQname: bdr:MWEAP570-4-1
-  service: https://images.eap.bl.uk/EAP570/EAP570_4_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_4_1_1/1.jp2
 bdr:WEAP570-4-2:
   canvas: https://eap.bl.uk/archive-file/EAP570-4-2-1/canvas/1
   igQname: bdr:I0EAP570-4-2-1
   instanceQname: bdr:MWEAP570-4-2
-  service: https://images.eap.bl.uk/EAP570/EAP570_4_2_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_4_2_1/1.jp2
 bdr:WEAP570-5-1:
   canvas: https://eap.bl.uk/archive-file/EAP570-5-1-1/canvas/1
   igQname: bdr:I0EAP570-5-1-1
   instanceQname: bdr:MWEAP570-5-1
-  service: https://images.eap.bl.uk/EAP570/EAP570_5_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_5_1_1/1.jp2
 bdr:WEAP570-5-2:
   canvas: https://eap.bl.uk/archive-file/EAP570-5-2-1/canvas/1
   igQname: bdr:I0EAP570-5-2-1
   instanceQname: bdr:MWEAP570-5-2
-  service: https://images.eap.bl.uk/EAP570/EAP570_5_2_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_5_2_1/1.jp2
 bdr:WEAP570-5-3:
   canvas: https://eap.bl.uk/archive-file/EAP570-5-3-1/canvas/1
   igQname: bdr:I0EAP570-5-3-1
   instanceQname: bdr:MWEAP570-5-3
-  service: https://images.eap.bl.uk/EAP570/EAP570_5_3_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_5_3_1/1.jp2
 bdr:WEAP570-6-1:
   canvas: https://eap.bl.uk/archive-file/EAP570-6-1-1/canvas/1
   igQname: bdr:I0EAP570-6-1-1
   instanceQname: bdr:MWEAP570-6-1
-  service: https://images.eap.bl.uk/EAP570/EAP570_6_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_6_1_1/1.jp2
 bdr:WEAP570-6-2:
   canvas: https://eap.bl.uk/archive-file/EAP570-6-2-1/canvas/1
   igQname: bdr:I0EAP570-6-2-1
   instanceQname: bdr:MWEAP570-6-2
-  service: https://images.eap.bl.uk/EAP570/EAP570_6_2_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_6_2_1/1.jp2
 bdr:WEAP570-6-3:
   canvas: https://eap.bl.uk/archive-file/EAP570-6-3-1/canvas/1
   igQname: bdr:I0EAP570-6-3-1
   instanceQname: bdr:MWEAP570-6-3
-  service: https://images.eap.bl.uk/EAP570/EAP570_6_3_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_6_3_1/1.jp2
 bdr:WEAP570-7-1:
   canvas: https://eap.bl.uk/archive-file/EAP570-7-1-1/canvas/1
   igQname: bdr:I0EAP570-7-1-1
   instanceQname: bdr:MWEAP570-7-1
-  service: https://images.eap.bl.uk/EAP570/EAP570_7_1_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_7_1_1/1.jp2
 bdr:WEAP570-7-2:
   canvas: https://eap.bl.uk/archive-file/EAP570-7-2-1/canvas/1
   igQname: bdr:I0EAP570-7-2-1
   instanceQname: bdr:MWEAP570-7-2
-  service: https://images.eap.bl.uk/EAP570/EAP570_7_2_1/1.jp2/full/full/0/default.jpg
+  service: https://images.eap.bl.uk/EAP570/EAP570_7_2_1/1.jp2
 bdr:WEAP676-1-1:
   canvas: https://eap.bl.uk/archive-file/EAP676-1-1/canvas/1
   igQname: bdr:I0EAP676-1-1

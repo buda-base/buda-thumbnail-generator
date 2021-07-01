@@ -42,6 +42,23 @@ def main():
 			print("space in filename: "+infos["imgfname"])
 			continue
 		# case of BDRC good old volumes
+		
+		if "selector" in infos:
+			selector = infos["selector"]
+			selected = "/"
+			selected += selector["region"]+"/" if "region" in selector else "full/"
+			selected += selector["size"]+"/" if "size" in selector else "max/"
+			selected += selector["rotation"]+"/" if "rotation" in selector else "0/"
+			selected += selector["quality"]+"." if "quality" in selector else "default."
+			lowercasefname = infos["imgfname"].lower()
+			defaultformat = "jpg"
+			if ".tif" in lowercasefname:
+				defaultformat = "png"
+			selected += selector["format"]+"." if "format" in selector else defaultformat
+			selectedres = URIRef(IIIFPREFIX+infos["igQname"]+"::"+infos["imgfname"]+selected)
+			res.add( (instanceRes, TMP.thumbnailIIIFSelected, selectedres) )
+			res.add( (iinstanceRes, TMP.thumbnailIIIFSelected, selectedres) )
+			continue
 		thservice = URIRef(IIIFPREFIX+infos["igQname"]+"::"+infos["imgfname"])
 		res.add( (instanceRes, TMP.thumbnailIIIFService, thservice) )
 		res.add( (iinstanceRes, TMP.thumbnailIIIFService, thservice) )

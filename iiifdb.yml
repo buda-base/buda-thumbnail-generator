@@ -59910,6 +59910,8 @@ bdr:W1KG21720:
   igQname: bdr:I1KG21816
   imgfname: I1KG218160003.jpg
   instanceQname: bdr:MW1KG21720
+  selector:
+    rotation: "180"
 bdr:W1KG21721:
   igQname: bdr:I1KG22067
   imgfname: I1KG220670003.tif

@@ -3,7 +3,9 @@
 ## Dependencies
 
 ```
-$ pip install -r requirements.txt
+$ sudo apt install -y liblcms2-dev liblcms2-2 libtiff5 libtiff5-dev python3-libtiff
+$ pip3 install --no-cache-dir -I pillow
+$ pip3 install -r requirements.txt
 ```
 
 ## Running

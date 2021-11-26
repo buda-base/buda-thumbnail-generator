@@ -26,7 +26,7 @@ BASE_CROP_DIM=185
 MAX_RATIO=2
 
 #GITPATH = "/home/eroux/BUDA/softs/xmltoldmigration/tbrc-ttl/iinstances"
-GITPATH = "../xmltoldmigration/tbrc-ttl/iinstances/"
+GITPATH = "../tbrc-ttl/iinstances/"
 if len(sys.argv) > 1:
     GITPATH = sys.argv[1]
 
@@ -134,7 +134,7 @@ def findBestThumbnailIdxService(igLname, imageList, tbrcintroimages):
     if igLname.startswith("I1FEMC"):
         if len(imageList) < 2:
             return -1
-        return 9
+        return 8
     # if there's a very big image, use it as thumbnail
     for i in range(tbrcintroimages, min(len(imageList)-1, 20)):
         if "size" not in imageList[i]:
@@ -261,10 +261,10 @@ def getFirstSyncedVolume(model):
                 firstVolnum = int(o)
                 firstVol = s
             continue
-        if not isSynced(s, model):
+        if 'FEMC' not in str(s) and not isSynced(s, model):
             #print("vol %d not synced" % int(o))
             continue
-        if not hasImages(s, model):
+        if 'FEMC' not in str(s) and not hasImages(s, model):
             #print("vol %d no images" % int(o))
             continue
         if int(o) < firstVolnum:
@@ -276,7 +276,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     # if file name is the same as an image instance already present in the database, don't read file:
     likelyiiQname = "bdr:"+Path(iiFilePath).stem
     if (not forceIfPresent) and likelyiiQname in iiifdb:
-        #tqdm.write("skip "+likelyiiQname)
+        tqdm.write("skip "+likelyiiQname)
         return
     # read file
     model = ConjunctiveGraph()
@@ -287,7 +287,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     # get first volume resource
     firstvolRes = getFirstSyncedVolume(model)
     if firstvolRes is None:
-        #tqdm.write("can't find first volume with images in "+iiFilePath)
+        tqdm.write("can't find first volume with images in "+iiFilePath)
         return
     # get first volume local name:
     firstVolPref, _, firstVolLname = NSM.compute_qname_strict(firstvolRes)
@@ -311,8 +311,8 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     instancePref, _, instanceLname = NSM.compute_qname_strict(instanceRes)
     instanceQname = instancePref+":"+instanceLname
 
-    if not modelLikelySynced(model, iinstanceLname):
-        #tqdm.write("likelynotsynced: "+iinstanceLname)
+    if 'FEMC' not in iinstanceLname and not modelLikelySynced(model, iinstanceLname):
+        tqdm.write("likelynotsynced: "+iinstanceLname)
         return
     
     # ignore if we know the list is missing
@@ -432,7 +432,7 @@ def mainIiif(wrid=None, modelpath=None):
             yaml.dump(missinglists, stream)
 
 
-#mainIiif("WEAP039-1-4-259")
+#mainIiif("W1FEMC040682")
 mainIiif()
 
 def testThgen():

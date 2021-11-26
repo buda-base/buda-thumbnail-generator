@@ -120,8 +120,8 @@ def getImageList(iiLocalName, igLocalName, force=False, getmissing=False):
     return data
 
 def findBestThumbnailIdxImage(igLname, imageList, tbrcintroimages):
-    if igLname.startswith("W1FEMC"):
-        return 1
+    if igLname.startswith("I1FEMC"):
+        return 9
     # if there's a very big image, use it as thumbnail
     for i in range(min(len(imageList), 10)):
         if "size" in imageList[i] and imageList[i]["size"] > 3000000:
@@ -131,10 +131,10 @@ def findBestThumbnailIdxImage(igLname, imageList, tbrcintroimages):
 def findBestThumbnailIdxService(igLname, imageList, tbrcintroimages):
     if len(imageList) == 0:
         return -1
-    if igLname.startswith("W1FEMC"):
+    if igLname.startswith("I1FEMC"):
         if len(imageList) < 2:
             return -1
-        return 1
+        return 9
     # if there's a very big image, use it as thumbnail
     for i in range(tbrcintroimages, min(len(imageList)-1, 20)):
         if "size" not in imageList[i]:

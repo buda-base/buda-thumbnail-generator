@@ -24,14 +24,25 @@ IIIFPREFIX = "https://iiif.bdrc.io/"
 if len(sys.argv) > 1:
     IIIFPREFIX = sys.argv[1]
 
+def getThForInstance(thdict):
+	keys = sorted(thdict.keys())
+	if len(keys) == 0:
+		return None
+	for iinstanceQname in keys:
+		if iinstanceQname.startswith("bdr:W1FEMC03"):
+			return thdict[iinstanceQname]
+	return thdict[keys[0]]
+
 def main():
 	iiifdb = {}
 	with open("iiifdb.yml", 'r') as stream:
 	    iiifdb = yaml.safe_load(stream)
 
+	instancesTh = {}
+
 	for iinstanceQname, infos in iiifdb.items():
-		instanceRes = URIRef("http://purl.bdrc.io/resource/"+infos["instanceQname"][4:])
 		iinstanceRes = URIRef("http://purl.bdrc.io/resource/"+iinstanceQname[4:])
+		instanceRes = URIRef("http://purl.bdrc.io/resource/"+infos["instanceQname"][4:])
 		# case of external iiif volumes
 		if "service" in infos and infos["service"] is not None:
 			thservice = URIRef(infos["service"])
@@ -41,8 +52,6 @@ def main():
 		if " " in infos["imgfname"]:
 			print("space in filename: "+infos["imgfname"])
 			continue
-		# case of BDRC good old volumes
-		
 		if "selector" in infos:
 			selector = infos["selector"]
 			selected = "/"
@@ -56,13 +65,20 @@ def main():
 				defaultformat = "png"
 			selected += selector["format"]+"." if "format" in selector else defaultformat
 			selectedres = URIRef(IIIFPREFIX+infos["igQname"]+"::"+infos["imgfname"]+selected)
+			# TODO: not well handled for instance clusters
 			res.add( (instanceRes, TMP.thumbnailIIIFSelected, selectedres) )
 			res.add( (iinstanceRes, TMP.thumbnailIIIFSelected, selectedres) )
 			continue
 		thservice = URIRef(IIIFPREFIX+infos["igQname"]+"::"+infos["imgfname"])
-		res.add( (instanceRes, TMP.thumbnailIIIFService, thservice) )
+		if infos["instanceQname"] not in instancesTh:
+			instancesTh[infos["instanceQname"]] = {}
+		instancesTh[infos["instanceQname"]][iinstanceQname] = thservice
 		res.add( (iinstanceRes, TMP.thumbnailIIIFService, thservice) )
 	
+	for instanceQname in instancesTh:
+		instanceRes = URIRef("http://purl.bdrc.io/resource/"+instanceQname[4:])
+		res.add( (instanceRes, TMP.thumbnailIIIFService, getThForInstance(instancesTh[instanceQname])) )
+
 	res.serialize("thumbnails.ttl", format="turtle")
 
 main()

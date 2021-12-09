@@ -432,7 +432,7 @@ def mainIiif(wrid=None, modelpath=None):
             yaml.dump(missinglists, stream)
 
 
-#mainIiif("W1FEMC040682")
+mainIiif("W1FEMC010266")
 mainIiif()
 
 def testThgen():

@@ -134,6 +134,8 @@ def findBestThumbnailIdxService(igLname, imageList, tbrcintroimages):
     if igLname.startswith("I1FEMC"):
         if len(imageList) < 2:
             return -1
+        if len(imageList) < 9:
+            return 2
         return 8
     # if there's a very big image, use it as thumbnail
     for i in range(tbrcintroimages, min(len(imageList)-1, 20)):
@@ -276,7 +278,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     # if file name is the same as an image instance already present in the database, don't read file:
     likelyiiQname = "bdr:"+Path(iiFilePath).stem
     if (not forceIfPresent) and likelyiiQname in iiifdb:
-        tqdm.write("skip "+likelyiiQname)
+        #tqdm.write("skip "+likelyiiQname)
         return
     # read file
     model = ConjunctiveGraph()
@@ -354,7 +356,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     # get thumbnail index in list
     thumbnailserviceidx = findBestThumbnailIdxService(firstVolLname, imglist, tbrcintroimages)
     if thumbnailserviceidx == -1 or thumbnailserviceidx >= len(imglist):
-        tqdm.write("cannot find reasonable iiif thumbnail for "+iinstanceLname+'-'+firstVolLname)
+        tqdm.write("cannot find reasonable iiif thumbnail for "+iinstanceLname+'-'+firstVolLname+", len = "+str(len(imglist))+", idx = "+str(thumbnailserviceidx))
         return
     thumbnailserviceiinfo = imglist[thumbnailserviceidx]
     canvasurl = "https://iiifpres.bdrc.io/v:bdr:"+firstVolLname+"/canvas/"+thumbnailserviceiinfo["filename"]
@@ -432,7 +434,7 @@ def mainIiif(wrid=None, modelpath=None):
             yaml.dump(missinglists, stream)
 
 
-mainIiif("W1FEMC010266")
+#mainIiif("W1FEMC010689")
 mainIiif()
 
 def testThgen():

@@ -9086,6 +9086,10 @@ bdr:W1CZ2516:
   igQname: bdr:I1CZ2536
   imgfname: I1CZ25360003.tif
   instanceQname: bdr:MW1CZ2516
+bdr:W1CZ2519:
+  igQname: bdr:I1CZ2538
+  imgfname: I1CZ25380003.jpg
+  instanceQname: bdr:MW1CZ2519
 bdr:W1CZ2540:
   igQname: bdr:I1CZ2706
   imgfname: I1CZ27060003.jpg
@@ -125530,6 +125534,10 @@ bdr:W3CN8787:
   igQname: bdr:I3CN8789
   imgfname: I3CN87890003.jpg
   instanceQname: bdr:MW3CN8787
+bdr:W3CN879:
+  igQname: bdr:I3CN881
+  imgfname: I3CN8810003.jpg
+  instanceQname: bdr:MW3CN879
 bdr:W3CN8790:
   igQname: bdr:I3CN8792
   imgfname: I3CN87920003.jpg
@@ -125566,6 +125574,10 @@ bdr:W3CN883:
   igQname: bdr:I3CN887
   imgfname: I3CN8870003.jpg
   instanceQname: bdr:MW3CN883
+bdr:W3CN884:
+  igQname: bdr:I3CN889
+  imgfname: I3CN8890003.jpg
+  instanceQname: bdr:MW3CN884
 bdr:W3CN892:
   igQname: bdr:I3CN894
   imgfname: I3CN8940003.jpg
@@ -125698,6 +125710,10 @@ bdr:W3CN9335:
   igQname: bdr:I3CN9337
   imgfname: I3CN93370003.jpg
   instanceQname: bdr:MW3CN9335
+bdr:W3CN960:
+  igQname: bdr:I3CN964
+  imgfname: I3CN9640003.jpg
+  instanceQname: bdr:MW3CN960
 bdr:W3CN9668:
   igQname: bdr:I3CN9670
   imgfname: I3CN96700003.jpg
@@ -130822,6 +130838,14 @@ bdr:W4CZ364097:
   igQname: bdr:I4CZ367244
   imgfname: I4CZ3672440003.jpg
   instanceQname: bdr:MW4CZ364097
+bdr:W4CZ367185:
+  igQname: bdr:I4CZ367280
+  imgfname: I4CZ3672800003.jpg
+  instanceQname: bdr:MW4CZ367185
+bdr:W4CZ367187:
+  igQname: bdr:I4CZ367278
+  imgfname: I4CZ3672780003.jpg
+  instanceQname: bdr:MW4CZ367187
 bdr:W4CZ367190:
   igQname: bdr:I4CZ367291
   imgfname: I4CZ3672910003.jpg
@@ -131270,6 +131294,10 @@ bdr:W4CZ65025:
   igQname: bdr:I4CZ65637
   imgfname: I4CZ656370003.jpg
   instanceQname: bdr:MW4CZ65025
+bdr:W4CZ65026:
+  igQname: bdr:I2KG230132
+  imgfname: I2KG2301320003.jpg
+  instanceQname: bdr:MW4CZ65026
 bdr:W4CZ65545:
   igQname: bdr:I4CZ65575
   imgfname: I4CZ655750003.jpg

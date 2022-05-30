@@ -2,6 +2,7 @@ import yaml
 from rdflib import URIRef, Literal, BNode, Graph, ConjunctiveGraph
 from rdflib.namespace import RDF, RDFS, SKOS, OWL, Namespace, NamespaceManager, XSD
 import sys
+import csv
 
 BDR = Namespace("http://purl.bdrc.io/resource/")
 BDO = Namespace("http://purl.bdrc.io/ontology/core/")
@@ -24,6 +25,14 @@ IIIFPREFIX = "https://iiif.bdrc.io/"
 if len(sys.argv) > 1:
     IIIFPREFIX = sys.argv[1]
 
+RICMODE = "-ric" in sys.argv
+RICMODEWL = {}
+
+with open('ricmodelist.txt', newline='') as csvfile:
+    reader = csv.reader(csvfile, delimiter=',')
+    for row in reader:
+        RICMODEWL[row[0]] = True
+
 def getThForInstance(thdict):
 	keys = sorted(thdict.keys())
 	if len(keys) == 0:
@@ -41,6 +50,8 @@ def main():
 	instancesTh = {}
 
 	for iinstanceQname, infos in iiifdb.items():
+		if RICMODE and iinstanceQname[4:] not in RICMODEWL:
+			continue
 		iinstanceRes = URIRef("http://purl.bdrc.io/resource/"+iinstanceQname[4:])
 		instanceRes = URIRef("http://purl.bdrc.io/resource/"+infos["instanceQname"][4:])
 		# case of external iiif volumes

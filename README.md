@@ -13,6 +13,7 @@ $ pip3 install -r requirements.txt
 To update the database:
 
 ```
+curl 'https://ldspdi.bdrc.io/query/table/AO_mustbeonmirror?format=csv&pageSize=50000' | tail -n +2 | sed -re 's/^"bdr:(.*)"$/\1/g' | sort > ricmodelist.txt
 python3 thumbnailgen.py path_to_iinstance_repo
 ```
 

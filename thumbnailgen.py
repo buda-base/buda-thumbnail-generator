@@ -34,6 +34,17 @@ VERBMODE = "-v"
 if len(sys.argv) > 2:
     VERBMODE = sys.argv[2]
 
+# use yaml.CSafeLoader / if available but don't crash if it isn't
+try:
+    yaml_loader = yaml.CSafeLoader
+except (ImportError, AttributeError):
+    yaml_loader = yaml.SafeLoader
+
+try:
+    yaml_dumper = yaml.CSafeDumper
+except (ImportError, AttributeError):
+    yaml_dumper = yaml.SafeDumper
+
 BDR = Namespace("http://purl.bdrc.io/resource/")
 BDO = Namespace("http://purl.bdrc.io/ontology/core/")
 TMP = Namespace("http://purl.bdrc.io/ontology/tmp/")
@@ -307,11 +318,12 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
     instanceRes = None
     for s, p, o in model.triples( (iinstanceRes, BDO.instanceReproductionOf, None) ):
         instanceRes = o
-    if instanceRes is None:
-        tqdm.write("can't find instance in "+iinstanceLname)
-        return
-    instancePref, _, instanceLname = NSM.compute_qname_strict(instanceRes)
-    instanceQname = instancePref+":"+instanceLname
+    if instanceRes is not None:
+        instancePref, _, instanceLname = NSM.compute_qname_strict(instanceRes)
+        instanceQname = instancePref+":"+instanceLname
+    else:
+        # not very satisfactory... there should be a query for that
+        instanceQname = "bdr:M"+likelyiiQname[4:]
 
     if 'FEMC' not in iinstanceLname and not modelLikelySynced(model, iinstanceLname):
         tqdm.write("likelynotsynced: "+iinstanceLname)
@@ -400,11 +412,11 @@ def mainIiif(wrid=None, modelpath=None):
     iiifdb = {}
     if modelpath is None and Path("iiifdb.yml").is_file():
         with open("iiifdb.yml", 'r') as stream:
-            iiifdb = yaml.safe_load(stream)
+            iiifdb = yaml.load(stream, Loader=yaml_loader)
     missinglists = []
     if Path("missinglists.yml").is_file():
         with open("missinglists.yml", 'r') as stream:
-            missinglists = yaml.safe_load(stream)
+            missinglists = yaml.load(stream, Loader=yaml_loader)
     if modelpath is not None:
         iiifinfo = thumbnailForIiFile(modelpath, None, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=True)
         print(yaml.dump(iiifinfo))
@@ -429,12 +441,12 @@ def mainIiif(wrid=None, modelpath=None):
     print("writing iiifdb.yml")
     if i > 0:
         with open("iiifdb.yml", 'w') as stream:
-            yaml.dump(iiifdb, stream, default_flow_style=False)
+            yaml.dump(iiifdb, stream, default_flow_style=False, Dumper=yaml_dumper)
         with open("missinglists.yml", 'w') as stream:
-            yaml.dump(missinglists, stream)
+            yaml.dump(missinglists, stream, Dumper=yaml_dumper)
 
 
-#mainIiif("W1FEMC010689")
+#mainIiif("W1NPL30")
 mainIiif()
 
 def testThgen():

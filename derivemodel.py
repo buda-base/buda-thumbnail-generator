@@ -28,6 +28,12 @@ if len(sys.argv) > 1:
 RICMODE = "-ric" in sys.argv
 RICMODEWL = {}
 
+# use yaml.CSafeLoader / if available but don't crash if it isn't
+try:
+    yaml_loader = yaml.CSafeLoader
+except (ImportError, AttributeError):
+    yaml_loader = yaml.SafeLoader
+
 with open('ricmodelist.txt', newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
     for row in reader:
@@ -45,7 +51,7 @@ def getThForInstance(thdict):
 def main():
 	iiifdb = {}
 	with open("iiifdb.yml", 'r') as stream:
-	    iiifdb = yaml.safe_load(stream)
+	    iiifdb = yaml.load(stream, Loader=yaml_loader)
 
 	instancesTh = {}
 

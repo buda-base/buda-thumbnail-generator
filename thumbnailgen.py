@@ -20,6 +20,7 @@ import sys
 from datetime import datetime
 import time
 import re
+import csv
 
 BASE_MAX_DIM=370
 BASE_CROP_DIM=185
@@ -293,6 +294,7 @@ def thumbnailForIiFile(iiFilePath, filesdb, iiifdb, missinglists, forceIfPresent
         return
     # read file
     model = ConjunctiveGraph()
+    print(iiFilePath)
     model.parse(str(iiFilePath), format="trig")
     # if status != released, pass
     if (None,  ADM.status, BDA.StatusReleased) not in model:
@@ -445,9 +447,39 @@ def mainIiif(wrid=None, modelpath=None):
         with open("missinglists.yml", 'w') as stream:
             yaml.dump(missinglists, stream, Dumper=yaml_dumper)
 
+def forceRefresh(csvpath):
+    cachedir = Path("cache/il/")
+    if not cachedir.is_dir():
+        os.makedirs(str(cachedir))
+    # read iiifdb
+    iiifdb = {}
+    if Path("iiifdb.yml").is_file():
+        with open("iiifdb.yml", 'r') as stream:
+            iiifdb = yaml.load(stream, Loader=yaml_loader)
+    missinglists = []
+    if Path("missinglists.yml").is_file():
+        with open("missinglists.yml", 'r') as stream:
+            missinglists = yaml.load(stream, Loader=yaml_loader)
+    l = []
+    with open(csvpath, newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            md5 = hashlib.md5(str.encode(row[0]))
+            two = md5.hexdigest()[:2]
+            path = GITPATH+two+"/"+row[0]+".trig"
+            l.append(path)
+    for fname in VERBMODE == "-v" and tqdm(sorted(l)) or sorted(l):
+        thumbnailForIiFile(fname, None, iiifdb, missinglists, forceIfPresent=True, forceRefreshDimensions=True)
+    print("writing iiifdb.yml")
+    with open("iiifdb.yml", 'w') as stream:
+        yaml.dump(iiifdb, stream, default_flow_style=False, Dumper=yaml_dumper)
+    with open("missinglists.yml", 'w') as stream:
+        yaml.dump(missinglists, stream, Dumper=yaml_dumper)
+
 
 #mainIiif("W1NPL30")
 mainIiif()
+#forceRefresh("rederive.csv")
 
 def testThgen():
     for imgfilename in ["test/femc.jpeg", "test/modern.jpeg", "test/08860003.tif"]:

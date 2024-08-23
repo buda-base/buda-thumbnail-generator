@@ -22,7 +22,7 @@ with the third argument properly set. Then to derive and upload the RDF:
 
 ```
 python3 derivemodel.py iiif_prefix
-curl -X PUT -H Content-Type:text/turtle -T thumbnails.ttl -G http://buda1.bdrc.io:13180/fuseki/corerw/data --data-urlencode 'graph=http://purl.bdrc.io/graph/thumbnails'
+curl -v -X PUT -H 'Content-Type:text/turtle' --url 'http://buda5.bdrc.io:13180/fuseki/corerw?graph=http%3A%2F%2Fpurl.bdrc.io%2Fgraph%2Fthumbnails' -T thumbnails.ttl
 ```
 
 where `iiif_prefix` is the start of the iiifserv url, defaulting to `https://iiif.bdrc.io/`.

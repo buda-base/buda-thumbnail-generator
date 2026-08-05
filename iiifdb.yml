@@ -183353,6 +183353,10 @@ bdr:W3CN3386:
   igQname: bdr:I3CN3473
   imgfname: I3CN34730003.jpg
   instanceQname: bdr:MW3CN3386
+bdr:W3CN3387:
+  igQname: bdr:I3CN3475
+  imgfname: I3CN34750001.jpg
+  instanceQname: bdr:MW3CN3387
 bdr:W3CN3388:
   igQname: bdr:I3CN8599
   imgfname: I3CN85990003.jpg
@@ -184389,6 +184393,10 @@ bdr:W3CN4918:
   igQname: bdr:I3CN4920
   imgfname: I3CN49200003.jpg
   instanceQname: bdr:MW3CN4918
+bdr:W3CN492:
+  igQname: bdr:I3CN21174
+  imgfname: I3CN211740003.jpg
+  instanceQname: bdr:MW3CN492
 bdr:W3CN4921:
   igQname: bdr:I3CN4923
   imgfname: I3CN49230003.jpg

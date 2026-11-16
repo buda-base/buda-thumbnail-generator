@@ -63,7 +63,9 @@ def main():
 		# case of external iiif volumes
 		if "service" in infos and infos["service"] is not None:
 			thservice = URIRef(infos["service"])
-			res.add( (instanceRes, TMP.thumbnailIIIFService, thservice) )
+			if infos["instanceQname"] not in instancesTh:
+				instancesTh[infos["instanceQname"]] = {}
+			instancesTh[infos["instanceQname"]][iinstanceQname] = thservice
 			res.add( (iinstanceRes, TMP.thumbnailIIIFService, thservice) )
 			continue
 		if " " in infos["imgfname"]:

@@ -141,6 +141,7 @@ def findBestThumbnailIdxImage(igLname, imageList, tbrcintroimages):
     return tbrcintroimages
 
 def findBestThumbnailIdxService(igLname, imageList, tbrcintroimages):
+    print(imageList)
     if len(imageList) == 0:
         return -1
     if igLname.startswith("I1FEMC"):
@@ -477,8 +478,8 @@ def forceRefresh(csvpath):
         yaml.dump(missinglists, stream, Dumper=yaml_dumper)
 
 
-#mainIiif("W1NPL30")
-mainIiif()
+mainIiif("W1KG5950")
+#mainIiif()
 #forceRefresh("rederive.csv")
 
 def testThgen():

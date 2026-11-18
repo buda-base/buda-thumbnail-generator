@@ -478,8 +478,8 @@ def forceRefresh(csvpath):
         yaml.dump(missinglists, stream, Dumper=yaml_dumper)
 
 
-mainIiif("W1KG5950")
-#mainIiif()
+#mainIiif("W1KG5950")
+mainIiif()
 #forceRefresh("rederive.csv")
 
 def testThgen():
